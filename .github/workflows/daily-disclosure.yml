@@ -1,0 +1,33 @@
+name: daily-disclosure
+
+on:
+  schedule:
+    # GitHub Actions cron 은 UTC 기준.
+    # 평일(월~금) 오전 7시 KST = 일~목 22:00 UTC
+    - cron: "0 22 * * 0-4"
+  workflow_dispatch:   # 수동 실행 버튼
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run notifier
+        env:
+          DART_API_KEY:       ${{ secrets.DART_API_KEY }}
+          SEND_METHOD:        ${{ secrets.SEND_METHOD }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          SMTP_USER:          ${{ secrets.SMTP_USER }}
+          SMTP_PASS:          ${{ secrets.SMTP_PASS }}
+          MAIL_TO:            ${{ secrets.MAIL_TO }}
+        run: python disclosure_notifier.py
