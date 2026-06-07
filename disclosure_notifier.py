@@ -1,27 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-보유종목 공시 아침 알림
-========================
-1) 키움 REST API(kt00018)로 실제 보유종목을 자동 조회
+보유종목 공시 아침 알림 (GitHub Actions 용)
+============================================
+1) holdings.json 에서 보유종목 목록을 읽는다 (로컬에서 update_holdings.py 로 생성)
 2) DART OpenAPI로 해당 종목들의 최근(어제~오늘) 공시를 조회
 3) 카카오톡 '나에게 보내기' 또는 이메일(Make.com 경유)로 발송
 
+키움 조회는 한국 IP 에서만 통과되므로(해외 IP/지정단말기 8050 회피), 키움 호출은
+로컬의 update_holdings.py 가 담당하고, 이 스크립트는 키움을 호출하지 않는다.
+
 환경변수(GitHub Secrets 권장):
-  # 키움
-  KIWOOM_APPKEY, KIWOOM_SECRETKEY
-  KIWOOM_HOST          (선택, 기본 https://api.kiwoom.com / 모의는 https://mockapi.kiwoom.com)
   # DART
   DART_API_KEY
   # 발송 방식 선택: "kakao" | "email"  (기본 kakao)
   SEND_METHOD
   # 카카오 (SEND_METHOD=kakao 일 때)
-  KAKAO_REST_API_KEY, KAKAO_REFRESH_TOKEN
+  KAKAO_REST_API_KEY, KAKAO_REFRESH_TOKEN, KAKAO_CLIENT_SECRET(시크릿 ON 시)
   # 이메일 (SEND_METHOD=email 일 때)
   SMTP_USER, SMTP_PASS, MAIL_TO   (Gmail이면 앱 비밀번호 사용)
-
-주의: 키움 kt00018 응답의 정확한 필드명은 계정/시점에 따라 다를 수 있어,
-      처음 1회는 RAW 응답 키를 로그로 찍어 확인하도록 방어적으로 작성됨.
 """
 
 import os
@@ -39,171 +36,28 @@ KST = datetime.timezone(datetime.timedelta(hours=9))
 
 
 # ----------------------------------------------------------------------
-# 1. 키움 REST API — 접근토큰 발급 + 보유종목 조회
+# 1. 보유종목 목록 로드 (holdings.json)
 # ----------------------------------------------------------------------
-def kiwoom_host() -> str:
-    # 미설정/빈 값이면 기본 실전 호스트 사용 (GitHub 은 미등록 Secret 을 빈 문자열로 전달)
-    return (os.environ.get("KIWOOM_HOST") or "https://api.kiwoom.com").rstrip("/")
+# 키움 조회는 한국 IP 에서만 통과되므로(8050 회피), 로컬에서 update_holdings.py 로
+# holdings.json 을 만들어 저장소에 올려둔다. 여기서는 그 파일만 읽는다.
+HOLDINGS_PATH = os.environ.get("HOLDINGS_PATH", "holdings.json")
 
 
-def get_credentials() -> list[tuple[str, str]]:
-    """
-    여러 계좌의 (appkey, secretkey) 쌍을 환경변수에서 수집.
-    - KIWOOM_APPKEY_1 / KIWOOM_SECRETKEY_1, _2, _3 ... (계좌별)
-    - 또는 단일 KIWOOM_APPKEY / KIWOOM_SECRETKEY (계좌 1개)
-    """
-    creds: list[tuple[str, str]] = []
-    # 번호형 (_1, _2, ...) 우선 수집
-    i = 1
-    while True:
-        ak = os.environ.get(f"KIWOOM_APPKEY_{i}")
-        sk = os.environ.get(f"KIWOOM_SECRETKEY_{i}")
-        if ak and sk:
-            creds.append((ak, sk))
-            i += 1
-        else:
-            break
-    # 단일형 폴백
-    if not creds and os.environ.get("KIWOOM_APPKEY") and os.environ.get("KIWOOM_SECRETKEY"):
-        creds.append((os.environ["KIWOOM_APPKEY"], os.environ["KIWOOM_SECRETKEY"]))
-    if not creds:
-        raise RuntimeError("키움 키가 없습니다. KIWOOM_APPKEY_1/KIWOOM_SECRETKEY_1 ... 또는 "
-                           "KIWOOM_APPKEY/KIWOOM_SECRETKEY 를 설정하세요.")
-    return creds
-
-
-def get_kiwoom_token(appkey: str, secretkey: str) -> str:
-    """au10001 접근토큰 발급."""
-    url = f"{kiwoom_host()}/oauth2/token"
-    payload = {
-        "grant_type": "client_credentials",
-        "appkey": appkey,
-        "secretkey": secretkey,
-    }
-    r = requests.post(
-        url,
-        headers={"Content-Type": "application/json;charset=UTF-8"},
-        data=json.dumps(payload),
-        timeout=15,
-    )
-    r.raise_for_status()
-    data = r.json()
-    # 키움은 token 키 이름이 'token' 으로 내려옴 (응답 변동 대비 폴백 포함)
-    token = data.get("token") or data.get("access_token")
-    if not token:
-        raise RuntimeError(f"토큰 발급 실패: {data}")
-    return token
-
-
-def get_holdings(token: str) -> list[dict]:
-    """
-    kt00018 계좌평가잔고내역요청.
-    반환: [{'code': '005930', 'name': '삼성전자', 'qty': 10}, ...]
-    """
-    url = f"{kiwoom_host()}/api/dostk/acnt"
-    headers = {
-        "Content-Type": "application/json;charset=UTF-8",
-        "authorization": f"Bearer {token}",
-        "api-id": "kt00018",
-        "cont-yn": "N",
-        "next-key": "",
-    }
-    body = {
-        "qry_tp": "1",          # 1:합산, 2:개별
-        "dmst_stex_tp": "KRX",  # 국내거래소구분
-    }
-
-    holdings: list[dict] = []
-    while True:
-        r = requests.post(url, headers=headers, data=json.dumps(body), timeout=15)
-        r.raise_for_status()
-        data = r.json()
-
-        # --- 보유종목 배열 찾기 (필드명 방어적 탐색) ---
-        rows = _extract_holding_rows(data)
-        for row in rows:
-            code = _clean_code(row.get("stk_cd", ""))
-            qty = _to_int(row.get("rmnd_qty") or row.get("hldg_qty") or row.get("trde_able_qty"))
-            name = (row.get("stk_nm") or "").strip()
-            if code and qty > 0:
-                holdings.append({"code": code, "name": name, "qty": qty})
-
-        # --- 연속조회 처리 ---
-        cont_yn = r.headers.get("cont-yn", "N")
-        next_key = r.headers.get("next-key", "")
-        if cont_yn == "Y" and next_key:
-            headers["cont-yn"] = "Y"
-            headers["next-key"] = next_key
-        else:
-            break
-
-    # 중복 종목 합치기
-    merged: dict[str, dict] = {}
-    for h in holdings:
-        if h["code"] in merged:
-            merged[h["code"]]["qty"] += h["qty"]
-        else:
-            merged[h["code"]] = h
-    return list(merged.values())
-
-
-def collect_all_holdings() -> list[dict]:
-    """모든 계좌(키 쌍)를 돌며 보유종목을 합산."""
-    creds = get_credentials()
-    print(f"   연결된 키움 계좌(키) 수: {len(creds)}개")
-    all_holdings: list[dict] = []
-    for idx, (ak, sk) in enumerate(creds, start=1):
-        try:
-            token = get_kiwoom_token(ak, sk)
-            h = get_holdings(token)
-            print(f"   - 계좌 {idx}: {len(h)}종목")
-            all_holdings.extend(h)
-        except Exception as e:
-            print(f"   - 계좌 {idx} 조회 실패: {e}", file=sys.stderr)
-
-    # 계좌 간 동일 종목 합치기
-    merged: dict[str, dict] = {}
-    for h in all_holdings:
-        if h["code"] in merged:
-            merged[h["code"]]["qty"] += h["qty"]
-        else:
-            merged[h["code"]] = dict(h)
-    return list(merged.values())
-
-
-def _extract_holding_rows(data: dict) -> list[dict]:
-    """
-    kt00018 응답에서 개별 종목 리스트를 찾는다.
-    문서상 'acnt_evlt_remn_indv_tot' 가 유력하나, 계정/버전에 따라 다를 수 있어
-    응답 안에서 stk_cd 를 가진 list[dict] 를 자동 탐색한다.
-    """
-    # 1순위: 알려진 키
-    for key in ("acnt_evlt_remn_indv_tot", "stk_acnt_evlt_prst", "output", "output1"):
-        v = data.get(key)
-        if isinstance(v, list) and v and isinstance(v[0], dict) and "stk_cd" in v[0]:
-            return v
-    # 2순위: 응답 전체에서 stk_cd 포함 list 자동 탐색
-    for v in data.values():
-        if isinstance(v, list) and v and isinstance(v[0], dict) and "stk_cd" in v[0]:
-            return v
-    # 못 찾으면 디버깅용으로 키 구조를 로그
-    print("⚠️  보유종목 리스트를 자동 탐색하지 못했습니다. 응답 최상위 키:",
-          list(data.keys()), file=sys.stderr)
-    print("   전체 응답:", json.dumps(data, ensure_ascii=False)[:2000], file=sys.stderr)
-    return []
-
-
-def _clean_code(raw: str) -> str:
-    """'A005930' / '005930_AL' 등에서 6자리 숫자만 추출."""
-    m = re.search(r"\d{6}", str(raw))
-    return m.group(0) if m else ""
-
-
-def _to_int(v) -> int:
-    try:
-        return int(str(v).replace(",", "").replace("+", "").strip() or 0)
-    except ValueError:
-        return 0
+def load_holdings() -> list[dict]:
+    """holdings.json 을 읽어 [{'code':'005930','name':'삼성전자'}, ...] 반환."""
+    if not os.path.exists(HOLDINGS_PATH):
+        raise FileNotFoundError(
+            f"{HOLDINGS_PATH} 가 없습니다. 로컬에서 update_holdings.py 를 실행해 생성 후 저장소에 올려주세요."
+        )
+    with open(HOLDINGS_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    holdings = []
+    for row in data:
+        code = str(row.get("code", "")).strip()
+        name = str(row.get("name", "")).strip()
+        if code:
+            holdings.append({"code": code, "name": name})
+    return holdings
 
 
 # ----------------------------------------------------------------------
@@ -348,9 +202,9 @@ def send(text: str) -> None:
 # main
 # ----------------------------------------------------------------------
 def main() -> None:
-    print("1) 키움 보유종목 조회 (전 계좌)…")
-    holdings = collect_all_holdings()
-    print(f"   합산 {len(holdings)}종목:", ", ".join(f"{h['name']}({h['code']})" for h in holdings))
+    print("1) 보유종목 목록 로드 (holdings.json)…")
+    holdings = load_holdings()
+    print(f"   {len(holdings)}종목:", ", ".join(f"{h['name']}({h['code']})" for h in holdings))
 
     if not holdings:
         print("보유종목이 없어 종료합니다.")
