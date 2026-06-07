@@ -45,13 +45,39 @@ def kiwoom_host() -> str:
     return os.environ.get("KIWOOM_HOST", "https://api.kiwoom.com").rstrip("/")
 
 
-def get_kiwoom_token() -> str:
+def get_credentials() -> list[tuple[str, str]]:
+    """
+    여러 계좌의 (appkey, secretkey) 쌍을 환경변수에서 수집.
+    - KIWOOM_APPKEY_1 / KIWOOM_SECRETKEY_1, _2, _3 ... (계좌별)
+    - 또는 단일 KIWOOM_APPKEY / KIWOOM_SECRETKEY (계좌 1개)
+    """
+    creds: list[tuple[str, str]] = []
+    # 번호형 (_1, _2, ...) 우선 수집
+    i = 1
+    while True:
+        ak = os.environ.get(f"KIWOOM_APPKEY_{i}")
+        sk = os.environ.get(f"KIWOOM_SECRETKEY_{i}")
+        if ak and sk:
+            creds.append((ak, sk))
+            i += 1
+        else:
+            break
+    # 단일형 폴백
+    if not creds and os.environ.get("KIWOOM_APPKEY") and os.environ.get("KIWOOM_SECRETKEY"):
+        creds.append((os.environ["KIWOOM_APPKEY"], os.environ["KIWOOM_SECRETKEY"]))
+    if not creds:
+        raise RuntimeError("키움 키가 없습니다. KIWOOM_APPKEY_1/KIWOOM_SECRETKEY_1 ... 또는 "
+                           "KIWOOM_APPKEY/KIWOOM_SECRETKEY 를 설정하세요.")
+    return creds
+
+
+def get_kiwoom_token(appkey: str, secretkey: str) -> str:
     """au10001 접근토큰 발급."""
     url = f"{kiwoom_host()}/oauth2/token"
     payload = {
         "grant_type": "client_credentials",
-        "appkey": os.environ["KIWOOM_APPKEY"],
-        "secretkey": os.environ["KIWOOM_SECRETKEY"],
+        "appkey": appkey,
+        "secretkey": secretkey,
     }
     r = requests.post(
         url,
@@ -120,6 +146,30 @@ def get_holdings(token: str) -> list[dict]:
     return list(merged.values())
 
 
+def collect_all_holdings() -> list[dict]:
+    """모든 계좌(키 쌍)를 돌며 보유종목을 합산."""
+    creds = get_credentials()
+    print(f"   연결된 키움 계좌(키) 수: {len(creds)}개")
+    all_holdings: list[dict] = []
+    for idx, (ak, sk) in enumerate(creds, start=1):
+        try:
+            token = get_kiwoom_token(ak, sk)
+            h = get_holdings(token)
+            print(f"   - 계좌 {idx}: {len(h)}종목")
+            all_holdings.extend(h)
+        except Exception as e:
+            print(f"   - 계좌 {idx} 조회 실패: {e}", file=sys.stderr)
+
+    # 계좌 간 동일 종목 합치기
+    merged: dict[str, dict] = {}
+    for h in all_holdings:
+        if h["code"] in merged:
+            merged[h["code"]]["qty"] += h["qty"]
+        else:
+            merged[h["code"]] = dict(h)
+    return list(merged.values())
+
+
 def _extract_holding_rows(data: dict) -> list[dict]:
     """
     kt00018 응답에서 개별 종목 리스트를 찾는다.
@@ -158,10 +208,23 @@ def _to_int(v) -> int:
 # ----------------------------------------------------------------------
 # 2. DART OpenAPI — 종목별 최근 공시 조회
 # ----------------------------------------------------------------------
+import contextlib
+import io
+
+
+@contextlib.contextmanager
+def _silence_stdout():
+    """OpenDartReader 가 찍는 'status:013 조회된 데이타가 없습니다' 등을 숨긴다."""
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        yield
+
+
 def get_disclosures(codes: list[str]) -> dict[str, list[dict]]:
     """
     OpenDartReader 로 어제~오늘 공시를 종목별로 조회.
     반환: {'005930': [{'name':..., 'report':..., 'no':..., 'dt':...}, ...]}
+    ETF/우선주 등 DART 조회가 안 되는 종목은 조용히 건너뛴다.
     """
     import OpenDartReader
 
@@ -170,12 +233,14 @@ def get_disclosures(codes: list[str]) -> dict[str, list[dict]]:
     start = today - datetime.timedelta(days=1)  # 전일 마감~오늘 아침 공시 커버
 
     result: dict[str, list[dict]] = {}
+    skipped: list[str] = []
     for code in codes:
         try:
-            df = dart.list(code, start=start.strftime("%Y%m%d"),
-                           end=today.strftime("%Y%m%d"))
-        except Exception as e:  # 공시 없음/조회 실패
-            print(f"  - {code} 공시 조회 스킵: {e}", file=sys.stderr)
+            with _silence_stdout():
+                df = dart.list(code, start=start.strftime("%Y%m%d"),
+                               end=today.strftime("%Y%m%d"))
+        except Exception:  # ETF/우선주 등 DART 미등록 → 조용히 스킵
+            skipped.append(code)
             continue
         if df is None or len(df) == 0:
             continue
@@ -189,6 +254,8 @@ def get_disclosures(codes: list[str]) -> dict[str, list[dict]]:
             })
         if items:
             result[code] = items
+    if skipped:
+        print(f"   (DART 미등록 종목 {len(skipped)}개 건너뜀: {', '.join(skipped)})")
     return result
 
 
@@ -279,23 +346,20 @@ def send(text: str) -> None:
 # main
 # ----------------------------------------------------------------------
 def main() -> None:
-    print("1) 키움 접근토큰 발급…")
-    token = get_kiwoom_token()
-
-    print("2) 보유종목 조회…")
-    holdings = get_holdings(token)
-    print(f"   보유 {len(holdings)}종목:", ", ".join(f"{h['name']}({h['code']})" for h in holdings))
+    print("1) 키움 보유종목 조회 (전 계좌)…")
+    holdings = collect_all_holdings()
+    print(f"   합산 {len(holdings)}종목:", ", ".join(f"{h['name']}({h['code']})" for h in holdings))
 
     if not holdings:
         print("보유종목이 없어 종료합니다.")
         return
 
-    print("3) DART 공시 조회…")
+    print("2) DART 공시 조회…")
     codes = [h["code"] for h in holdings]
     disclosures = get_disclosures(codes)
     print(f"   공시 있는 종목 {len(disclosures)}개")
 
-    print("4) 메시지 발송…")
+    print("3) 메시지 발송…")
     message = build_message(holdings, disclosures)
     print("------ 발송 내용 ------")
     print(message)

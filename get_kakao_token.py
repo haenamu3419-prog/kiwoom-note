@@ -20,10 +20,10 @@ import urllib.parse
 import requests
 
 # ── 여기 값을 채우세요 ────────────────────────────────
-REST_API_KEY = "4cb1e9ab2aa8861a22fc1688186da0a9"
-REDIRECT_URI = "https://example.com/oauth"   
+REST_API_KEY = "여기에_REST_API_키"
+REDIRECT_URI = "https://example.com/oauth"   # 카카오 로그인에 등록한 것과 '완전히' 동일해야 함
 # 클라이언트 시크릿이 '활성화 ON'이면 코드를 넣으세요. OFF면 빈 문자열("") 유지.
-CLIENT_SECRET = "1u1M8fL2CG6WbMJTo7AtNWRz4XniyIHi"
+CLIENT_SECRET = ""
 # ─────────────────────────────────────────────────────
 
 
