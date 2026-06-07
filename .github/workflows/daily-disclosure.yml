@@ -22,13 +22,6 @@ jobs:
 
       - name: Run notifier
         env:
-          KIWOOM_APPKEY_1:    ${{ secrets.KIWOOM_APPKEY_1 }}
-          KIWOOM_SECRETKEY_1: ${{ secrets.KIWOOM_SECRETKEY_1 }}
-          KIWOOM_APPKEY_2:    ${{ secrets.KIWOOM_APPKEY_2 }}
-          KIWOOM_SECRETKEY_2: ${{ secrets.KIWOOM_SECRETKEY_2 }}
-          KIWOOM_APPKEY_3:    ${{ secrets.KIWOOM_APPKEY_3 }}
-          KIWOOM_SECRETKEY_3: ${{ secrets.KIWOOM_SECRETKEY_3 }}
-          KIWOOM_HOST:        ${{ secrets.KIWOOM_HOST }}
           DART_API_KEY:       ${{ secrets.DART_API_KEY }}
           SEND_METHOD:        ${{ secrets.SEND_METHOD }}
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
