@@ -304,11 +304,12 @@ def send_kakao(text: str) -> None:
     access_token = tok.json()["access_token"]
 
     # 4-2. 메모(나에게 보내기) 전송
+    # link 를 비워 두면 메시지 클릭 시 엉뚱한 등록 도메인으로 튀지 않는다.
+    # (공시 URL 은 본문 텍스트에 그대로 들어가므로 버튼 링크는 불필요)
     template = {
         "object_type": "text",
         "text": text[:2000],  # 카카오 텍스트 길이 제한 대비
-        "link": {"web_url": "https://dart.fss.or.kr",
-                 "mobile_web_url": "https://dart.fss.or.kr"},
+        "link": {},
     }
     res = requests.post(
         "https://kapi.kakao.com/v2/api/talk/memo/default/send",
