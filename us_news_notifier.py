@@ -151,8 +151,6 @@ def build_message(tickers: list[str]) -> str:
             for it in s["news"]:
                 kr = tmap.get(it["headline"], it["headline"])
                 lines.append(f"  · {kr}")
-                if it["url"]:
-                    lines.append(f"    {it['url']}")
         else:
             lines.append("  · 최근 뉴스 없음")
         lines.append("")
