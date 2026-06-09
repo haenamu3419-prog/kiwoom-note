@@ -1,0 +1,29 @@
+name: daily-bond-rate
+
+on:
+  schedule:
+    # 평일 오전 7시 KST = 일~목 22:00 UTC
+    - cron: "0 22 * * 0-4"
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run bond rate notifier
+        env:
+          FRED_API_KEY:        ${{ secrets.FRED_API_KEY }}
+          SEND_METHOD:         ${{ secrets.SEND_METHOD }}
+          KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+        run: python bond_rate_notifier.py
