@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>나의 시장 대시보드</title>
+<style>
+  :root{
+    --ink:#14171f; --soft:#6b7180; --line:#e6e8ee; --bg:#f5f6f9;
+    --card:#ffffff; --up:#d23b3b; --down:#1f6fd6; --flat:#8a8f9c;
+    --accent:#1f6f54; --accent2:#2f6fed; --hint:#a0a5b2;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    line-height:1.5; padding:24px 16px 60px;}
+  .wrap{max-width:880px; margin:0 auto;}
+  header{display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:10px; margin-bottom:16px;}
+  h1{font-size:22px; font-weight:700; margin:0; letter-spacing:-0.02em;}
+  .updated{font-size:12px; color:var(--hint);}
+  .sec{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; margin-bottom:18px;}
+  .sec h2{font-size:15px; margin:0 0 14px; font-weight:700; display:flex; align-items:center; gap:8px;}
+  .sec h2 .tag{font-size:11px; font-weight:500; color:var(--hint); border:1px solid var(--line); border-radius:6px; padding:1px 7px;}
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:10px;}
+  .metric{border:1px solid var(--line); border-radius:10px; padding:11px 13px;}
+  .metric .lbl{font-size:12px; color:var(--soft); margin-bottom:4px;}
+  .metric .val{font-size:18px; font-weight:700;}
+  .metric .chg{font-size:12px; margin-top:2px;}
+  .up{color:var(--up);} .down{color:var(--down);} .flat{color:var(--flat);}
+  .stock{border-top:1px solid var(--line); padding:12px 0;}
+  .stock:first-of-type{border-top:0;}
+  .stock .head{display:flex; justify-content:space-between; align-items:baseline; gap:10px;}
+  .stock .sym{font-size:15px; font-weight:700;}
+  .stock .px{font-size:14px;}
+  .stock ul{margin:8px 0 0; padding:0; list-style:none;}
+  .stock li{font-size:13px; padding:3px 0;}
+  .stock li a{color:#2c313c; text-decoration:none; border-bottom:1px solid var(--line);}
+  .stock li a:hover{color:var(--accent2); border-color:var(--accent2);}
+  .muted{color:var(--hint); font-size:13px;}
+  .err{color:var(--up); font-size:13px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>📊 나의 시장 대시보드</h1>
+    <span class="updated" id="updated">불러오는 중…</span>
+  </header>
+
+  <section class="sec">
+    <h2>📈 금리 · 유가 · 환율 <span class="tag">FRED</span></h2>
+    <div class="grid" id="macro"><span class="muted">불러오는 중…</span></div>
+  </section>
+
+  <section class="sec">
+    <h2>🇺🇸 미국주 보유종목 뉴스 <span class="tag">Finnhub</span></h2>
+    <div id="usnews"><span class="muted">불러오는 중…</span></div>
+  </section>
+
+  <section class="sec">
+    <h2>🟢 한국 보유종목 공시 <span class="tag">DART</span></h2>
+    <p class="muted">한국 공시는 매일 아침 카톡 알림으로 받으세요. 전체 공시는 <a href="https://dart.fss.or.kr" target="_blank" rel="noopener">DART 바로가기</a>.</p>
+  </section>
+</div>
+
+<script>
+function fmtMacro(unit, v){
+  if(v==null) return "-";
+  if(unit==="pct") return v.toFixed(2)+"%";
+  if(unit==="usd") return "$"+v.toFixed(2);
+  if(unit==="won") return v.toLocaleString(undefined,{minimumFractionDigits:1,maximumFractionDigits:1})+"원";
+  return v.toFixed(2);
+}
+function macroCard(m){
+  let chg="";
+  if(m.cur!=null && m.prev!=null){
+    const diff=m.cur-m.prev;
+    const cls=diff>0?"up":(diff<0?"down":"flat");
+    const arr=diff>0?"▲":(diff<0?"▼":"-");
+    if(m.unit==="pct"){ chg=`<div class="chg ${cls}">${arr}${Math.abs(diff*100).toFixed(0)}bp</div>`; }
+    else{ const pct=m.prev?diff/m.prev*100:0; chg=`<div class="chg ${cls}">${arr}${Math.abs(diff).toFixed(2)} (${pct>=0?"+":""}${pct.toFixed(1)}%)</div>`; }
+  }
+  const valCls = m.cur==null ? "muted" : "";
+  return `<div class="metric"><div class="lbl">${m.name}</div><div class="val ${valCls}">${fmtMacro(m.unit,m.cur)}</div>${chg}</div>`;
+}
+function stockBlock(s){
+  let px="";
+  if(s.price!=null){
+    const dp=s.change_pct||0; const cls=dp>0?"up":(dp<0?"down":"flat"); const arr=dp>0?"▲":(dp<0?"▼":"-");
+    px=`<span class="px ${cls}">$${s.price.toFixed(2)} ${arr}${Math.abs(dp).toFixed(1)}%</span>`;
+  }
+  let items = "<li class='muted'>최근 뉴스 없음</li>";
+  if(s.news && s.news.length){
+    items = s.news.map(n=> n.url
+      ? `<li><a href="${n.url}" target="_blank" rel="noopener">${n.headline}</a></li>`
+      : `<li>${n.headline}</li>`).join("");
+  }
+  return `<div class="stock"><div class="head"><span class="sym">${s.sym}</span>${px}</div><ul>${items}</ul></div>`;
+}
+async function load(){
+  try{
+    const r = await fetch("dashboard_data.json?_=" + Date.now());
+    if(!r.ok) throw new Error("dashboard_data.json 을 찾을 수 없습니다 (" + r.status + ")");
+    const d = await r.json();
+    document.getElementById("updated").textContent = "갱신: " + (d.updated||"-");
+    document.getElementById("macro").innerHTML = (d.macro||[]).map(macroCard).join("") || "<span class='muted'>데이터 없음</span>";
+    document.getElementById("usnews").innerHTML = (d.us||[]).map(stockBlock).join("") || "<span class='muted'>종목 없음</span>";
+  }catch(e){
+    document.getElementById("updated").textContent = "";
+    document.getElementById("macro").innerHTML = `<span class="err">${e.message}</span>`;
+    document.getElementById("usnews").innerHTML = `<span class="muted">dashboard_data.json 이 같은 폴더(또는 같은 저장소)에 있어야 합니다. GitHub Actions 가 한 번 실행되면 생성됩니다.</span>`;
+  }
+}
+load();
+</script>
+</body>
+</html>
