@@ -20,12 +20,13 @@ jobs:
           python-version: "3.11"
 
       - name: Install deps
-        run: pip install requests
+        run: pip install requests OpenDartReader
 
       - name: Build dashboard data
         env:
           FRED_API_KEY:    ${{ secrets.FRED_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          DART_API_KEY:    ${{ secrets.DART_API_KEY }}
         run: python build_dashboard_data.py
 
       - name: Commit data

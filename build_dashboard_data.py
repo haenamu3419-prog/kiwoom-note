@@ -19,12 +19,15 @@ import os
 import json
 import time
 import datetime
+import contextlib
+import io
 
 import requests
 
 KST = datetime.timezone(datetime.timedelta(hours=9))
 OUT = "dashboard_data.json"
 TICKERS_PATH = os.environ.get("US_TICKERS_PATH", "us_tickers.json")
+HOLDINGS_PATH = os.environ.get("HOLDINGS_PATH", "holdings.json")
 NEWS_PER_STOCK = 5
 
 MACRO = [
@@ -113,15 +116,67 @@ def build_us():
     return out
 
 
+def load_kr_holdings():
+    if not os.path.exists(HOLDINGS_PATH):
+        return []
+    with open(HOLDINGS_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    out = []
+    for row in data:
+        code = str(row.get("code", "")).strip()
+        name = str(row.get("name", "")).strip()
+        if code:
+            out.append({"code": code, "name": name})
+    return out
+
+
+def build_dart():
+    """한국 보유종목(holdings.json)의 어제~오늘 DART 공시를 조회."""
+    key = os.environ.get("DART_API_KEY")
+    holdings = load_kr_holdings()
+    if not key or not holdings:
+        return []
+    try:
+        import OpenDartReader
+    except Exception:
+        return []
+    dart = OpenDartReader(key)
+    today = datetime.datetime.now(KST).date()
+    start = today - datetime.timedelta(days=1)
+    name_by = {h["code"]: h["name"] for h in holdings}
+    rows = []
+    for h in holdings:
+        code = h["code"]
+        try:
+            with contextlib.redirect_stdout(io.StringIO()):
+                df = dart.list(code, start=start.strftime("%Y%m%d"),
+                               end=today.strftime("%Y%m%d"))
+        except Exception:
+            continue
+        if df is None or len(df) == 0:
+            continue
+        items = []
+        for _, r in df.iterrows():
+            items.append({
+                "report": r.get("report_nm", ""),
+                "url": f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={r.get('rcept_no','')}",
+                "dt": str(r.get("rcept_dt", "")),
+            })
+        if items:
+            rows.append({"code": code, "name": name_by.get(code, code), "items": items})
+    return rows
+
+
 def main():
     data = {
         "updated": datetime.datetime.now(KST).strftime("%Y-%m-%d %H:%M KST"),
         "macro": build_macro(),
         "us": build_us(),
+        "dart": build_dart(),
     }
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"✅ {OUT} 저장: 금리 {len(data['macro'])}항목, 미국주 {len(data['us'])}종목")
+    print(f"✅ {OUT} 저장: 금리 {len(data['macro'])} / 미국주 {len(data['us'])} / 공시종목 {len(data['dart'])}")
 
 
 if __name__ == "__main__":
