@@ -173,6 +173,7 @@ def main():
         "macro": build_macro(),
         "us": build_us(),
         "dart": build_dart(),
+        "kr_holdings": load_kr_holdings(),
     }
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
