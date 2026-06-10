@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10 17:48 KST",
+  "updated": "2026-06-10 18:27 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -169,6 +169,10 @@
           "url": "https://finnhub.io/api/news?id=f780d8cf0742e8bcc17f11be0e75a86681ee57572d41091b2382ee9d1ebe3a06"
         },
         {
+          "headline": "Seagate: Is Storage Worth More Than Memory",
+          "url": "https://finnhub.io/api/news?id=e63dc7d12b3a34906690461efcfa81b8c44bc30d72aee761e6cf40d0ed46e871"
+        },
+        {
           "headline": "SMH ETF Investors: Watch Hyperscaler Capex Guidance at July Earnings Calls",
           "url": "https://finnhub.io/api/news?id=d0b8b6aed7f453b050c5603e835322226f3689b87bd5cdbe10eee3220a119bd1"
         },
@@ -179,10 +183,6 @@
         {
           "headline": "Tech Buckles Again, An Apache Goes Down Over Hormuz, And Oracle Takes The Stand",
           "url": "https://finnhub.io/api/news?id=462fcf65f91679d1fd8216839fa676d3a3cc94f2705a42c67f52467cb4257a3c"
-        },
-        {
-          "headline": "MU Stock Slides 2% After-Hours As Goldman Sachs Doubles Price Target But Keeps Neutral Rating",
-          "url": "https://finnhub.io/api/news?id=3520fdce141954a5be34c6f4079a5247e53e6063172f59ca97b3c28ff7afbdc0"
         }
       ]
     },
@@ -191,6 +191,10 @@
       "price": 1646.54,
       "change_pct": 0.2765,
       "news": [
+        {
+          "headline": "Seagate: Is Storage Worth More Than Memory",
+          "url": "https://finnhub.io/api/news?id=e63dc7d12b3a34906690461efcfa81b8c44bc30d72aee761e6cf40d0ed46e871"
+        },
         {
           "headline": "There's more 'adoption of options' among retail traders: Schwab",
           "url": "https://finnhub.io/api/news?id=10402c8e94af448f5d8d446f871ca4073f19feff5e3e547237579481dd54f268"
@@ -206,10 +210,6 @@
         {
           "headline": "Micron Sinks 6%, Western Digital Falls 5% but SanDisk Holds Steady",
           "url": "https://finnhub.io/api/news?id=3e07a64441a773f47585fa980dedd375322ac4fff9ad42650428072630890a4a"
-        },
-        {
-          "headline": "Stock Market Today: Nasdaq Craters Amid Trump War News; SharkNinja Jumps (Live Coverage)",
-          "url": "https://finnhub.io/api/news?id=a42c5aab2b9e98667e7c9d270e84cffeb1222342576396596063855e182873d6"
         }
       ]
     },
@@ -348,5 +348,6 @@
         }
       ]
     }
-  ]
+  ],
+  "dart": []
 }
