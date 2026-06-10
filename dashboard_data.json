@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10 22:20 KST",
+  "updated": "2026-06-10 22:35 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -53,170 +53,44 @@
   "us": [
     {
       "sym": "GOOGL",
-      "price": 364.26,
-      "change_pct": 0.2615,
-      "news": [
-        {
-          "headline": "Israel Divestment Could Cost NYC Taxpayers $37 Billion, New ADL-JLens Analysis Finds",
-          "url": "https://finnhub.io/api/news?id=fad6e820571502375515723114f22f87aba13e05b892fd2bbd9f8bc4d204acb4"
-        },
-        {
-          "headline": "Google Just Committed to Spending $920 Million a Month at SpaceX. Here's What That Means for This Week's IPO.",
-          "url": "https://finnhub.io/api/news?id=1eb9d0d621c2566e8b03628a1ed86538d3325a251ee225f4dd9b6a3472f37428"
-        },
-        {
-          "headline": "Super Micro’s Stock Sale Exposes Market’s AI Growing Pains",
-          "url": "https://finnhub.io/api/news?id=5001bd5c4a7a4bfedd67a9657b1e5bec177bad41e5c13ba33bdcf3a487912d5e"
-        },
-        {
-          "headline": "Anthropic leans into AI’s nascent slice-and-dice era",
-          "url": "https://finnhub.io/api/news?id=9e7c7c336bd3f934bd398f1188dbaab5cb8fe80a69aff5444edcc43e0e9cd995"
-        },
-        {
-          "headline": "Alphabet's Google Backs Anthropic in $35 Billion Chip Arrangement",
-          "url": "https://finnhub.io/api/news?id=27dcea23707e27d80ef7bd0b856c754fd70d168e55d2a386c0a09c25be2c17e9"
-        }
-      ]
+      "price": 363.39,
+      "change_pct": -0.2388,
+      "news": []
     },
     {
       "sym": "AMZN",
-      "price": 244.19,
-      "change_pct": -0.42,
-      "news": [
-        {
-          "headline": "Amazon Expands Its LTL Freight Service To All US Businesses – Here’s What It Means",
-          "url": "https://finnhub.io/api/news?id=e6e70fea85d0e0a34dce9ea08a7304fe3412da5e08d31ba55d32eaec900df5f0"
-        },
-        {
-          "headline": "Israel Divestment Could Cost NYC Taxpayers $37 Billion, New ADL-JLens Analysis Finds",
-          "url": "https://finnhub.io/api/news?id=fad6e820571502375515723114f22f87aba13e05b892fd2bbd9f8bc4d204acb4"
-        },
-        {
-          "headline": "Amazon Broadens Freight Network to Support Businesses Across the U.S. (AMZN)",
-          "url": "https://finnhub.io/api/news?id=0307a84c26f8781710cfda9aa9279789418ca348bfe44a6a9b7e430167d52da5"
-        },
-        {
-          "headline": "Amazon Supply Chain Services Launches Less-Than-Truckload Freight Offering for All Businesses",
-          "url": "https://finnhub.io/api/news?id=4f0cf095a40a51a40fc33b8f013095cd75be88eecf3a98c61f56119d815d1c00"
-        },
-        {
-          "headline": "Amazon's Prime Day Is Coming. Here's What It Means for the Stock Market.",
-          "url": "https://finnhub.io/api/news?id=f7bc52142bfbb9a89b9f95b612f0d06b9eb62b3ac74594303cf9c4acad95b05f"
-        }
-      ]
+      "price": 241.86,
+      "change_pct": -0.9542,
+      "news": []
     },
     {
       "sym": "NVDA",
-      "price": 208.19,
-      "change_pct": -0.2157,
-      "news": [
-        {
-          "headline": "Is the Vanguard Total Stock Market ETF the Best Buy for Long-Term Investors?",
-          "url": "https://finnhub.io/api/news?id=373132b5a5161d315f6938125e191f301872e01511c927a2115e00dffe4dc0af"
-        },
-        {
-          "headline": "This Week In AI Chips - AI Model NV2 Revolutionizes Business Interactions and Productivity",
-          "url": "https://finnhub.io/api/news?id=6bcb0299b9573adcfe5bf2425648c052fc563a4cc1cdc050e09ccd080e7cf202"
-        },
-        {
-          "headline": "2 Space Stocks You've Never Heard Of Before Just Won $439 Million to Build NASA Lunar Rovers",
-          "url": "https://finnhub.io/api/news?id=5942b9751c6f2e84cfa8afeafde80cefecef30b7e98961ef1b86f871f119a08d"
-        },
-        {
-          "headline": "Are Billionaires and Institutional Investors Losing Faith in Nvidia? The Data Tells a Chilling Story.",
-          "url": "https://finnhub.io/api/news?id=61fc2348e5b2cdc6386371da076835871303f7e098630e4d0ceeda20e519b298"
-        },
-        {
-          "headline": "Forget VOO: Fidelity’s Tech ETF Is Up 29% While the Broad Market Lags",
-          "url": "https://finnhub.io/api/news?id=f1ad4ad5c95c4e06065ea80bae1378cdee69b15df840bb7a3aa756358460094e"
-        }
-      ]
+      "price": 205.35,
+      "change_pct": -1.3641,
+      "news": []
     },
     {
       "sym": "AVGO",
-      "price": 392.16,
-      "change_pct": -1.1195,
-      "news": [
-        {
-          "headline": "Micron Adds AI Veteran To Board As Valuation Stretches On Hot Rally",
-          "url": "https://finnhub.io/api/news?id=7e2212efb1b049992266cd50f87c955807d744cfcc2cd2fd7ce747823e73b00c"
-        },
-        {
-          "headline": "SpaceX fever is testing the chip trade: Chart of the Day",
-          "url": "https://finnhub.io/api/news?id=bb8be3edd8c086d9ad67f2e686de8e14fa3be1cf859434366530ed79644f7f19"
-        },
-        {
-          "headline": "Scott Galloway Says Tesla, Nvidia, Broadcom Could Get Caught In The Crossfire Of The Space X IPO",
-          "url": "https://finnhub.io/api/news?id=ff76cf1de8159ffd7cb0374df1b3b99640b500bedfc1580cc6d7a4047601a293"
-        },
-        {
-          "headline": "Anthropic leans into AI’s nascent slice-and-dice era",
-          "url": "https://finnhub.io/api/news?id=9e7c7c336bd3f934bd398f1188dbaab5cb8fe80a69aff5444edcc43e0e9cd995"
-        },
-        {
-          "headline": "Stock Market News for Jun 10, 2026",
-          "url": "https://finnhub.io/api/news?id=a3c4993be188c29e28a4ec941e87343bd2428633b4c350a15438ccd54afe0259"
-        }
-      ]
+      "price": 376.64,
+      "change_pct": -3.9576,
+      "news": []
     },
     {
       "sym": "MU",
-      "price": 935.89,
-      "change_pct": -1.4105,
-      "news": [
-        {
-          "headline": "Stay updated with the S&P500 stocks that are on the move in today's pre-market session.",
-          "url": "https://finnhub.io/api/news?id=7727ff55b7b15ff2903ebef4c273d01213a186bab8c53f0acec4cc9e4550bd62"
-        },
-        {
-          "headline": "This Week In AI Chips - AI Model NV2 Revolutionizes Business Interactions and Productivity",
-          "url": "https://finnhub.io/api/news?id=6bcb0299b9573adcfe5bf2425648c052fc563a4cc1cdc050e09ccd080e7cf202"
-        },
-        {
-          "headline": "Micron and Sandisk Have Crushed Nvidia as the Top Artificial Intelligence (AI) Stock in 2026. Can That Continue?",
-          "url": "https://finnhub.io/api/news?id=ecf7e213fcbe2e56204f0fdefb4fd245ae03feb9c1dda0755ae7e553be2ed472"
-        },
-        {
-          "headline": "Micron Adds AI Veteran To Board As Valuation Stretches On Hot Rally",
-          "url": "https://finnhub.io/api/news?id=7e2212efb1b049992266cd50f87c955807d744cfcc2cd2fd7ce747823e73b00c"
-        },
-        {
-          "headline": "What Micron Stock Needs to Kick-Start Its Rally",
-          "url": "https://finnhub.io/api/news?id=ff687ac9a96247821cbc9dbe5c31646afbaa153b475d0da0965ee782ecdd1b5a"
-        }
-      ]
+      "price": 900.23,
+      "change_pct": -3.8103,
+      "news": []
     },
     {
       "sym": "SNDK",
-      "price": 1646.54,
-      "change_pct": 0.2765,
-      "news": [
-        {
-          "headline": "Stay updated with the S&P500 stocks that are on the move in today's pre-market session.",
-          "url": "https://finnhub.io/api/news?id=7727ff55b7b15ff2903ebef4c273d01213a186bab8c53f0acec4cc9e4550bd62"
-        },
-        {
-          "headline": "Micron and Sandisk Have Crushed Nvidia as the Top Artificial Intelligence (AI) Stock in 2026. Can That Continue?",
-          "url": "https://finnhub.io/api/news?id=ecf7e213fcbe2e56204f0fdefb4fd245ae03feb9c1dda0755ae7e553be2ed472"
-        },
-        {
-          "headline": "SpaceX fever is testing the chip trade: Chart of the Day",
-          "url": "https://finnhub.io/api/news?id=bb8be3edd8c086d9ad67f2e686de8e14fa3be1cf859434366530ed79644f7f19"
-        },
-        {
-          "headline": "Seagate: Is Storage Worth More Than Memory",
-          "url": "https://finnhub.io/api/news?id=e63dc7d12b3a34906690461efcfa81b8c44bc30d72aee761e6cf40d0ed46e871"
-        },
-        {
-          "headline": "There's more 'adoption of options' among retail traders: Schwab",
-          "url": "https://finnhub.io/api/news?id=10402c8e94af448f5d8d446f871ca4073f19feff5e3e547237579481dd54f268"
-        }
-      ]
+      "price": 1609.39,
+      "change_pct": -2.2562,
+      "news": []
     },
     {
       "sym": "TSLA",
-      "price": 396.68,
-      "change_pct": -3.0004,
+      "price": 393.37,
+      "change_pct": -0.8344,
       "news": [
         {
           "headline": "Rivian begins deliveries of cheaper electric vehicles",
@@ -242,8 +116,8 @@
     },
     {
       "sym": "RKLB",
-      "price": 108.23,
-      "change_pct": -4.769,
+      "price": 107.66,
+      "change_pct": -0.5267,
       "news": [
         {
           "headline": "8 Industrials Stocks Whale Activity In Today's Session",
@@ -269,8 +143,8 @@
     },
     {
       "sym": "INTC",
-      "price": 107.92,
-      "change_pct": -2.1311,
+      "price": 108.16,
+      "change_pct": 0.2224,
       "news": [
         {
           "headline": "Is the Vanguard Total Stock Market ETF the Best Buy for Long-Term Investors?",
@@ -296,8 +170,8 @@
     },
     {
       "sym": "GEV",
-      "price": 920.15,
-      "change_pct": -1.467,
+      "price": 892,
+      "change_pct": -3.0593,
       "news": [
         {
           "headline": "GE Vernova (GEV) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
@@ -323,8 +197,8 @@
     },
     {
       "sym": "BE",
-      "price": 259.61,
-      "change_pct": 2.382,
+      "price": 250.54,
+      "change_pct": -3.4937,
       "news": [
         {
           "headline": "Nebius Falls: Hyperscalers Are Hyperscaling",
@@ -349,5 +223,63 @@
       ]
     }
   ],
-  "dart": []
+  "dart": [],
+  "kr_holdings": [
+    {
+      "code": "000660",
+      "name": "SK하이닉스"
+    },
+    {
+      "code": "005380",
+      "name": "현대차"
+    },
+    {
+      "code": "005490",
+      "name": "POSCO홀딩스"
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자"
+    },
+    {
+      "code": "005935",
+      "name": "삼성전자우"
+    },
+    {
+      "code": "006260",
+      "name": "LS"
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권"
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍"
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티"
+    },
+    {
+      "code": "051360",
+      "name": "토비스"
+    },
+    {
+      "code": "066570",
+      "name": "LG전자"
+    },
+    {
+      "code": "454910",
+      "name": "두산로보틱스"
+    },
+    {
+      "code": "466920",
+      "name": "SOL 조선TOP3플러스"
+    }
+  ]
 }
