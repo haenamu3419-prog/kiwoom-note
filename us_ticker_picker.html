@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>미국 종목 선택기 · us_tickers.json</title>
+<style>
+  :root{
+    --ink:#16140f; --ink-soft:#6b675c; --line:#e3ded1; --paper:#f7f4ec;
+    --card:#fffdf7; --accent:#1f6f54; --accent-soft:#e2f0ea; --hint:#a7a294;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    line-height:1.5; padding:32px 18px 64px;
+  }
+  .wrap{max-width:760px; margin:0 auto;}
+  header{margin-bottom:24px;}
+  h1{font-size:24px; font-weight:700; margin:0 0 4px; letter-spacing:-0.02em;}
+  .sub{font-size:14px; color:var(--ink-soft); margin:0;}
+  .search-row{display:flex; gap:8px; margin:20px 0 10px;}
+  input[type=text]{
+    flex:1; height:42px; padding:0 14px; font-size:15px;
+    border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--ink);
+  }
+  input[type=text]:focus{outline:2px solid var(--accent-soft); border-color:var(--accent);}
+  button{
+    font-family:inherit; font-size:14px; cursor:pointer; border-radius:10px;
+    border:1px solid var(--line); background:var(--card); color:var(--ink);
+    padding:0 14px; height:42px;
+  }
+  button:hover{border-color:var(--accent);}
+  button:active{transform:scale(0.98);}
+  .results{margin-bottom:12px;}
+  .group-label{font-size:13px; color:var(--ink-soft); margin:18px 0 8px; font-weight:600;}
+  .chips{display:flex; flex-wrap:wrap; gap:8px;}
+  .chip{
+    border:1px solid var(--line); background:var(--card); color:var(--ink);
+    border-radius:999px; padding:7px 14px; font-size:14px; cursor:pointer;
+    transition:background .12s,border-color .12s;
+  }
+  .chip .nm{color:var(--hint); font-size:12px; margin-left:5px;}
+  .chip.on{background:var(--accent-soft); border-color:var(--accent); color:var(--accent);}
+  .chip.on .nm{color:var(--accent);}
+  .chip.on::before{content:"\2713  "; font-weight:700;}
+  .panel{
+    margin-top:24px; background:var(--card); border:1px solid var(--line);
+    border-radius:14px; padding:18px 20px;
+  }
+  .panel-top{display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; gap:10px; flex-wrap:wrap;}
+  .count{font-size:14px; color:var(--ink-soft);}
+  .count b{color:var(--ink); font-weight:700;}
+  .panel-actions{display:flex; gap:8px;}
+  .primary{background:var(--accent); border-color:var(--accent); color:#fff;}
+  .primary:hover{filter:brightness(1.08); border-color:var(--accent);}
+  pre{
+    margin:0; font-family:"SF Mono",Consolas,monospace; font-size:13px;
+    background:var(--paper); border:1px solid var(--line); border-radius:10px;
+    padding:12px 14px; white-space:pre-wrap; word-break:break-all; min-height:44px;
+  }
+  .note{font-size:12px; color:var(--hint); margin:10px 0 0;}
+  .saved{font-size:12px; color:var(--accent); margin-left:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>미국 종목 선택기</h1>
+    <p class="sub">보유 종목을 클릭하면 <code>us_tickers.json</code> 내용이 만들어집니다. 선택은 이 PC에 자동 저장됩니다.</p>
+  </header>
+
+  <div class="search-row">
+    <input id="search" type="text" placeholder="종목 검색 (예: AAPL 또는 apple)" autocomplete="off">
+    <button id="addBtn">+ 추가</button>
+  </div>
+  <div class="results" id="results"></div>
+
+  <div id="catalog"></div>
+
+  <div class="panel">
+    <div class="panel-top">
+      <span class="count">선택됨 <b id="count">0</b>종목<span class="saved" id="savedMsg"></span></span>
+      <div class="panel-actions">
+        <button id="clearBtn">비우기</button>
+        <button id="copyBtn" class="primary">복사</button>
+      </div>
+    </div>
+    <pre id="output">[]</pre>
+    <p class="note">이 내용을 복사해 GitHub의 us_tickers.json 에 붙여넣고 Commit 하세요.</p>
+  </div>
+</div>
+
+<script>
+const CATALOG = {
+  "빅테크·플랫폼": [["AAPL","애플"],["MSFT","마이크로소프트"],["GOOGL","알파벳(구글)"],["AMZN","아마존"],["META","메타(페이스북)"],["NFLX","넷플릭스"],["ORCL","오라클"],["CRM","세일즈포스"],["ADBE","어도비"],["IBM","IBM"],["NOW","서비스나우"],["UBER","우버"],["ABNB","에어비앤비"],["SHOP","쇼피파이"],["SPOT","스포티파이"],["SNAP","스냅"],["PINS","핀터레스트"]],
+  "반도체·AI인프라": [["NVDA","엔비디아"],["AMD","AMD"],["AVGO","브로드컴"],["TSM","TSMC"],["MU","마이크론"],["ASML","ASML"],["ARM","ARM"],["SMCI","슈퍼마이크로"],["PLTR","팔란티어"],["VRT","버티브"],["MRVL","마벨"],["QCOM","퀄컴"],["INTC","인텔"],["TXN","텍사스인스트루먼트"],["AMAT","어플라이드머티어리얼즈"],["LRCX","램리서치"],["KLAC","KLA"],["SNDK","샌디스크"],["WDC","웨스턴디지털"],["STX","씨게이트"],["ADI","아나로그디바이스"],["MCHP","마이크로칩"],["ON","온세미"]],
+  "전기차·모빌리티": [["TSLA","테슬라"],["RIVN","리비안"],["LCID","루시드"],["NIO","니오"],["XPEV","샤오펑"],["LI","리오토"],["GM","제너럴모터스"],["F","포드"]],
+  "에너지·태양광": [["GEV","GE버노바"],["BE","블룸에너지"],["ENPH","엔페이즈"],["FSLR","퍼스트솔라"],["XOM","엑슨모빌"],["CVX","셰브론"],["OXY","옥시덴탈"],["NEE","넥스트에라에너지"]],
+  "방산·우주": [["LMT","록히드마틴"],["RTX","RTX"],["NOC","노스럽그러먼"],["GD","제너럴다이내믹스"],["LHX","L3해리스"],["RKLB","로켓랩"],["BA","보잉"],["AVAV","에어로바이런먼트"]],
+  "금융·결제": [["JPM","JP모건"],["BAC","뱅크오브아메리카"],["WFC","웰스파고"],["GS","골드만삭스"],["MS","모건스탠리"],["V","비자"],["MA","마스터카드"],["PYPL","페이팔"],["SOFI","소파이"],["COIN","코인베이스"],["HOOD","로빈후드"],["AXP","아메리칸익스프레스"]],
+  "헬스케어·제약": [["LLY","일라이릴리"],["NVO","노보노디스크"],["UNH","유나이티드헬스"],["JNJ","존슨앤존슨"],["PFE","화이자"],["MRK","머크"],["ABBV","애브비"],["AMGN","암젠"],["ISRG","인튜이티브서지컬"]],
+  "소비·유통": [["COST","코스트코"],["WMT","월마트"],["HD","홈디포"],["MCD","맥도날드"],["SBUX","스타벅스"],["NKE","나이키"],["KO","코카콜라"],["PEP","펩시코"],["DIS","디즈니"],["LULU","룰루레몬"]],
+  "기타 인기주": [["BRK.B","버크셔 B"],["MSTR","마이크로스트래티지"],["CRWD","크라우드스트라이크"],["PANW","팔로알토네트웍스"],["SNOW","스노우플레이크"],["DDOG","데이터독"],["NET","클라우드플레어"],["GE","GE에어로스페이스"],["CAT","캐터필러"],["DE","디어"]]
+};
+const KEY = "us_tickers_selected_v1";
+let selected = new Set();
+try{ const s = JSON.parse(localStorage.getItem(KEY)||"[]"); if(Array.isArray(s)) selected = new Set(s); }catch(e){}
+
+const $ = id => document.getElementById(id);
+
+function persist(){ try{ localStorage.setItem(KEY, JSON.stringify([...selected])); }catch(e){} }
+
+function makeChip(tk, nm){
+  const b = document.createElement("button");
+  b.className = "chip" + (selected.has(tk) ? " on" : "");
+  b.innerHTML = `<strong>${tk}</strong><span class="nm">${nm}</span>`;
+  b.onclick = () => { selected.has(tk) ? selected.delete(tk) : selected.add(tk); render(); };
+  return b;
+}
+
+function render(){
+  const cat = $("catalog");
+  cat.innerHTML = "";
+  for(const [group, items] of Object.entries(CATALOG)){
+    const lab = document.createElement("div");
+    lab.className = "group-label";
+    lab.textContent = group;
+    cat.appendChild(lab);
+    const wrap = document.createElement("div");
+    wrap.className = "chips";
+    items.forEach(([tk,nm]) => wrap.appendChild(makeChip(tk,nm)));
+    cat.appendChild(wrap);
+  }
+  const arr = [...selected];
+  $("count").textContent = arr.length;
+  $("output").textContent = arr.length ? JSON.stringify(arr) : "[]";
+  persist();
+  $("savedMsg").textContent = "· 저장됨";
+  setTimeout(()=>{ $("savedMsg").textContent=""; }, 1200);
+}
+
+function onSearch(){
+  const q = $("search").value.trim().toLowerCase();
+  const box = $("results");
+  if(!q){ box.innerHTML=""; return; }
+  const all = Object.values(CATALOG).flat();
+  const hits = all.filter(([tk,nm]) => tk.toLowerCase().includes(q) || nm.toLowerCase().includes(q)).slice(0,8);
+  box.innerHTML = "";
+  if(hits.length){
+    const wrap = document.createElement("div");
+    wrap.className = "chips";
+    hits.forEach(([tk,nm]) => wrap.appendChild(makeChip(tk,nm)));
+    box.appendChild(wrap);
+  } else {
+    box.innerHTML = `<p class="note">목록에 없으면 정확한 티커를 입력하고 '추가'를 누르세요.</p>`;
+  }
+}
+
+function addFromSearch(){
+  let q = $("search").value.trim().toUpperCase().replace(/[^A-Z0-9.]/g,"");
+  if(q){ selected.add(q); $("search").value=""; $("results").innerHTML=""; render(); }
+}
+
+function copyJson(){
+  const txt = $("output").textContent;
+  navigator.clipboard.writeText(txt).then(()=>{
+    const b = $("copyBtn");
+    const old = b.textContent;
+    b.textContent = "복사됨!";
+    setTimeout(()=>{ b.textContent = old; }, 1500);
+  });
+}
+
+$("search").addEventListener("input", onSearch);
+$("search").addEventListener("keydown", e => { if(e.key==="Enter") addFromSearch(); });
+$("addBtn").onclick = addFromSearch;
+$("clearBtn").onclick = () => { selected.clear(); render(); };
+$("copyBtn").onclick = copyJson;
+render();
+</script>
+</body>
+</html>
