@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10 18:27 KST",
+  "updated": "2026-06-10 22:20 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -57,24 +57,24 @@
       "change_pct": 0.2615,
       "news": [
         {
-          "headline": "Alphabet Is Raising $80 Billion for AI Infrastructure. These 4 Semiconductor Stocks Win the Most.",
-          "url": "https://finnhub.io/api/news?id=9fae345901acc9ebf065ebb7f6dedd863be8e8acfd8be3099169d79d11fef6fa"
+          "headline": "Israel Divestment Could Cost NYC Taxpayers $37 Billion, New ADL-JLens Analysis Finds",
+          "url": "https://finnhub.io/api/news?id=fad6e820571502375515723114f22f87aba13e05b892fd2bbd9f8bc4d204acb4"
         },
         {
-          "headline": "Meta signs first AI data center deal in India with Reliance",
-          "url": "https://finnhub.io/api/news?id=0f21f84ce384b663391898007575330c5f44180c067127b904702528161f9683"
+          "headline": "Google Just Committed to Spending $920 Million a Month at SpaceX. Here's What That Means for This Week's IPO.",
+          "url": "https://finnhub.io/api/news?id=1eb9d0d621c2566e8b03628a1ed86538d3325a251ee225f4dd9b6a3472f37428"
         },
         {
-          "headline": "Apple-Nvidia Friends Again? Nvidia Says Its Chips In Google Cloud Are Powering Apple Intelligence",
-          "url": "https://finnhub.io/api/news?id=5556e28f16a96a830a60a44d7b5521982f6ef86f57ee40e27c10907fcbfed4b4"
+          "headline": "Super Micro’s Stock Sale Exposes Market’s AI Growing Pains",
+          "url": "https://finnhub.io/api/news?id=5001bd5c4a7a4bfedd67a9657b1e5bec177bad41e5c13ba33bdcf3a487912d5e"
         },
         {
-          "headline": "From Stock Repurchases To AI Capex: The New Playbook For Corporate Cash",
-          "url": "https://finnhub.io/api/news?id=d782bc771a9786a48a010b2016e1b641c5db51164ddc0b1226d2daf7f927c2e1"
+          "headline": "Anthropic leans into AI’s nascent slice-and-dice era",
+          "url": "https://finnhub.io/api/news?id=9e7c7c336bd3f934bd398f1188dbaab5cb8fe80a69aff5444edcc43e0e9cd995"
         },
         {
-          "headline": "SMH ETF Investors: Watch Hyperscaler Capex Guidance at July Earnings Calls",
-          "url": "https://finnhub.io/api/news?id=d0b8b6aed7f453b050c5603e835322226f3689b87bd5cdbe10eee3220a119bd1"
+          "headline": "Alphabet's Google Backs Anthropic in $35 Billion Chip Arrangement",
+          "url": "https://finnhub.io/api/news?id=27dcea23707e27d80ef7bd0b856c754fd70d168e55d2a386c0a09c25be2c17e9"
         }
       ]
     },
@@ -84,24 +84,24 @@
       "change_pct": -0.42,
       "news": [
         {
-          "headline": "Meta signs first AI data center deal in India with Reliance",
-          "url": "https://finnhub.io/api/news?id=0f21f84ce384b663391898007575330c5f44180c067127b904702528161f9683"
+          "headline": "Amazon Expands Its LTL Freight Service To All US Businesses – Here’s What It Means",
+          "url": "https://finnhub.io/api/news?id=e6e70fea85d0e0a34dce9ea08a7304fe3412da5e08d31ba55d32eaec900df5f0"
         },
         {
-          "headline": "Europe’s Payments Leaders Gather in London as Control, Fraud and AI Reshape the Industry",
-          "url": "https://finnhub.io/api/news?id=f37efe32efaf6243f11bbdc21ab1d90358172bb64f63798690f560acf571b5a1"
+          "headline": "Israel Divestment Could Cost NYC Taxpayers $37 Billion, New ADL-JLens Analysis Finds",
+          "url": "https://finnhub.io/api/news?id=fad6e820571502375515723114f22f87aba13e05b892fd2bbd9f8bc4d204acb4"
         },
         {
-          "headline": "Natalia Dyer Explores Korean Beauty Culture, Unveiling Authentic Charm on Set",
-          "url": "https://finnhub.io/api/news?id=97bd9b34ff9595257200fd5574fdef2b3095d9fa8d98b3abf53a00d2f42b935c"
+          "headline": "Amazon Broadens Freight Network to Support Businesses Across the U.S. (AMZN)",
+          "url": "https://finnhub.io/api/news?id=0307a84c26f8781710cfda9aa9279789418ca348bfe44a6a9b7e430167d52da5"
         },
         {
-          "headline": "SMH ETF Investors: Watch Hyperscaler Capex Guidance at July Earnings Calls",
-          "url": "https://finnhub.io/api/news?id=d0b8b6aed7f453b050c5603e835322226f3689b87bd5cdbe10eee3220a119bd1"
+          "headline": "Amazon Supply Chain Services Launches Less-Than-Truckload Freight Offering for All Businesses",
+          "url": "https://finnhub.io/api/news?id=4f0cf095a40a51a40fc33b8f013095cd75be88eecf3a98c61f56119d815d1c00"
         },
         {
-          "headline": "Assessing Amazon.com (AMZN) Valuation After Recent Share Price Pullback And Long Term Return Strength",
-          "url": "https://finnhub.io/api/news?id=548520f480ee5f9f588bf711328c7a6b5224f11be94b6acb5cd711f983c72fbd"
+          "headline": "Amazon's Prime Day Is Coming. Here's What It Means for the Stock Market.",
+          "url": "https://finnhub.io/api/news?id=f7bc52142bfbb9a89b9f95b612f0d06b9eb62b3ac74594303cf9c4acad95b05f"
         }
       ]
     },
@@ -111,24 +111,24 @@
       "change_pct": -0.2157,
       "news": [
         {
-          "headline": "Blowout Jobs Numbers Just Made Kevin Warsh's Job Much Harder -- and Put a Showdown With Trump in Motion",
-          "url": "https://finnhub.io/api/news?id=170e1a9b2769bdb5b85f946a10e889ed4571ff0709ce3e4cad74fd4b902168ce"
+          "headline": "Is the Vanguard Total Stock Market ETF the Best Buy for Long-Term Investors?",
+          "url": "https://finnhub.io/api/news?id=373132b5a5161d315f6938125e191f301872e01511c927a2115e00dffe4dc0af"
         },
         {
-          "headline": "Better IPO Buy: SpaceX vs Anthropic",
-          "url": "https://finnhub.io/api/news?id=79d6480c03975fb8b35d679488a174ad84d035e69aedbf24b0bf68634cacb52a"
+          "headline": "This Week In AI Chips - AI Model NV2 Revolutionizes Business Interactions and Productivity",
+          "url": "https://finnhub.io/api/news?id=6bcb0299b9573adcfe5bf2425648c052fc563a4cc1cdc050e09ccd080e7cf202"
         },
         {
-          "headline": "What a 3.9% Social Security COLA in 2027 Would Add to Your Monthly Check",
-          "url": "https://finnhub.io/api/news?id=e2f3418f88d4fdcf6c74ebe3978b64afd4bb6def2b85a880de4415839619ffbe"
+          "headline": "2 Space Stocks You've Never Heard Of Before Just Won $439 Million to Build NASA Lunar Rovers",
+          "url": "https://finnhub.io/api/news?id=5942b9751c6f2e84cfa8afeafde80cefecef30b7e98961ef1b86f871f119a08d"
         },
         {
-          "headline": "Alphabet Is Raising $80 Billion for AI Infrastructure. These 4 Semiconductor Stocks Win the Most.",
-          "url": "https://finnhub.io/api/news?id=9fae345901acc9ebf065ebb7f6dedd863be8e8acfd8be3099169d79d11fef6fa"
+          "headline": "Are Billionaires and Institutional Investors Losing Faith in Nvidia? The Data Tells a Chilling Story.",
+          "url": "https://finnhub.io/api/news?id=61fc2348e5b2cdc6386371da076835871303f7e098630e4d0ceeda20e519b298"
         },
         {
-          "headline": "With Mortgage Rates Stuck High, Can UWM Holdings Keep Taking Market Share?",
-          "url": "https://finnhub.io/api/news?id=10d74345397c8477e0c7942b4462d73836f4fb689f8a7272b366547cae823073"
+          "headline": "Forget VOO: Fidelity’s Tech ETF Is Up 29% While the Broad Market Lags",
+          "url": "https://finnhub.io/api/news?id=f1ad4ad5c95c4e06065ea80bae1378cdee69b15df840bb7a3aa756358460094e"
         }
       ]
     },
@@ -138,24 +138,24 @@
       "change_pct": -1.1195,
       "news": [
         {
-          "headline": "5 Revealing Analyst Questions From Broadcom’s Q1 Earnings Call",
-          "url": "https://finnhub.io/api/news?id=f76865e3c544af4f1cea469b1f980e2162376e98bda69b3d37692f88cda5fea8"
+          "headline": "Micron Adds AI Veteran To Board As Valuation Stretches On Hot Rally",
+          "url": "https://finnhub.io/api/news?id=7e2212efb1b049992266cd50f87c955807d744cfcc2cd2fd7ce747823e73b00c"
         },
         {
-          "headline": "South Korea’s Top Stock Index Crashes, Then Surges on AI Chip Rally",
-          "url": "https://finnhub.io/api/news?id=f780d8cf0742e8bcc17f11be0e75a86681ee57572d41091b2382ee9d1ebe3a06"
+          "headline": "SpaceX fever is testing the chip trade: Chart of the Day",
+          "url": "https://finnhub.io/api/news?id=bb8be3edd8c086d9ad67f2e686de8e14fa3be1cf859434366530ed79644f7f19"
         },
         {
-          "headline": "SpaceX’s IPO Could Buy Boeing and the S&P 500’s 11 Other Aerospace Companies",
-          "url": "https://finnhub.io/api/news?id=33bf9da037d131db1d7f6fafeebaed2d2c58b51580747648da9bd749a6fc8d5e"
+          "headline": "Scott Galloway Says Tesla, Nvidia, Broadcom Could Get Caught In The Crossfire Of The Space X IPO",
+          "url": "https://finnhub.io/api/news?id=ff76cf1de8159ffd7cb0374df1b3b99640b500bedfc1580cc6d7a4047601a293"
         },
         {
-          "headline": "Broadcom CEO unnerves biggest AI backers in rattling pivot",
-          "url": "https://finnhub.io/api/news?id=521e6768d35acd73872e30fa1acbd9a13c100e5ca6ef7cd920eed56622daf7a7"
+          "headline": "Anthropic leans into AI’s nascent slice-and-dice era",
+          "url": "https://finnhub.io/api/news?id=9e7c7c336bd3f934bd398f1188dbaab5cb8fe80a69aff5444edcc43e0e9cd995"
         },
         {
-          "headline": "The AI Trade Just Had Its Worst Stretch in Months. Here Are 3 Reasons the Sell-Off Could Be a Buying Opportunity.",
-          "url": "https://finnhub.io/api/news?id=04543c941868390d98b1473889028adfbd71a88e06180fa83657841a6389d624"
+          "headline": "Stock Market News for Jun 10, 2026",
+          "url": "https://finnhub.io/api/news?id=a3c4993be188c29e28a4ec941e87343bd2428633b4c350a15438ccd54afe0259"
         }
       ]
     },
@@ -165,24 +165,24 @@
       "change_pct": -1.4105,
       "news": [
         {
-          "headline": "South Korea’s Top Stock Index Crashes, Then Surges on AI Chip Rally",
-          "url": "https://finnhub.io/api/news?id=f780d8cf0742e8bcc17f11be0e75a86681ee57572d41091b2382ee9d1ebe3a06"
+          "headline": "Stay updated with the S&P500 stocks that are on the move in today's pre-market session.",
+          "url": "https://finnhub.io/api/news?id=7727ff55b7b15ff2903ebef4c273d01213a186bab8c53f0acec4cc9e4550bd62"
         },
         {
-          "headline": "Seagate: Is Storage Worth More Than Memory",
-          "url": "https://finnhub.io/api/news?id=e63dc7d12b3a34906690461efcfa81b8c44bc30d72aee761e6cf40d0ed46e871"
+          "headline": "This Week In AI Chips - AI Model NV2 Revolutionizes Business Interactions and Productivity",
+          "url": "https://finnhub.io/api/news?id=6bcb0299b9573adcfe5bf2425648c052fc563a4cc1cdc050e09ccd080e7cf202"
         },
         {
-          "headline": "SMH ETF Investors: Watch Hyperscaler Capex Guidance at July Earnings Calls",
-          "url": "https://finnhub.io/api/news?id=d0b8b6aed7f453b050c5603e835322226f3689b87bd5cdbe10eee3220a119bd1"
+          "headline": "Micron and Sandisk Have Crushed Nvidia as the Top Artificial Intelligence (AI) Stock in 2026. Can That Continue?",
+          "url": "https://finnhub.io/api/news?id=ecf7e213fcbe2e56204f0fdefb4fd245ae03feb9c1dda0755ae7e553be2ed472"
         },
         {
-          "headline": "ETB: Good Income Fund, But High Tech Exposure Could Be A Risk",
-          "url": "https://finnhub.io/api/news?id=44b5ba88f7b3a55e06a06463bb4e8d1efe98bb0504d4aad5d3b47267accf7a8e"
+          "headline": "Micron Adds AI Veteran To Board As Valuation Stretches On Hot Rally",
+          "url": "https://finnhub.io/api/news?id=7e2212efb1b049992266cd50f87c955807d744cfcc2cd2fd7ce747823e73b00c"
         },
         {
-          "headline": "Tech Buckles Again, An Apache Goes Down Over Hormuz, And Oracle Takes The Stand",
-          "url": "https://finnhub.io/api/news?id=462fcf65f91679d1fd8216839fa676d3a3cc94f2705a42c67f52467cb4257a3c"
+          "headline": "What Micron Stock Needs to Kick-Start Its Rally",
+          "url": "https://finnhub.io/api/news?id=ff687ac9a96247821cbc9dbe5c31646afbaa153b475d0da0965ee782ecdd1b5a"
         }
       ]
     },
@@ -192,24 +192,24 @@
       "change_pct": 0.2765,
       "news": [
         {
+          "headline": "Stay updated with the S&P500 stocks that are on the move in today's pre-market session.",
+          "url": "https://finnhub.io/api/news?id=7727ff55b7b15ff2903ebef4c273d01213a186bab8c53f0acec4cc9e4550bd62"
+        },
+        {
+          "headline": "Micron and Sandisk Have Crushed Nvidia as the Top Artificial Intelligence (AI) Stock in 2026. Can That Continue?",
+          "url": "https://finnhub.io/api/news?id=ecf7e213fcbe2e56204f0fdefb4fd245ae03feb9c1dda0755ae7e553be2ed472"
+        },
+        {
+          "headline": "SpaceX fever is testing the chip trade: Chart of the Day",
+          "url": "https://finnhub.io/api/news?id=bb8be3edd8c086d9ad67f2e686de8e14fa3be1cf859434366530ed79644f7f19"
+        },
+        {
           "headline": "Seagate: Is Storage Worth More Than Memory",
           "url": "https://finnhub.io/api/news?id=e63dc7d12b3a34906690461efcfa81b8c44bc30d72aee761e6cf40d0ed46e871"
         },
         {
           "headline": "There's more 'adoption of options' among retail traders: Schwab",
           "url": "https://finnhub.io/api/news?id=10402c8e94af448f5d8d446f871ca4073f19feff5e3e547237579481dd54f268"
-        },
-        {
-          "headline": "Sandisk Corporation (SNDK) Presents at Mizuho Technology Conference 2026 Transcript",
-          "url": "https://finnhub.io/api/news?id=8f0bd4a68da832ee89c41c656f06d7211b06fad312f4759bf5ceba7bbc735ed7"
-        },
-        {
-          "headline": "This AI Storage Stock is Up 560% so Far This Year. Is it Too Late to Buy? (Hint: It's Not Sandisk)",
-          "url": "https://finnhub.io/api/news?id=3a2ab45fa2c668f73dc9e0bc946194647ab23d1b1d7cac8e3521235baab4e507"
-        },
-        {
-          "headline": "Micron Sinks 6%, Western Digital Falls 5% but SanDisk Holds Steady",
-          "url": "https://finnhub.io/api/news?id=3e07a64441a773f47585fa980dedd375322ac4fff9ad42650428072630890a4a"
         }
       ]
     },
@@ -219,24 +219,24 @@
       "change_pct": -3.0004,
       "news": [
         {
-          "headline": "RIVN Stock Slides Overnight: Rivian's 'Affordable' R2 Draws Backlash – Buyers Question Value Against Tesla Model Y",
-          "url": "https://finnhub.io/api/news?id=4979310ec347b6cf5516b5f5a6b031e083e59b4bcdac8f9ef5b33965e2705485"
+          "headline": "Rivian begins deliveries of cheaper electric vehicles",
+          "url": "https://finnhub.io/api/news?id=5faa950c9ff0c622159c162522f83ef9366908a91df298198159dfc746f0bbb1"
         },
         {
-          "headline": "ProShares Plans 2x SpaceX ETF Launch on Day of Record IPO",
-          "url": "https://finnhub.io/api/news?id=00d252899491a00f26090025a58ed00ca30950e9c9686a095a51a0619b23f487"
+          "headline": "SpaceX IPO Set to Test Strength of the ‘Elon Premium’ as Valuation Nears $1.8 Trillion",
+          "url": "https://finnhub.io/api/news?id=5a5d6ff35856c15d2a49ba13dfc114d4b06f049e4c77ae4bc86b956b15203e84"
         },
         {
-          "headline": "TSLA Stock Hits 1-Month Low Amid SpaceX Merger Jitters — But Analyst Sees Tesla Holders Getting 66% Of Deal Within A Year",
-          "url": "https://finnhub.io/api/news?id=7cf63e7bc3edd83838e05e6c36dabdb11235b85bdcc13f2fe55077eaa81b12a8"
+          "headline": "Scott Galloway Says Tesla, Nvidia, Broadcom Could Get Caught In The Crossfire Of The Space X IPO",
+          "url": "https://finnhub.io/api/news?id=ff76cf1de8159ffd7cb0374df1b3b99640b500bedfc1580cc6d7a4047601a293"
         },
         {
-          "headline": "ETB: Good Income Fund, But High Tech Exposure Could Be A Risk",
-          "url": "https://finnhub.io/api/news?id=44b5ba88f7b3a55e06a06463bb4e8d1efe98bb0504d4aad5d3b47267accf7a8e"
+          "headline": "Opinion: SpaceX Stock Will Initially Soar, but Its Smoke-and-Mirror Optics Won't Last Beyond 2 Months",
+          "url": "https://finnhub.io/api/news?id=5908fb929403e79df4bf8413a033e965ab478afbf7761535839f781eca9b7000"
         },
         {
-          "headline": "Elon Musk, after DOGE and politics, bets on SpaceX IPO",
-          "url": "https://finnhub.io/api/news?id=236308615ea40056a60f6ee3b53cc5ed24b8047fbcdf46119943e07e04bc56f5"
+          "headline": "BYD threatens to sue Trump administration over Chinese military claims",
+          "url": "https://finnhub.io/api/news?id=ce4eb5c18d65cab85eb53874e96b921588e3f9343083865d875bcef8611415f6"
         }
       ]
     },
@@ -273,24 +273,24 @@
       "change_pct": -2.1311,
       "news": [
         {
-          "headline": "What a 3.9% Social Security COLA in 2027 Would Add to Your Monthly Check",
-          "url": "https://finnhub.io/api/news?id=e2f3418f88d4fdcf6c74ebe3978b64afd4bb6def2b85a880de4415839619ffbe"
+          "headline": "Is the Vanguard Total Stock Market ETF the Best Buy for Long-Term Investors?",
+          "url": "https://finnhub.io/api/news?id=373132b5a5161d315f6938125e191f301872e01511c927a2115e00dffe4dc0af"
         },
         {
-          "headline": "Alphabet Is Raising $80 Billion for AI Infrastructure. These 4 Semiconductor Stocks Win the Most.",
-          "url": "https://finnhub.io/api/news?id=9fae345901acc9ebf065ebb7f6dedd863be8e8acfd8be3099169d79d11fef6fa"
+          "headline": "Are Billionaires and Institutional Investors Losing Faith in Nvidia? The Data Tells a Chilling Story.",
+          "url": "https://finnhub.io/api/news?id=61fc2348e5b2cdc6386371da076835871303f7e098630e4d0ceeda20e519b298"
         },
         {
-          "headline": "With Mortgage Rates Stuck High, Can UWM Holdings Keep Taking Market Share?",
-          "url": "https://finnhub.io/api/news?id=10d74345397c8477e0c7942b4462d73836f4fb689f8a7272b366547cae823073"
+          "headline": "3 Robotics Stocks in the M&A Spotlight in 2026",
+          "url": "https://finnhub.io/api/news?id=45b3b671ed09e1a1687e34c84e19b9464b805c43d319a736d11d9f92fe196074"
         },
         {
-          "headline": "SpaceX Believes Its IPO Is \"Highly Dependent\" on This 1 Catalyst",
-          "url": "https://finnhub.io/api/news?id=7c2d559d123db9efce114003825622ea417122d44045e3411f917547d3e739d0"
+          "headline": "Should You Buy Nike Stock Ahead of the World Cup?",
+          "url": "https://finnhub.io/api/news?id=94e15278c9673428151aa4ba93c7ec75ecc3081eccd2f1efdaa762f765ee8f5c"
         },
         {
-          "headline": "South Korea’s Top Stock Index Crashes, Then Surges on AI Chip Rally",
-          "url": "https://finnhub.io/api/news?id=f780d8cf0742e8bcc17f11be0e75a86681ee57572d41091b2382ee9d1ebe3a06"
+          "headline": "Micron Adds AI Veteran To Board As Valuation Stretches On Hot Rally",
+          "url": "https://finnhub.io/api/news?id=7e2212efb1b049992266cd50f87c955807d744cfcc2cd2fd7ce747823e73b00c"
         }
       ]
     },
