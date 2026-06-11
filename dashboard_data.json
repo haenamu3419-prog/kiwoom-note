@@ -1,23 +1,23 @@
 {
-  "updated": "2026-06-11 23:14 KST",
+  "updated": "2026-06-12 05:37 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.01,
-      "prev": 5.03
+      "cur": 5.03,
+      "prev": 5.01
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.53,
-      "prev": 4.56
+      "cur": 4.55,
+      "prev": 4.53
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
       "cur": 4.13,
-      "prev": 4.15
+      "prev": 4.13
     },
     {
       "name": "연준 기준금리",
@@ -53,248 +53,256 @@
   "us": [
     {
       "sym": "GOOGL",
-      "price": 348.1,
-      "change_pct": -2.3234,
+      "price": 357.77,
+      "change_pct": 0.39,
       "news": [
         {
-          "headline": "Apple Just Delivered Bad News for OpenAI and Anthropic, but Alphabet Could Be a Winner",
-          "url": "https://finnhub.io/api/news?id=9f933dcd9dd8b46e7f277b3b727ae0d09d888c8a2af1d5aec20e110aace3955b"
+          "headline": "Sector Update: Tech Stocks Gain Late Afternoon",
+          "url": "https://finnhub.io/api/news?id=58af6d7dadd9d8716f895a019cd5886ce7d3d75864614a68afa0a2fb13909d3f"
         },
         {
-          "headline": "Google in talks with Samsung to make part of next-gen chip, The Information reports",
-          "url": "https://finnhub.io/api/news?id=29cc0fc8f3c84edfe52319cf9009c2e2cc6361ab48c4fa454ea7f5081b073059"
+          "headline": "Waymo Unveils $30 Membership as Weekly Robotaxi Rides Reach 500,000",
+          "url": "https://finnhub.io/api/news?id=e6813e5b1415f329a7e0c7858b4d31029be82cc7037871ebeb9ef94024e63ff6"
         },
         {
-          "headline": "What Is Google Hiding Behind Its AI Silence?",
-          "url": "https://finnhub.io/api/news?id=a23c51100d1b61d140cca69d6b7cd19558a2a4ed38edb268d39435d0e8cb4b44"
+          "headline": "Bezos-Led Prometheus Raises $12 Billion At $41 Billion Valuation",
+          "url": "https://finnhub.io/api/news?id=b39f00a8557b97354b40706a5eaca0c001efbe181c4fd96a024b11ba8d0d9fb6"
         },
         {
-          "headline": "Artificial Agency Names Greg Canessa as Chief Operating Officer",
-          "url": "https://finnhub.io/api/news?id=8b29c3e4b1c7ab230bd1ccae84024fe91d5962e9cc98fbdcdaa06ddbc014844b"
+          "headline": "How Apple rebuilt Siri with Google's AI",
+          "url": "https://finnhub.io/api/news?id=729d9a95f4b09fc4204e3126489ee84086cd888909a05c3e4ac2e7c5493d31b6"
         },
         {
-          "headline": "Should You Buy Alphabet Stock Down 10% From Its All-Time Highs?",
-          "url": "https://finnhub.io/api/news?id=4eb3565739c517ce35c89212df055a6d3ffd0dbf3af7ffbc6c57c7ebf0c0b2de"
+          "headline": "PLTR Stock: What Does Its Valuation Imply?",
+          "url": "https://finnhub.io/api/news?id=9d094434df572c4962060629ba4ddd552bf0f496e1d2aa388687d89961009c5c"
         }
       ]
     },
     {
       "sym": "AMZN",
-      "price": 237.76,
-      "change_pct": -0.1008,
+      "price": 241.51,
+      "change_pct": 1.4748,
       "news": [
         {
-          "headline": "Tether Leads $1.4 Billion Funding Round for NEURA Robotics",
-          "url": "https://finnhub.io/api/news?id=639ced430915d66a410c7a3409b2e1f6898264ef188c9c45153cd7db4b08623b"
+          "headline": "Sector Update: Tech Stocks Gain Late Afternoon",
+          "url": "https://finnhub.io/api/news?id=58af6d7dadd9d8716f895a019cd5886ce7d3d75864614a68afa0a2fb13909d3f"
         },
         {
-          "headline": "CAT Stock Hikes Dividend 8%, Leads Dow Jones Rebound",
-          "url": "https://finnhub.io/api/news?id=2d4b9248f70b391499db70c907385cdfd11b7f9e61c315fc8ee0f19a49aa949f"
+          "headline": "Bezos-Led Prometheus Raises $12 Billion At $41 Billion Valuation",
+          "url": "https://finnhub.io/api/news?id=b39f00a8557b97354b40706a5eaca0c001efbe181c4fd96a024b11ba8d0d9fb6"
         },
         {
-          "headline": "The GLP-1 stock nobody is pricing in isn’t a drugmaker",
-          "url": "https://finnhub.io/api/news?id=e9adb5a49e005ea86872464d920d6b264e5bfbcd2874bcd2467c5f9a6416254a"
+          "headline": "PLTR Stock: What Does Its Valuation Imply?",
+          "url": "https://finnhub.io/api/news?id=9d094434df572c4962060629ba4ddd552bf0f496e1d2aa388687d89961009c5c"
         },
         {
-          "headline": "South Korea hits Coupang with $400M+ fine for data breach that affected millions",
-          "url": "https://finnhub.io/api/news?id=4214c2e890700d92d5f261265b401e35f1734c98083db7d22cd1b1a07c221eeb"
+          "headline": "Investors Awoke to 'A Dip Buyer's Dream' Today. But Next Week's Fed Meeting Looms Large",
+          "url": "https://finnhub.io/api/news?id=3144f135da41a344b685d62af2ed72b44e251142b626cbea506b721affdeed89"
         },
         {
-          "headline": "What Is Google Hiding Behind Its AI Silence?",
-          "url": "https://finnhub.io/api/news?id=a23c51100d1b61d140cca69d6b7cd19558a2a4ed38edb268d39435d0e8cb4b44"
+          "headline": "Qualcomm’s AI Ecosystem Extends To Humanoid Robots And Autonomous Vehicles",
+          "url": "https://finnhub.io/api/news?id=a4363213c593c713af4a2a4117053f9f8d1444149a6c68ebdfe87a31de0f1963"
         }
       ]
     },
     {
       "sym": "NVDA",
-      "price": 202.05,
-      "change_pct": 0.8133,
+      "price": 204.87,
+      "change_pct": 2.2203,
       "news": [
         {
-          "headline": "2 AI Stocks You Never Saw Coming -- and They Come With Dividends",
-          "url": "https://finnhub.io/api/news?id=17c701f3a3efa4cef5b4c424777ee01775382f5077b206b6062b886f6f33fb5e"
+          "headline": "Down 33% From Its 52-Week High, Is It Time to Buy the Dip on AST SpaceMobile?",
+          "url": "https://finnhub.io/api/news?id=b11916666fab9435551c775b27727bab2963939b7ca79966e266a609df1cf5d6"
         },
         {
-          "headline": "This 2x Super Micro ETF Just Soared 175% in One Month. The YTD Number Is Wilder.",
-          "url": "https://finnhub.io/api/news?id=206ea6d41c7d644e635fa8317278b0f4785ef9f083cec7eb91bb950360590a86"
+          "headline": "Got $1,500? This Invisible Megatrend Makes 1 Serial Compounder a Clear Buy Right Now",
+          "url": "https://finnhub.io/api/news?id=04fd7c09b94bdeea68c60d9728675e3ee9689ff88167e98a2ec5acdd273bb037"
         },
         {
-          "headline": "Producer Price Inflation Hits 6.5%, But the Fed May Still Pause Rate Hikes — Here’s Why",
-          "url": "https://finnhub.io/api/news?id=a10a5429bfa1eb702b3e9d9f4220ba8f01c2c594587c5df24af03e9d11e45941"
+          "headline": "Debt Collectors Shadow Spain’s National Team at the World Cup",
+          "url": "https://finnhub.io/api/news?id=3e947369cdd19019c216cba42cb941a496e664bd4520c76807cc7a83f1d31a19"
         },
         {
-          "headline": "Better Artificial Intelligence (AI) Stock: Marvell Technology vs. Broadcom",
-          "url": "https://finnhub.io/api/news?id=e772cc60b508479ed4fdc6d59ffdf8a6885525fdc805f58b65071743bc496ced"
+          "headline": "Here's What History Says Could Come Next for Bitcoin in July",
+          "url": "https://finnhub.io/api/news?id=accf088911cb06f25c42462aff548dc5c96a93a34527d8abf7c1465c7c40dcf2"
         },
         {
-          "headline": "Tether Leads $1.4 Billion Funding Round for NEURA Robotics",
-          "url": "https://finnhub.io/api/news?id=639ced430915d66a410c7a3409b2e1f6898264ef188c9c45153cd7db4b08623b"
+          "headline": "Ripple's XRP Is About to Get a New Upgrade. Here's What That Means for the Price of XRP",
+          "url": "https://finnhub.io/api/news?id=a78807a2c651b17380ac59a410a09fc74236400b19a36944a535a3b3e70634c4"
         }
       ]
     },
     {
       "sym": "AVGO",
-      "price": 375.92,
-      "change_pct": 1.0266,
+      "price": 385.57,
+      "change_pct": 3.62,
       "news": [
         {
-          "headline": "Better Artificial Intelligence (AI) Stock: Marvell Technology vs. Broadcom",
-          "url": "https://finnhub.io/api/news?id=e772cc60b508479ed4fdc6d59ffdf8a6885525fdc805f58b65071743bc496ced"
+          "headline": "Got $1,500? 3 No-Brainer Artificial Intelligence (AI) Semiconductor Stocks to Buy Before They Soar Once Again",
+          "url": "https://finnhub.io/api/news?id=53a9b49d6560fb859e7179287b29ea966c141946ce05f0b7365bd9db30f479b2"
         },
         {
-          "headline": "Panic Selling Nvidia? Here’s Why the AI Blueprint Says That’s Your Biggest Mistake",
-          "url": "https://finnhub.io/api/news?id=e4802dcffe37356771ad1198647291ccdc7dfd16994fdd5d2eb2304ee7fd4420"
+          "headline": "Broadcom’s Selloff Shows the New Rule of AI Stocks: Great Isn’t Good",
+          "url": "https://finnhub.io/api/news?id=3ebbcb322c184a7583136442bf4bdd8c1ea17bb8b89959d561711239a3a96f70"
         },
         {
-          "headline": "Retail Traders Dump Big Tech to Raise ‘Dry Powder’ to Buy SpaceX",
-          "url": "https://finnhub.io/api/news?id=6423be3359c11266c2dd7883157057ec291a23d1fcb152274078f7734e8189dd"
+          "headline": "Intel Stock And The Hyperscaler's Tell",
+          "url": "https://finnhub.io/api/news?id=186ba1cd3ab1fd07bcbd5ee9afbb4f76b4611c500debd899176c9167fdabe74e"
         },
         {
-          "headline": "Broadcom Inc. Commences Offers to Purchase for Cash Certain of its Outstanding Debt Securities",
-          "url": "https://finnhub.io/api/news?id=c0124e8706fa5ecfb324fd9f61eef9e1f0af56455e089fa83e09d9e3ed2aa424"
+          "headline": "Broadcom Inc. (AVGO) Is A Top AI Stock In Ken Griffin’s Portfolio",
+          "url": "https://finnhub.io/api/news?id=5be762eb04ce18627a1bf17b26fbe7f6364da92dd8dc8413c7a8001885e4057b"
         },
         {
-          "headline": "Lam Research Up 87% YTD: Is the Chipmaking Tool Provider Still a Buy?",
-          "url": "https://finnhub.io/api/news?id=58b5c5b3a83e1ffe85f00af2514da8893d1462852b2f9b14a8130ea38c9cfc40"
+          "headline": "Credo's Diversification Push: Can It Cut Customer Concentration Risk?",
+          "url": "https://finnhub.io/api/news?id=53d30b891df1e47c4c416568448829057da89c6b4a33deed660cea93386e165c"
         }
       ]
     },
     {
       "sym": "MU",
-      "price": 915.55,
-      "change_pct": 2.6539,
+      "price": 995.87,
+      "change_pct": 11.6596,
       "news": [
         {
-          "headline": "The ‘Buy Everything AI’ Strategy: Is AIQ Your Ticket to the $2.5 Trillion Supercycle?",
-          "url": "https://finnhub.io/api/news?id=a89f20e681ed18d1f0c8b5c132cc8c706126c52c11bfb0242ff12b84ee42ad1f"
+          "headline": "SanDisk Jumps 14%, Western Digital Climbs 6% as Memory Stocks Rebound on SK Hynix’s Capacity Plan",
+          "url": "https://finnhub.io/api/news?id=520b24ea1bdc46d15f9e872ed562bb3d64273bdafba77ba531e1bb713bb7d9b2"
         },
         {
-          "headline": "Micron (MU) Is A Hard Stock To Value, But Analysts Keep Raising The Price Targets On The MU Stock",
-          "url": "https://finnhub.io/api/news?id=bc99b0521c972e79030e14d4bd890cdd376b9e63d0911207bfbdc8af3473be19"
+          "headline": "What's going on in today's session: S&P500 movers",
+          "url": "https://finnhub.io/api/news?id=40952b4be6adbb2d598ff9af62eae4b4395ec396bfbb92c53d8da1bb2f4353c2"
         },
         {
-          "headline": "Retail Traders Dump Big Tech to Raise ‘Dry Powder’ to Buy SpaceX",
-          "url": "https://finnhub.io/api/news?id=6423be3359c11266c2dd7883157057ec291a23d1fcb152274078f7734e8189dd"
+          "headline": "Is Photronics, Inc. (PLAB) A Good Stock To Buy Now?",
+          "url": "https://finnhub.io/api/news?id=6fc7d35afa48342dab433e8c986e403dbeb99432f831221efe1afbe402765dad"
         },
         {
-          "headline": "Wall Street Just Put a Monster Target on Micron. Is the Stock Still Too Cheap?",
-          "url": "https://finnhub.io/api/news?id=c4359fed2683e189c6b9b1318fd971b631b1d988b7a5e35ab99e680b8fb9f605"
+          "headline": "Thursday's session: most active stock in the S&P500 index",
+          "url": "https://finnhub.io/api/news?id=d99dc5527dca6141cf46f97f4d0845958c0c9d60a8d680fbe00a26d60bbced37"
         },
         {
-          "headline": "Thursday's pre-market session: top gainers and losers in the S&P500 index",
-          "url": "https://finnhub.io/api/news?id=5d6d47e691c346d8eed58c9e041e659ff495f437c8b0106e20878d8d648ff396"
+          "headline": "Micron Is Already Up 223% This Year. Wolfe Research Sees More Upside. Brilliant Setup, or Recipe for Disaster",
+          "url": "https://finnhub.io/api/news?id=d35626fee48ae7c6582f0b784530a83a65ed7508a646a7bfcc42516286fde43b"
         }
       ]
     },
     {
       "sym": "SNDK",
-      "price": 1752.93,
-      "change_pct": 6.6759,
+      "price": 1881.51,
+      "change_pct": 14.5007,
       "news": [
         {
-          "headline": "Thursday's pre-market session: top gainers and losers in the S&P500 index",
-          "url": "https://finnhub.io/api/news?id=5d6d47e691c346d8eed58c9e041e659ff495f437c8b0106e20878d8d648ff396"
+          "headline": "SanDisk Jumps 14%, Western Digital Climbs 6% as Memory Stocks Rebound on SK Hynix’s Capacity Plan",
+          "url": "https://finnhub.io/api/news?id=520b24ea1bdc46d15f9e872ed562bb3d64273bdafba77ba531e1bb713bb7d9b2"
         },
         {
-          "headline": "Why the SpaceX, OpenAI, and Anthropic IPOs won't derail the bull market",
-          "url": "https://finnhub.io/api/news?id=9f6bf4b1fe215c0cd8805e9ccc3d58d881e57e8e42728f0999411a08ad58ba6c"
+          "headline": "What's going on in today's session: S&P500 movers",
+          "url": "https://finnhub.io/api/news?id=40952b4be6adbb2d598ff9af62eae4b4395ec396bfbb92c53d8da1bb2f4353c2"
         },
         {
-          "headline": "Intel, Oracle, Super Micro, and More Stocks That Explain Today’s Market",
-          "url": "https://finnhub.io/api/news?id=409d19e2b4c8f0698a0019233cef5960bc56f25f8181a366309676a9be672cb4"
+          "headline": "Stock Market Today: Nasdaq, Dow Surge After Trump Nixes Attack Plans; Space Stocks Rally (Live Coverage)",
+          "url": "https://finnhub.io/api/news?id=3fdc0d339486d283a28af95e4d06d19cc1a03c48d1bcadcdecf20fb3c89f93ee"
         },
         {
-          "headline": "MU, SNDK, WDC, STX Rebound After Iran Jitters: SK Hynix To Triple Wafer Capacity By 2034",
-          "url": "https://finnhub.io/api/news?id=348b218a101a005d625c0000fda77220a6aa9c24163489461318bceff160c9dc"
+          "headline": "Stock Market Today: Nasdaq-100, Small Caps Lead Choppy Rise; Adobe Hits 7-Year Low (Live Coverage)",
+          "url": "https://finnhub.io/api/news?id=b64605ff983d7edfdd46be17e52c45294c9ae1308a239ff1b0a9cdc1e0d4cbaa"
         },
         {
-          "headline": "BofA Raises SanDisk (SNDK) Price Target to $2,100, Keeps Buy Rating",
-          "url": "https://finnhub.io/api/news?id=6ae0593fadf46eb77c5522a5e49c92d24e842cac74e47caa790c3bee54cef208"
+          "headline": "How Oracle, KLA, Intel, EchoStar, and More Stocks Explain Today’s Market",
+          "url": "https://finnhub.io/api/news?id=e067cafc725de764aa90d70f87efc38d3460fd654920f1089b6907829db26b2e"
         }
       ]
     },
     {
       "sym": "TSLA",
-      "price": 387.12,
-      "change_pct": 1.4492,
+      "price": 399.15,
+      "change_pct": 4.6018,
       "news": [
         {
-          "headline": "SpaceX's $1.75T IPO Valuation Draws Chanos Warning",
-          "url": "https://finnhub.io/api/news?id=5d648a7c019395212aa1a912c12a9b256a8f328f763c215f103bff53053dfb8a"
+          "headline": "Tesla adds to winning streak in critical area",
+          "url": "https://finnhub.io/api/news?id=00cd1dde2d97a6aea5130b74a4e8b27d3dca2905b35a4ce103569ca4c17ff33e"
         },
         {
-          "headline": "Super Micro initiated at Neutral as AI boom offset by margin, legal risk",
-          "url": "https://finnhub.io/api/news?id=d418498926240e39da6c3a92f7c4297c1473191966cb9aa3dea4e138b65139a6"
+          "headline": "SpaceX's $1.8 Trillion IPO Could Reset Private Markets",
+          "url": "https://finnhub.io/api/news?id=9cb9826fbf3db405069b349ab57dfb36a3c45906ee0d96222307fa607a24fc8f"
         },
         {
-          "headline": "ArcBest Adds Tesla Semis to ABF Freight Fleet",
-          "url": "https://finnhub.io/api/news?id=7ee9f277cc1a35cabf62246fc4d2d94ef9edbc7dd017ac6fe6fcb4a130c3db4c"
+          "headline": "The fastest EV charger in the world isn’t coming to America",
+          "url": "https://finnhub.io/api/news?id=8a189375744bb2603f3256358832c74ca37be3f8017d5ca1e4383bb7ca4af5af"
         },
         {
-          "headline": "Update: US Equity Futures Rise Pre-Bell After US Says Strikes Completed Against Iran",
-          "url": "https://finnhub.io/api/news?id=9d6015b74416e892ef96def95806eb95bc198f3ba6b87c52c1c4f3b2a591a8df"
+          "headline": "Investors Awoke to 'A Dip Buyer's Dream' Today. But Next Week's Fed Meeting Looms Large",
+          "url": "https://finnhub.io/api/news?id=3144f135da41a344b685d62af2ed72b44e251142b626cbea506b721affdeed89"
         },
         {
-          "headline": "Prediction: Elon Musk Will Target 2 Trillion-Dollar Acquisitions After the SpaceX IPO",
-          "url": "https://finnhub.io/api/news?id=5f7d9110467c3c58240c9bab35b19a84df69be7b893cec6b6eb5f010395718ab"
+          "headline": "Tesla, Inc. (TSLA) Is A Top Stock In Ken Griffin’s Portfolio",
+          "url": "https://finnhub.io/api/news?id=5df2772bb9623a5b66c27e686479ea6f02751b372e0453c0a47ceb5356985ca3"
         }
       ]
     },
     {
       "sym": "RKLB",
-      "price": 108.54,
-      "change_pct": 3.3222,
+      "price": 114.78,
+      "change_pct": 9.2623,
       "news": [
         {
-          "headline": "Rocket Lab Corporation (RKLB) Presents at 16th Annual Wells Fargo Industrials & Materials Conference Transcript",
-          "url": "https://finnhub.io/api/news?id=046077e752b98b62c1f32b936c77a60f7e608413810ca7546a663f8ea59bbf25"
+          "headline": "Houston, We Have A Rally: Space Stocks Pop Ahead Of SpaceX Debut",
+          "url": "https://finnhub.io/api/news?id=da8a6737914ac289d45bbcd70dc2b2fa440b1499ec875070c40e4cdd5ba55a2d"
         },
         {
-          "headline": "8 Industrials Stocks Whale Activity In Today's Session",
-          "url": "https://finnhub.io/api/news?id=dbbf5854d38ba743c57f0964dff6c52da3d05872676823533fa914d931e6e92e"
+          "headline": "10 Industrials Stocks With Whale Alerts In Today's Session",
+          "url": "https://finnhub.io/api/news?id=e162bf9ee55ea1bccd5bebd442e439fac7aa906ed8b3f40d5241882a85a92109"
         },
         {
-          "headline": "Rocket Lab Stock Edges Lower Ahead Of SpaceX IPO: What's Going On?",
-          "url": "https://finnhub.io/api/news?id=f7644ce80985ae2fafa1f18f987ccf6c28a0fb23d8a023864feb6af0a75ad217"
+          "headline": "SpaceX IPO Is More Than A Record Offering—It's A Structural Signal",
+          "url": "https://finnhub.io/api/news?id=73745d814bcfa9925a00689da28dfd754f31631bd6c095f7f2d3b137e539c0b1"
         },
         {
-          "headline": "Rocket Lab Stock Climbs As SpaceX IPO Countdown Fuels Space Sector Rally",
-          "url": "https://finnhub.io/api/news?id=9b6e070d4478e85734da1a16acf332f68ac1d5ecc05ca813d246c04346be1966"
+          "headline": "KGI Securities Initiates Coverage On Rocket Lab with Neutral Rating, Announces Price Target of $105",
+          "url": "https://finnhub.io/api/news?id=fbbb558590745e0be34fc84594d2ca31130ff6bbf6438c5cb7035d86c1a8cf20"
+        },
+        {
+          "headline": "What's Going On With Rocket Lab Stock Thursday?",
+          "url": "https://finnhub.io/api/news?id=f474492820e10ec5ad947c9ab9bb633ec176e7956d921c29742cff95751a23db"
         }
       ]
     },
     {
       "sym": "INTC",
-      "price": 116.77,
-      "change_pct": 9.0901,
+      "price": 116.96,
+      "change_pct": 9.2676,
       "news": [
         {
-          "headline": "Intel stock pops on upgrade from BofA on CPU opportunity",
-          "url": "https://finnhub.io/api/news?id=f18529943fbbf7e55e41646c2cd87fae9cf7e359e40b420de8a949377b4360da"
+          "headline": "Here's What History Says Could Come Next for Bitcoin in July",
+          "url": "https://finnhub.io/api/news?id=accf088911cb06f25c42462aff548dc5c96a93a34527d8abf7c1465c7c40dcf2"
         },
         {
-          "headline": "Better Artificial Intelligence (AI) Stock: Marvell Technology vs. Broadcom",
-          "url": "https://finnhub.io/api/news?id=e772cc60b508479ed4fdc6d59ffdf8a6885525fdc805f58b65071743bc496ced"
+          "headline": "What's going on in today's session: S&P500 movers",
+          "url": "https://finnhub.io/api/news?id=40952b4be6adbb2d598ff9af62eae4b4395ec396bfbb92c53d8da1bb2f4353c2"
         },
         {
-          "headline": "Cadence (CDNS) Expands Deal With Intel Foundry To Benefit From Agentic AI Boom",
-          "url": "https://finnhub.io/api/news?id=560ea6a32539dc0a56bff2e7ddc4023eeec2fbb051c7ae37544c25241627900b"
+          "headline": "Got $1,500? 3 No-Brainer Artificial Intelligence (AI) Semiconductor Stocks to Buy Before They Soar Once Again",
+          "url": "https://finnhub.io/api/news?id=53a9b49d6560fb859e7179287b29ea966c141946ce05f0b7365bd9db30f479b2"
         },
         {
-          "headline": "Wall Street Set for Rebound as Investors Hunt for Bargains After Sell-Off: Dow Jones, S&P, Nasdaq, Futures",
-          "url": "https://finnhub.io/api/news?id=4b268cb65f60892a733aebeba687477f733a400352a2bc124dad66b47d1b84a1"
+          "headline": "The Popular Retirement Rule Millions Rely On Could Leave Some Seniors Short on Cash",
+          "url": "https://finnhub.io/api/news?id=7433fc44496d1af467ce13df2a460e16484d73ef8ff3a0843c53297b3878b7bc"
         },
         {
-          "headline": "Prediction: Elon Musk Will Target 2 Trillion-Dollar Acquisitions After the SpaceX IPO",
-          "url": "https://finnhub.io/api/news?id=5f7d9110467c3c58240c9bab35b19a84df69be7b893cec6b6eb5f010395718ab"
+          "headline": "The SpaceX IPO Is Tomorrow -- Here's Exactly What Investors Need to Know Before It Hits the Market",
+          "url": "https://finnhub.io/api/news?id=46a71dd764e1b4f6ba74ab140da888b9bfde2c8df6c946e63431374d3e8e14b9"
         }
       ]
     },
     {
       "sym": "GEV",
-      "price": 901.27,
-      "change_pct": 3.9419,
+      "price": 906.79,
+      "change_pct": 4.5785,
       "news": [
+        {
+          "headline": "Jefferies Maintains Buy on GE Vernova, Lowers Price Target to $1210",
+          "url": "https://finnhub.io/api/news?id=57c38d635b291a48fdaebeb8f160bcafd9889efad4419292e4e821671554c726"
+        },
         {
           "headline": "Dow Jones Futures Signal Market Bounce, But Then What? Oracle Dives, SpaceX IPO On Launch Pad",
           "url": "https://finnhub.io/api/news?id=5e6b0813e917077143bb5c3f6b7850aaf38d6b60f8fc22dab1d4bfcfda830001"
@@ -310,21 +318,25 @@
         {
           "headline": "Dow Jones Futures Rise Despite Iran Attacks, Oracle's Dive; SpaceX IPO On Launch Pad",
           "url": "https://finnhub.io/api/news?id=ddf71d9af05d0a86caec5fc1a57101325fb822bce7982fdb08c1581786c9794a"
-        },
-        {
-          "headline": "Old Dominion Freight Line, GE Vernova, and Caterpillar Stocks Trade Down, What You Need To Know",
-          "url": "https://finnhub.io/api/news?id=0afbb6848aedef99edfa48d7620abc735a71eeee53454014582ecb8a86111080"
         }
       ]
     },
     {
       "sym": "BE",
-      "price": 243.39,
-      "change_pct": 3.9107,
+      "price": 248.88,
+      "change_pct": 6.2545,
       "news": [
+        {
+          "headline": "10 Industrials Stocks With Whale Alerts In Today's Session",
+          "url": "https://finnhub.io/api/news?id=e162bf9ee55ea1bccd5bebd442e439fac7aa906ed8b3f40d5241882a85a92109"
+        },
         {
           "headline": "Bloom Energy: AI Euphoria Meets Reality, Downgrading To Hold",
           "url": "https://finnhub.io/api/news?id=b49297827c0e1d287b0d2b93bed89ab7138005a16dab86c8a4104b3bbfeb28ad"
+        },
+        {
+          "headline": "Forget Micron: These Two Russell 2000 Stocks Are Quietly Delivering Triple-Digit Gains",
+          "url": "https://finnhub.io/api/news?id=acca13fd909cd29c9d90376dfb2b374d41d74a1be88518f5021a90f84731ab2f"
         },
         {
           "headline": "8 Industrials Stocks Whale Activity In Today's Session",
@@ -333,14 +345,6 @@
         {
           "headline": "Bloom Energy Shares Edge Lower Wednesday: What's Driving The Move?",
           "url": "https://finnhub.io/api/news?id=f3f969545a573513e233f99e9e19b1fbe3a7221c7d45230169210585bbf8751f"
-        },
-        {
-          "headline": "Nebius Falls: Hyperscalers Are Hyperscaling",
-          "url": "https://finnhub.io/api/news?id=32a5ce471ec666a43d68c4811fedc0aeee0a1925d96835343e87dc0ee4395594"
-        },
-        {
-          "headline": "Micron's 750% Surge Just Got Upstaged By These Two Russell 2000 Stocks",
-          "url": "https://finnhub.io/api/news?id=0fa037ab7fea6680dd92e32cfe16299c45b1dbbe0e8f1d6ed272da3aa035e887"
         }
       ]
     }
