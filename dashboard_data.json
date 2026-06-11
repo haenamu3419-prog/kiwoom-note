@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11 22:38 KST",
+  "updated": "2026-06-11 22:44 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -53,8 +53,8 @@
   "us": [
     {
       "sym": "GOOGL",
-      "price": 351.41,
-      "change_pct": -1.3946,
+      "price": 348.26,
+      "change_pct": -2.2785,
       "news": [
         {
           "headline": "Did Google Just Give Investors 30 Billion Reasons to Buy the SpaceX IPO?",
@@ -80,8 +80,8 @@
     },
     {
       "sym": "AMZN",
-      "price": 237.98,
-      "change_pct": -0.0084,
+      "price": 236.34,
+      "change_pct": -0.6975,
       "news": [
         {
           "headline": "IBM Thinks Your Data Is Too Stubborn to Move (and AI Agrees)",
@@ -107,8 +107,8 @@
     },
     {
       "sym": "NVDA",
-      "price": 201.51,
-      "change_pct": 0.5439,
+      "price": 201.96,
+      "change_pct": 0.7684,
       "news": [
         {
           "headline": "Did Google Just Give Investors 30 Billion Reasons to Buy the SpaceX IPO?",
@@ -134,8 +134,8 @@
     },
     {
       "sym": "AVGO",
-      "price": 375.59,
-      "change_pct": 0.9379,
+      "price": 377.48,
+      "change_pct": 1.4458,
       "news": [
         {
           "headline": "Broadcom's Post-Earnings Dip Is a Compelling Buying Opportunity",
@@ -161,8 +161,8 @@
     },
     {
       "sym": "MU",
-      "price": 907.02,
-      "change_pct": 1.6975,
+      "price": 906.02,
+      "change_pct": 1.5854,
       "news": [
         {
           "headline": "Thursday's pre-market session: top gainers and losers in the S&P500 index",
@@ -188,8 +188,8 @@
     },
     {
       "sym": "SNDK",
-      "price": 1718.67,
-      "change_pct": 4.591,
+      "price": 1695.02,
+      "change_pct": 3.1517,
       "news": [
         {
           "headline": "Thursday's pre-market session: top gainers and losers in the S&P500 index",
@@ -215,8 +215,8 @@
     },
     {
       "sym": "TSLA",
-      "price": 381.2,
-      "change_pct": -0.1022,
+      "price": 382.9,
+      "change_pct": 0.3433,
       "news": [
         {
           "headline": "Latest News In Energy Transition - Trail Road BESS Project Sparks Ontario Clean Energy Growth",
@@ -242,8 +242,8 @@
     },
     {
       "sym": "RKLB",
-      "price": 108.78,
-      "change_pct": 3.5507,
+      "price": 108.02,
+      "change_pct": 2.8272,
       "news": [
         {
           "headline": "Rocket Lab Corporation (RKLB) Presents at 16th Annual Wells Fargo Industrials & Materials Conference Transcript",
@@ -265,8 +265,8 @@
     },
     {
       "sym": "INTC",
-      "price": 116.46,
-      "change_pct": 8.8004,
+      "price": 117.08,
+      "change_pct": 9.3797,
       "news": [
         {
           "headline": "Thursday's pre-market session: top gainers and losers in the S&P500 index",
@@ -292,8 +292,8 @@
     },
     {
       "sym": "GEV",
-      "price": 896.33,
-      "change_pct": 3.3722,
+      "price": 899.9,
+      "change_pct": 3.7839,
       "news": [
         {
           "headline": "Dow Jones Futures Signal Market Bounce, But Then What? Oracle Dives, SpaceX IPO On Launch Pad",
@@ -319,8 +319,8 @@
     },
     {
       "sym": "BE",
-      "price": 239.66,
-      "change_pct": 2.3182,
+      "price": 240.71,
+      "change_pct": 2.7665,
       "news": [
         {
           "headline": "Bloom Energy: AI Euphoria Meets Reality, Downgrading To Hold",
