@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12 05:48 KST",
+  "updated": "2026-06-12 08:40 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -61,6 +61,10 @@
           "url": "https://finnhub.io/api/news?id=58af6d7dadd9d8716f895a019cd5886ce7d3d75864614a68afa0a2fb13909d3f"
         },
         {
+          "headline": "Adobe Q2: Too Cheap To Ignore",
+          "url": "https://finnhub.io/api/news?id=7e09b7f32fef1512557522bec84e60b73c603cd83b85645d703806ffe9a1ddd3"
+        },
+        {
           "headline": "Waymo Unveils $30 Membership as Weekly Robotaxi Rides Reach 500,000",
           "url": "https://finnhub.io/api/news?id=e6813e5b1415f329a7e0c7858b4d31029be82cc7037871ebeb9ef94024e63ff6"
         },
@@ -71,10 +75,6 @@
         {
           "headline": "How Apple rebuilt Siri with Google's AI",
           "url": "https://finnhub.io/api/news?id=729d9a95f4b09fc4204e3126489ee84086cd888909a05c3e4ac2e7c5493d31b6"
-        },
-        {
-          "headline": "PLTR Stock: What Does Its Valuation Imply?",
-          "url": "https://finnhub.io/api/news?id=9d094434df572c4962060629ba4ddd552bf0f496e1d2aa388687d89961009c5c"
         }
       ]
     },
@@ -88,6 +88,10 @@
           "url": "https://finnhub.io/api/news?id=58af6d7dadd9d8716f895a019cd5886ce7d3d75864614a68afa0a2fb13909d3f"
         },
         {
+          "headline": "Small Caps Are Back!",
+          "url": "https://finnhub.io/api/news?id=35ead0038f3462a2fc5b08ebca2b91f034899ab02a61a057dfa73234ff7e393e"
+        },
+        {
           "headline": "Bezos-Led Prometheus Raises $12 Billion At $41 Billion Valuation",
           "url": "https://finnhub.io/api/news?id=b39f00a8557b97354b40706a5eaca0c001efbe181c4fd96a024b11ba8d0d9fb6"
         },
@@ -98,10 +102,6 @@
         {
           "headline": "Investors Awoke to 'A Dip Buyer's Dream' Today. But Next Week's Fed Meeting Looms Large",
           "url": "https://finnhub.io/api/news?id=3144f135da41a344b685d62af2ed72b44e251142b626cbea506b721affdeed89"
-        },
-        {
-          "headline": "Qualcomm’s AI Ecosystem Extends To Humanoid Robots And Autonomous Vehicles",
-          "url": "https://finnhub.io/api/news?id=a4363213c593c713af4a2a4117053f9f8d1444149a6c68ebdfe87a31de0f1963"
         }
       ]
     },
@@ -169,6 +169,10 @@
           "url": "https://finnhub.io/api/news?id=520b24ea1bdc46d15f9e872ed562bb3d64273bdafba77ba531e1bb713bb7d9b2"
         },
         {
+          "headline": "Small Caps Are Back!",
+          "url": "https://finnhub.io/api/news?id=35ead0038f3462a2fc5b08ebca2b91f034899ab02a61a057dfa73234ff7e393e"
+        },
+        {
           "headline": "What's going on in today's session: S&P500 movers",
           "url": "https://finnhub.io/api/news?id=40952b4be6adbb2d598ff9af62eae4b4395ec396bfbb92c53d8da1bb2f4353c2"
         },
@@ -177,12 +181,8 @@
           "url": "https://finnhub.io/api/news?id=6fc7d35afa48342dab433e8c986e403dbeb99432f831221efe1afbe402765dad"
         },
         {
-          "headline": "Thursday's session: most active stock in the S&P500 index",
-          "url": "https://finnhub.io/api/news?id=d99dc5527dca6141cf46f97f4d0845958c0c9d60a8d680fbe00a26d60bbced37"
-        },
-        {
-          "headline": "Micron Is Already Up 223% This Year. Wolfe Research Sees More Upside. Brilliant Setup, or Recipe for Disaster",
-          "url": "https://finnhub.io/api/news?id=d35626fee48ae7c6582f0b784530a83a65ed7508a646a7bfcc42516286fde43b"
+          "headline": "Trump Phone Promised 'Made In America' — Teardown Shows It Was Designed In China",
+          "url": "https://finnhub.io/api/news?id=6143a8b1e4f7e6e4c125cd2690d44f2c677d23d161febefd9334f1f6607a5d1f"
         }
       ]
     },
@@ -196,6 +196,10 @@
           "url": "https://finnhub.io/api/news?id=520b24ea1bdc46d15f9e872ed562bb3d64273bdafba77ba531e1bb713bb7d9b2"
         },
         {
+          "headline": "Small Caps Are Back!",
+          "url": "https://finnhub.io/api/news?id=35ead0038f3462a2fc5b08ebca2b91f034899ab02a61a057dfa73234ff7e393e"
+        },
+        {
           "headline": "What's going on in today's session: S&P500 movers",
           "url": "https://finnhub.io/api/news?id=40952b4be6adbb2d598ff9af62eae4b4395ec396bfbb92c53d8da1bb2f4353c2"
         },
@@ -206,10 +210,6 @@
         {
           "headline": "Stock Market Today: Nasdaq-100, Small Caps Lead Choppy Rise; Adobe Hits 7-Year Low (Live Coverage)",
           "url": "https://finnhub.io/api/news?id=b64605ff983d7edfdd46be17e52c45294c9ae1308a239ff1b0a9cdc1e0d4cbaa"
-        },
-        {
-          "headline": "How Oracle, KLA, Intel, EchoStar, and More Stocks Explain Today’s Market",
-          "url": "https://finnhub.io/api/news?id=e067cafc725de764aa90d70f87efc38d3460fd654920f1089b6907829db26b2e"
         }
       ]
     },
@@ -235,8 +235,8 @@
           "url": "https://finnhub.io/api/news?id=3144f135da41a344b685d62af2ed72b44e251142b626cbea506b721affdeed89"
         },
         {
-          "headline": "Tesla, Inc. (TSLA) Is A Top Stock In Ken Griffin’s Portfolio",
-          "url": "https://finnhub.io/api/news?id=5df2772bb9623a5b66c27e686479ea6f02751b372e0453c0a47ceb5356985ca3"
+          "headline": "SpaceX IPO Preview: Placing It In Context",
+          "url": "https://finnhub.io/api/news?id=3e602479ffe5388c2d30d2c5874746e97a77827b1d2a4b133292adf42e99ed28"
         }
       ]
     },
