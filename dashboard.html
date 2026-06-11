@@ -100,6 +100,11 @@
   .newslink:nth-child(9){background:var(--clay-lav);}
   .newslink:nth-child(10){background:var(--clay-peach);}
   .newslink:nth-child(11){background:var(--clay-butter);}
+  .newslink:nth-child(12){background:var(--clay-sky);}
+  .newslink:nth-child(13){background:var(--clay-mint);}
+  .newslink:nth-child(14){background:var(--clay-lav);}
+  .newslink:nth-child(15){background:var(--clay-peach);}
+  .newslink:nth-child(16){background:var(--clay-butter);}
   .newslink:hover{transform:translateY(-3px) rotate(-0.5deg);}
   .newslink .arrow{font-weight:900;}
   .ytlink{display:inline-flex; align-items:center; gap:6px; padding:12px 18px;
@@ -131,6 +136,22 @@
   .memo-item .del{flex-shrink:0; border:0; background:transparent; color:var(--clay-peach-d); font-size:18px; font-weight:900; cursor:pointer; line-height:1;}
   .memo-item .del:hover{color:var(--up);}
   .memo-empty{color:var(--hint); font-size:14px; font-weight:600; padding:6px 2px;}
+  .sortable .newslink, .sortable .ytlink{cursor:grab;}
+  .sortable .dragging{opacity:0.45; transform:scale(0.97);}
+  .sort-hint{font-size:12px; color:var(--hint); font-weight:600; margin:0 0 8px; padding-left:4px;}
+  .usbox{background:var(--card); border-radius:24px; padding:18px 20px;
+    box-shadow:7px 9px 18px rgba(170,140,110,0.24), -6px -6px 14px rgba(255,255,255,0.9), inset 3px 3px 6px rgba(255,255,255,0.8), inset -4px -5px 9px rgba(170,140,110,0.15);}
+  .us-input{display:flex; gap:10px; margin-bottom:14px;}
+  .us-input input{flex:1; padding:11px 14px; border:0; border-radius:14px; font-family:inherit; font-size:15px; color:#5a4636; background:#fff8ee;
+    box-shadow:inset 2px 2px 5px rgba(170,140,110,0.18), inset -2px -2px 5px rgba(255,255,255,0.8);}
+  .us-input input:focus{outline:2px solid var(--clay-lav);}
+  .us-input button{flex-shrink:0; padding:11px 18px; border:0; border-radius:14px; font-family:inherit; font-weight:700; font-size:15px; color:#5a4636; background:var(--clay-lav); cursor:pointer;
+    box-shadow:4px 5px 10px rgba(170,140,110,0.24), -3px -3px 8px rgba(255,255,255,0.85);}
+  .us-input button:hover{transform:translateY(-2px);}
+  .us-chip-wrap{display:inline-flex; align-items:center; gap:3px;}
+  .us-del{border:0; background:transparent; color:var(--clay-peach-d); font-size:16px; font-weight:900; cursor:pointer; line-height:1; padding:0 2px;}
+  .us-del:hover{color:var(--up);}
+  .us-hint{font-size:12px; color:var(--hint); font-weight:600; margin:12px 0 0;}
 </style>
 </head>
 <body>
@@ -162,7 +183,7 @@
       <span class="bn-txt"><b>실시간 뉴스</b><span class="bn-sub">saveticker · 장중 속보 모아보기</span></span>
       <span class="bn-arrow">→</span>
     </a>
-    <div class="linkrow">
+    <div class="linkrow sortable" data-skey="links">
       <a class="newslink" href="https://cafe.naver.com/f-e/cafes/30600956/menus/93?viewType=L" target="_blank" rel="noopener">📰 장전뉴스 <span class="arrow">→</span></a>
       <a class="newslink" href="https://www.38.co.kr/html/fund/index.htm?o=k" target="_blank" rel="noopener">📅 공모주 청약일정 <span class="arrow">→</span></a>
       <a class="newslink" href="https://cafe.naver.com/f-e/cafes/11974608/menus/195" target="_blank" rel="noopener">📈 주식 관련 뉴스 <span class="arrow">→</span></a>
@@ -174,12 +195,17 @@
       <a class="newslink" href="https://kind.krx.co.kr/main.do?method=loadInitPage&scrnmode=1" target="_blank" rel="noopener">🔔 KRX공시(KIND) <span class="arrow">→</span></a>
       <a class="newslink" href="https://finance.naver.com/" target="_blank" rel="noopener">💹 네이버 금융 <span class="arrow">→</span></a>
       <a class="newslink" href="https://comp.fnguide.com/" target="_blank" rel="noopener">🏢 기업정보(FnGuide) <span class="arrow">→</span></a>
+      <a class="newslink" href="http://www.ipostock.co.kr/main/main.asp" target="_blank" rel="noopener">🆕 IPO스탁 <span class="arrow">→</span></a>
+      <a class="newslink" href="https://www.k-otc.or.kr/public/main" target="_blank" rel="noopener">🔄 K-OTC 장외주식 <span class="arrow">→</span></a>
+      <a class="newslink" href="https://www.thebell.co.kr/front/index.asp" target="_blank" rel="noopener">🔔 더벨(thebell) <span class="arrow">→</span></a>
+      <a class="newslink" href="https://www.kofiabond.or.kr/" target="_blank" rel="noopener">💵 채권정보(KOFIA) <span class="arrow">→</span></a>
+      <a class="newslink" href="https://seibro.or.kr/websquare/control.jsp?w2xPath=/IPORTAL/user/index.xml" target="_blank" rel="noopener">📂 SEIBRO 증권포털 <span class="arrow">→</span></a>
     </div>
   </section>
 
   <section class="sec">
     <div class="sec-head"><span class="pill" style="background:var(--clay-peach)"></span><h2>즐겨보는 유튜브</h2><span class="tag">YOUTUBE</span></div>
-    <div class="linkrow">
+    <div class="linkrow sortable" data-skey="youtube">
       <a class="ytlink" href="https://www.youtube.com/@futuresnow/videos" target="_blank" rel="noopener">▶ 오선의 미국증시 라이브</a>
       <a class="ytlink" href="https://www.youtube.com/@3protv/videos" target="_blank" rel="noopener">▶ 삼프로TV</a>
       <a class="ytlink" href="https://www.youtube.com/@koreanstockrider/videos" target="_blank" rel="noopener">▶ 증시각도기TV</a>
@@ -194,7 +220,7 @@
 
   <section class="sec">
     <div class="sec-head"><span class="pill" style="background:var(--clay-mint)"></span><h2>나의 투자 계산기</h2><span class="tag">TOOLS</span></div>
-    <div class="linkrow">
+    <div class="linkrow sortable" data-skey="tools">
       <a class="newslink" href="https://claude.ai/public/artifacts/4f22fb74-b266-4049-8d2d-65d2affa178b" target="_blank" rel="noopener">😇 까리의 엔젤추매 계산식 <span class="arrow">→</span></a>
       <a class="newslink" href="https://claude.ai/public/artifacts/ac3d186b-58aa-435a-9c3a-d8e78af9fbf2" target="_blank" rel="noopener">🧮 까리의 3350 계산식 <span class="arrow">→</span></a>
       <a class="newslink" href="https://haenamu3419-prog.github.io/kiwoom-note/us_ticker_picker.html" target="_blank" rel="noopener">🇺🇸 미국종목 선택기 <span class="arrow">→</span></a>
@@ -208,9 +234,15 @@
   </section>
 
   <section class="sec">
-    <div class="sec-head"><span class="pill" style="background:var(--clay-lav)"></span><h2>미국주 보유종목 뉴스</h2><span class="tag">FINNHUB</span></div>
-    <div id="usholdings" class="holdings"></div>
-    <div class="panel" id="usnews"><div class="row"><span class="muted">불러오는 중…</span></div></div>
+    <div class="sec-head"><span class="pill" style="background:var(--clay-lav)"></span><h2>미국 보유종목</h2><span class="tag">NAVER 증권</span></div>
+    <div class="usbox">
+      <div class="us-input">
+        <input id="usText" type="text" placeholder="티커 또는 종목명 입력 (예: NVDA, 테슬라, AAPL)" autocomplete="off">
+        <button id="usAdd">+ 추가</button>
+      </div>
+      <div id="usholdings" class="holdings"></div>
+      <p class="us-hint">종목을 클릭하면 네이버 증권 해당 종목 페이지로 이동합니다. 티커를 입력하면 가장 정확해요.</p>
+    </div>
   </section>
 </div>
 
@@ -258,6 +290,54 @@ var US_NAMES={
   "AMD":"AMD","TSM":"TSMC","PLTR":"팔란티어","COIN":"코인베이스","SOFI":"소파이"
 };
 function usName(t){ return US_NAMES[t] || t; }
+// 한글/영문 이름 → 티커 역검색
+var US_ALIAS={"구글":"GOOGL","알파벳":"GOOGL","아마존":"AMZN","엔비디아":"NVDA","브로드컴":"AVGO",
+  "마이크론":"MU","샌디스크":"SNDK","테슬라":"TSLA","로켓랩":"RKLB","인텔":"INTC",
+  "지이":"GE","지이버노바":"GEV","ge버노바":"GEV","블룸에너지":"BE","블룸":"BE",
+  "애플":"AAPL","마이크로소프트":"MSFT","마소":"MSFT","메타":"META","페이스북":"META",
+  "팔란티어":"PLTR","코인베이스":"COIN","소파이":"SOFI","tsmc":"TSM"};
+function resolveTicker(input){
+  var s=input.trim();
+  if(!s) return "";
+  // 영문+숫자+점이면 티커로 간주
+  if(/^[A-Za-z.]{1,6}$/.test(s)) return s.toUpperCase();
+  var key=s.toLowerCase().replace(/\s/g,"");
+  if(US_ALIAS[key]) return US_ALIAS[key];
+  // 매핑에 없으면 입력 그대로 대문자 (사용자가 티커를 적었을 수 있음)
+  return s.toUpperCase();
+}
+
+// ---- 미국 보유종목 (localStorage) ----
+var US_KEY="dash_us_holdings_v1";
+var US_DEFAULT=["GOOGL","AMZN","NVDA","AVGO","MU","SNDK","TSLA","RKLB","INTC","GE","GEV","BE"];
+function loadUS(){ try{ var v=JSON.parse(localStorage.getItem(US_KEY)||"null"); return Array.isArray(v)?v:US_DEFAULT.slice(); }catch(e){ return US_DEFAULT.slice(); } }
+function saveUS(arr){ try{ localStorage.setItem(US_KEY, JSON.stringify(arr)); }catch(e){} }
+function naverUS(t){ return "https://m.stock.naver.com/worldstock/stock/"+t+"/total"; }
+function renderUS(){
+  var arr=loadUS();
+  var box=document.getElementById("usholdings");
+  if(!box) return;
+  if(!arr.length){ box.innerHTML="<span class='muted'>종목을 추가하세요.</span>"; return; }
+  box.innerHTML=arr.map(function(t){
+    return '<span class="us-chip-wrap"><a class="hchip hchip-link" href="'+naverUS(t)+'" target="_blank" rel="noopener">'+usName(t)+'</a><button class="us-del" data-t="'+t+'" title="삭제">×</button></span>';
+  }).join("");
+  Array.prototype.forEach.call(box.querySelectorAll(".us-del"), function(b){
+    b.onclick=function(){ var a=loadUS(); var i=a.indexOf(b.getAttribute("data-t")); if(i>=0){ a.splice(i,1); saveUS(a); renderUS(); } };
+  });
+}
+function addUS(){
+  var inp=document.getElementById("usText");
+  var t=resolveTicker(inp.value||"");
+  if(!t) return;
+  var a=loadUS();
+  if(a.indexOf(t)<0){ a.push(t); saveUS(a); }
+  inp.value=""; renderUS();
+}
+window.addEventListener("DOMContentLoaded", function(){
+  var b=document.getElementById("usAdd"); if(b){ b.onclick=addUS; }
+  var i=document.getElementById("usText"); if(i){ i.addEventListener("keydown", function(e){ if(e.key==="Enter") addUS(); }); }
+  renderUS();
+});
 function fmtMacro(unit,v){
   if(v==null) return "-";
   if(unit==="pct") return v.toFixed(2)+"%";
@@ -277,14 +357,6 @@ function macroCard(m,i){
   const suf=m.unit==="won"?"<span style='font-size:15px'>원</span>":"";
   return '<div class="clay"><div class="knob" style="background:'+KNOBS[i%KNOBS.length]+'"></div><div class="lbl">'+m.name+'</div><div class="val">'+fmtMacro(m.unit,m.cur)+suf+'</div>'+(chg?'<div class="chg '+cls+'">'+chg+'</div>':'')+'</div>';
 }
-function stockRow(s){
-  let px="";
-  if(s.price!=null){const dp=s.change_pct||0;const cls=dp>0?"up":(dp<0?"down":"flat");const arr=dp>0?"\u25B2":(dp<0?"\u25BC":"\u00B7");
-    px='<span class="px '+cls+'">$'+s.price.toFixed(2)+' '+arr+Math.abs(dp).toFixed(1)+'%</span>';}
-  let items="<li class='muted'>최근 뉴스 없음</li>";
-  if(s.news&&s.news.length){items=s.news.map(function(n){return n.url?'<li><a href="'+n.url+'" target="_blank" rel="noopener">'+n.headline+'</a></li>':'<li>'+n.headline+'</li>';}).join("");}
-  return '<div class="row"><div class="tk"><div class="sym">'+s.sym+'</div>'+px+'</div><ul>'+items+'</ul></div>';
-}
 function dartRow(s){
   const items=(s.items||[]).map(function(it){return '<li><a href="'+it.url+'" target="_blank" rel="noopener">'+it.report+'</a><span class="dt">'+(it.dt||"")+'</span></li>';}).join("");
   return '<div class="row"><div class="tk"><div class="sym" style="font-size:16px">'+s.name+'</div><div class="code">'+s.code+'</div></div><ul>'+items+'</ul></div>';
@@ -296,26 +368,113 @@ async function load(){
     const d=await r.json();
     document.getElementById("updated").textContent="\uD83D\uDD52 갱신 "+(d.updated||"-");
     document.getElementById("macro").innerHTML=(d.macro||[]).map(macroCard).join("")||"<span class='muted'>데이터 없음</span>";
-    // 보유종목 이름 나열
-    var usList=(d.us||[]).map(function(s){return s.sym;});
-    document.getElementById("usholdings").innerHTML=usList.map(function(t){return '<span class="hchip">'+usName(t)+'</span>';}).join("");
     // 한국 보유종목: 클릭 시 FnGuide 해당 종목으로. holdings 전체 우선, 없으면 공시기준.
     var krHold=(d.kr_holdings && d.kr_holdings.length)? d.kr_holdings : (d.dart||[]);
     function fnguide(code){ return "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A"+code+"&cID=&MenuYn=Y&ReportGB=D&NewMenuID=Y&stkGb=701"; }
     document.getElementById("krholdings").innerHTML=krHold.map(function(h){
       return '<a class="hchip hchip-link" href="'+fnguide(h.code)+'" target="_blank" rel="noopener">'+h.name+'</a>';
     }).join("");
-    document.getElementById("usnews").innerHTML=(d.us||[]).map(stockRow).join("")||"<div class='row'><span class='muted'>종목 없음</span></div>";
     const dart=d.dart||[];
     document.getElementById("krdart").innerHTML=dart.length?dart.map(dartRow).join(""):"<div class='row'><span class='muted'>오늘 신규 공시가 없어요.</span></div>";
   }catch(e){
     document.getElementById("updated").textContent="";
     document.getElementById("macro").innerHTML='<span class="err">'+e.message+'</span>';
-    document.getElementById("usnews").innerHTML="<div class='row'><span class='muted'>dashboard_data.json 이 같은 저장소에 있어야 해요. dashboard-data 워크플로우를 한 번 실행하면 생겨요.</span></div>";
-    document.getElementById("krdart").innerHTML="";
+    document.getElementById("krdart").innerHTML="<div class='row'><span class='muted'>dashboard_data.json 이 같은 저장소에 있어야 해요. dashboard-data 워크플로우를 한 번 실행하면 생겨요.</span></div>";
   }
 }
 load();
+</script>
+<script>
+// ---- 드래그로 순서 정렬 + localStorage 저장 ----
+(function(){
+  function keyOf(el){ return el.getAttribute("href") || el.textContent.trim(); }
+  function applySaved(box, skey){
+    var saved;
+    try{ saved=JSON.parse(localStorage.getItem("dash_order_"+skey)||"null"); }catch(e){ saved=null; }
+    if(!saved || !saved.length) return;
+    var items=Array.prototype.slice.call(box.children);
+    var map={}; items.forEach(function(el){ map[keyOf(el)]=el; });
+    // 저장된 순서대로 먼저 배치
+    saved.forEach(function(k){ if(map[k]){ box.appendChild(map[k]); delete map[k]; } });
+    // 저장에 없던 새 항목은 뒤에 그대로
+    items.forEach(function(el){ if(map[keyOf(el)]) box.appendChild(el); });
+  }
+  function save(box, skey){
+    var order=Array.prototype.slice.call(box.children).map(keyOf);
+    try{ localStorage.setItem("dash_order_"+skey, JSON.stringify(order)); }catch(e){}
+  }
+  function afterEl(box, y, x){
+    var els=Array.prototype.slice.call(box.querySelectorAll("a:not(.dragging)"));
+    var closest=null, closestDist=Number.NEGATIVE_INFINITY;
+    els.forEach(function(el){
+      var r=el.getBoundingClientRect();
+      // 가로 흐름 기준: 같은 줄에서 커서보다 오른쪽에 있는 가장 가까운 요소
+      var offset=y - r.top - r.height/2;
+      var dx=x - r.left - r.width/2;
+      var dist = (Math.abs(offset)<r.height/2) ? dx : (offset<0 ? -1e6 : 1e6);
+      if(dist<0 && dist>closestDist){ closestDist=dist; closest=el; }
+    });
+    return closest;
+  }
+  function makeSortable(box){
+    var skey=box.getAttribute("data-skey");
+    applySaved(box, skey);
+    Array.prototype.forEach.call(box.children, function(el){ el.setAttribute("draggable","true"); });
+    var dragging=null;
+    box.addEventListener("dragstart", function(e){
+      var a=e.target.closest("a"); if(!a) return;
+      dragging=a; a.classList.add("dragging");
+    });
+    box.addEventListener("dragend", function(){
+      if(dragging){ dragging.classList.remove("dragging"); dragging=null; save(box, skey); }
+    });
+    box.addEventListener("dragover", function(e){
+      e.preventDefault();
+      if(!dragging) return;
+      var after=afterEl(box, e.clientY, e.clientX);
+      if(after==null){ box.appendChild(dragging); }
+      else{ box.insertBefore(dragging, after); }
+    });
+
+    // ---- 터치(모바일) 지원: 길게 눌러서 끌기 ----
+    var touchItem=null, holdTimer=null, moved=false;
+    box.addEventListener("touchstart", function(e){
+      var a=e.target.closest("a"); if(!a) return;
+      moved=false;
+      holdTimer=setTimeout(function(){
+        touchItem=a; a.classList.add("dragging");
+        if(navigator.vibrate) navigator.vibrate(15);
+      }, 250); // 0.25초 길게 누르면 드래그 모드
+    }, {passive:true});
+    box.addEventListener("touchmove", function(e){
+      if(!touchItem){ if(holdTimer){ clearTimeout(holdTimer); holdTimer=null; } return; }
+      e.preventDefault(); moved=true;
+      var t=e.touches[0];
+      var after=afterEl(box, t.clientY, t.clientX);
+      if(after==null){ box.appendChild(touchItem); }
+      else{ box.insertBefore(touchItem, after); }
+    }, {passive:false});
+    function endTouch(){
+      if(holdTimer){ clearTimeout(holdTimer); holdTimer=null; }
+      if(touchItem){ touchItem.classList.remove("dragging"); touchItem=null; save(box, skey); }
+    }
+    box.addEventListener("touchend", endTouch);
+    box.addEventListener("touchcancel", endTouch);
+    // 드래그 모드에서 끝났을 때 클릭(링크 이동) 막기
+    box.addEventListener("click", function(e){
+      if(moved){ e.preventDefault(); moved=false; }
+    }, true);
+  }
+  window.addEventListener("DOMContentLoaded", function(){
+    var boxes=document.querySelectorAll(".sortable");
+    Array.prototype.forEach.call(boxes, function(b){
+      makeSortable(b);
+      var hint=document.createElement("div");
+      hint.className="sort-hint"; hint.textContent="↔ 드래그(모바일은 길게 눌러)해서 순서를 바꿀 수 있어요";
+      b.parentNode.insertBefore(hint, b);
+    });
+  });
+})();
 </script>
 </body>
 </html>
