@@ -109,6 +109,8 @@
   .holdings{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px;}
   .hchip{background:var(--card); color:#6e5a48; font-weight:700; font-size:14px; padding:7px 14px; border-radius:16px;
     box-shadow:4px 5px 10px rgba(170,140,110,0.20), -3px -3px 8px rgba(255,255,255,0.85), inset 2px 2px 3px rgba(255,255,255,0.7), inset -2px -3px 5px rgba(170,140,110,0.13);}
+  a.hchip-link{text-decoration:none; display:inline-block; transition:transform .15s ease, color .15s ease; cursor:pointer;}
+  a.hchip-link:hover{color:var(--clay-mint-d); transform:translateY(-2px);}
   .memobox{background:var(--card); border-radius:24px; padding:18px 20px;
     box-shadow:7px 9px 18px rgba(170,140,110,0.24), -6px -6px 14px rgba(255,255,255,0.9), inset 3px 3px 6px rgba(255,255,255,0.8), inset -4px -5px 9px rgba(170,140,110,0.15);}
   .memo-input{display:flex; gap:10px; align-items:flex-start;}
@@ -295,10 +297,12 @@ async function load(){
     // 보유종목 이름 나열
     var usList=(d.us||[]).map(function(s){return s.sym;});
     document.getElementById("usholdings").innerHTML=usList.map(function(t){return '<span class="hchip">'+usName(t)+'</span>';}).join("");
-    var krList=(d.dart||[]).map(function(s){return s.name;});
-    // 공시 없는 종목도 보유목록에 보이도록: holdings 전체가 있으면 그걸 쓰고, 없으면 공시기준
-    var krNames=(d.kr_holdings && d.kr_holdings.length)? d.kr_holdings.map(function(h){return h.name;}) : krList;
-    document.getElementById("krholdings").innerHTML=krNames.map(function(n){return '<span class="hchip">'+n+'</span>';}).join("");
+    // 한국 보유종목: 클릭 시 FnGuide 해당 종목으로. holdings 전체 우선, 없으면 공시기준.
+    var krHold=(d.kr_holdings && d.kr_holdings.length)? d.kr_holdings : (d.dart||[]);
+    function fnguide(code){ return "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A"+code+"&cID=&MenuYn=Y&ReportGB=D&NewMenuID=Y&stkGb=701"; }
+    document.getElementById("krholdings").innerHTML=krHold.map(function(h){
+      return '<a class="hchip hchip-link" href="'+fnguide(h.code)+'" target="_blank" rel="noopener">'+h.name+'</a>';
+    }).join("");
     document.getElementById("usnews").innerHTML=(d.us||[]).map(stockRow).join("")||"<div class='row'><span class='muted'>종목 없음</span></div>";
     const dart=d.dart||[];
     document.getElementById("krdart").innerHTML=dart.length?dart.map(dartRow).join(""):"<div class='row'><span class='muted'>오늘 신규 공시가 없어요.</span></div>";
