@@ -96,6 +96,9 @@
   .newslink:nth-child(5){background:var(--clay-peach);}
   .newslink:nth-child(6){background:var(--clay-butter);}
   .newslink:nth-child(7){background:var(--clay-sky);}
+  .newslink:nth-child(8){background:var(--clay-mint);}
+  .newslink:nth-child(9){background:var(--clay-lav);}
+  .newslink:nth-child(10){background:var(--clay-peach);}
   .newslink:hover{transform:translateY(-3px) rotate(-0.5deg);}
   .newslink .arrow{font-weight:900;}
   .ytlink{display:inline-flex; align-items:center; gap:6px; padding:12px 18px;
@@ -106,6 +109,25 @@
   .holdings{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px;}
   .hchip{background:var(--card); color:#6e5a48; font-weight:700; font-size:14px; padding:7px 14px; border-radius:16px;
     box-shadow:4px 5px 10px rgba(170,140,110,0.20), -3px -3px 8px rgba(255,255,255,0.85), inset 2px 2px 3px rgba(255,255,255,0.7), inset -2px -3px 5px rgba(170,140,110,0.13);}
+  .memobox{background:var(--card); border-radius:24px; padding:18px 20px;
+    box-shadow:7px 9px 18px rgba(170,140,110,0.24), -6px -6px 14px rgba(255,255,255,0.9), inset 3px 3px 6px rgba(255,255,255,0.8), inset -4px -5px 9px rgba(170,140,110,0.15);}
+  .memo-input{display:flex; gap:10px; align-items:flex-start;}
+  .memo-input textarea{flex:1; min-height:46px; max-height:200px; padding:12px 14px; border:0; border-radius:16px; resize:vertical;
+    font-family:inherit; font-size:15px; color:#5a4636; background:#fff8ee;
+    box-shadow:inset 2px 2px 5px rgba(170,140,110,0.18), inset -2px -2px 5px rgba(255,255,255,0.8);}
+  .memo-input textarea:focus{outline:2px solid var(--clay-butter);}
+  .memo-input button{flex-shrink:0; padding:12px 18px; border:0; border-radius:16px; font-family:inherit; font-weight:700; font-size:15px;
+    color:#6a5240; background:var(--clay-butter); cursor:pointer;
+    box-shadow:4px 5px 10px rgba(170,140,110,0.24), -3px -3px 8px rgba(255,255,255,0.85);}
+  .memo-input button:hover{transform:translateY(-2px);} .memo-input button:active{transform:translateY(0);}
+  #memoList{margin-top:14px; display:flex; flex-direction:column; gap:10px;}
+  .memo-item{display:flex; gap:12px; align-items:flex-start; background:#fff8ee; border-radius:16px; padding:12px 14px;
+    box-shadow:inset 2px 2px 5px rgba(170,140,110,0.12), inset -2px -2px 5px rgba(255,255,255,0.7);}
+  .memo-item .txt{flex:1; font-size:15px; color:#5a4636; white-space:pre-wrap; word-break:break-word;}
+  .memo-item .when{font-size:12px; color:var(--hint); font-weight:700; margin-bottom:3px;}
+  .memo-item .del{flex-shrink:0; border:0; background:transparent; color:var(--clay-peach-d); font-size:18px; font-weight:900; cursor:pointer; line-height:1;}
+  .memo-item .del:hover{color:var(--up);}
+  .memo-empty{color:var(--hint); font-size:14px; font-weight:600; padding:6px 2px;}
 </style>
 </head>
 <body>
@@ -117,6 +139,17 @@
       <div class="updated" id="updated">불러오는 중…</div>
     </div>
   </header>
+
+  <section class="sec">
+    <div class="sec-head"><span class="pill" style="background:var(--clay-butter)"></span><h2>투자 메모</h2><span class="tag">MEMO</span></div>
+    <div class="memobox">
+      <div class="memo-input">
+        <textarea id="memoText" placeholder="메모를 입력하고 추가를 누르세요 (예: 오늘 매매 계획, 체크할 종목…)"></textarea>
+        <button id="memoAdd">+ 추가</button>
+      </div>
+      <div id="memoList"></div>
+    </div>
+  </section>
 
   <section class="sec">
     <div class="sec-head"><span class="pill" style="background:var(--clay-mint)"></span><h2>금리 · 유가 · 환율</h2><span class="tag">FRED</span></div>
@@ -134,6 +167,9 @@
       <a class="newslink" href="https://theme.royalroader.co.kr/" target="_blank" rel="noopener">🗺️ 실시간 테마지도 <span class="arrow">→</span></a>
       <a class="newslink" href="https://cafe.naver.com/f-e/cafes/11974608/menus/167" target="_blank" rel="noopener">📊 장후브리핑 <span class="arrow">→</span></a>
       <a class="newslink" href="https://blog.naver.com/ranto28" target="_blank" rel="noopener">✍️ 메르의 블로그 <span class="arrow">→</span></a>
+      <a class="newslink" href="https://dart.fss.or.kr/" target="_blank" rel="noopener">🏛️ 전자공시(DART) <span class="arrow">→</span></a>
+      <a class="newslink" href="https://finance.naver.com/" target="_blank" rel="noopener">💹 네이버 금융 <span class="arrow">→</span></a>
+      <a class="newslink" href="https://comp.fnguide.com/" target="_blank" rel="noopener">🏢 기업정보(FnGuide) <span class="arrow">→</span></a>
     </div>
   </section>
 
@@ -176,6 +212,41 @@
 
 <script>
 var KNOBS=["var(--clay-mint)","var(--clay-peach)","var(--clay-lav)","var(--clay-butter)","var(--clay-sky)"];
+
+// ---- 메모 (localStorage) ----
+var MEMO_KEY="karri_dash_memos_v1";
+function loadMemos(){ try{ return JSON.parse(localStorage.getItem(MEMO_KEY)||"[]"); }catch(e){ return []; } }
+function saveMemos(arr){ try{ localStorage.setItem(MEMO_KEY, JSON.stringify(arr)); }catch(e){} }
+function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function renderMemos(){
+  var arr=loadMemos();
+  var box=document.getElementById("memoList");
+  if(!box) return;
+  if(!arr.length){ box.innerHTML='<div class="memo-empty">아직 메모가 없어요.</div>'; return; }
+  box.innerHTML=arr.map(function(m,i){
+    return '<div class="memo-item"><div style="flex:1"><div class="when">'+(m.when||"")+'</div><div class="txt">'+esc(m.text)+'</div></div><button class="del" data-i="'+i+'" title="삭제">×</button></div>';
+  }).join("");
+  Array.prototype.forEach.call(box.querySelectorAll(".del"), function(b){
+    b.onclick=function(){ var a=loadMemos(); a.splice(parseInt(b.getAttribute("data-i")),1); saveMemos(a); renderMemos(); };
+  });
+}
+function addMemo(){
+  var t=document.getElementById("memoText");
+  var v=(t.value||"").trim();
+  if(!v) return;
+  var arr=loadMemos();
+  var now=new Date();
+  var stamp=now.getFullYear()+"-"+("0"+(now.getMonth()+1)).slice(-2)+"-"+("0"+now.getDate()).slice(-2)+" "+("0"+now.getHours()).slice(-2)+":"+("0"+now.getMinutes()).slice(-2);
+  arr.unshift({text:v, when:stamp});
+  saveMemos(arr); t.value=""; renderMemos();
+}
+window.addEventListener("DOMContentLoaded", function(){
+  var addBtn=document.getElementById("memoAdd");
+  if(addBtn){ addBtn.onclick=addMemo; }
+  var t=document.getElementById("memoText");
+  if(t){ t.addEventListener("keydown", function(e){ if((e.ctrlKey||e.metaKey)&&e.key==="Enter"){ addMemo(); } }); }
+  renderMemos();
+});
 var US_NAMES={
   "GOOGL":"알파벳(구글)","AMZN":"아마존","NVDA":"엔비디아","AVGO":"브로드컴","MU":"마이크론",
   "SNDK":"샌디스크","TSLA":"테슬라","RKLB":"로켓랩","INTC":"인텔","GE":"GE에어로스페이스",
