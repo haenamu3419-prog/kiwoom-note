@@ -151,6 +151,8 @@
   .us-chip-wrap{display:inline-flex; align-items:center; gap:3px;}
   .us-del{border:0; background:transparent; color:var(--clay-peach-d); font-size:16px; font-weight:900; cursor:pointer; line-height:1; padding:0 2px;}
   .us-del:hover{color:var(--up);}
+  .us-news-btn{font-size:12px; font-weight:700; color:var(--clay-mint-d); text-decoration:none; padding:3px 8px; border-radius:10px; background:var(--clay-mint); border:0; cursor:pointer; white-space:nowrap;}
+  .us-news-btn:hover{background:var(--clay-mint-d); color:#fff;}
   .us-hint{font-size:12px; color:var(--hint); font-weight:600; margin:12px 0 0;}
 </style>
 </head>
@@ -241,7 +243,7 @@
         <button id="usAdd">+ 추가</button>
       </div>
       <div id="usholdings" class="holdings"></div>
-      <p class="us-hint">종목을 클릭하면 네이버 증권 해당 종목 페이지로 이동합니다. 티커를 입력하면 가장 정확해요.</p>
+      <p class="us-hint">종목명 클릭 → 네이버 증권 · 뉴스 클릭 → 해당 종목 뉴스 페이지</p>
     </div>
   </section>
 </div>
@@ -313,13 +315,18 @@ var US_DEFAULT=["GOOGL","AMZN","NVDA","AVGO","MU","SNDK","TSLA","RKLB","INTC","G
 function loadUS(){ try{ var v=JSON.parse(localStorage.getItem(US_KEY)||"null"); return Array.isArray(v)?v:US_DEFAULT.slice(); }catch(e){ return US_DEFAULT.slice(); } }
 function saveUS(arr){ try{ localStorage.setItem(US_KEY, JSON.stringify(arr)); }catch(e){} }
 function naverUS(t){ return "https://m.stock.naver.com/worldstock/stock/"+t+"/total"; }
+function naverUSNews(t){ return "https://finance.naver.com/item/news.naver?code="+t; }
 function renderUS(){
   var arr=loadUS();
   var box=document.getElementById("usholdings");
   if(!box) return;
   if(!arr.length){ box.innerHTML="<span class='muted'>종목을 추가하세요.</span>"; return; }
   box.innerHTML=arr.map(function(t){
-    return '<span class="us-chip-wrap"><a class="hchip hchip-link" href="'+naverUS(t)+'" target="_blank" rel="noopener">'+usName(t)+'</a><button class="us-del" data-t="'+t+'" title="삭제">×</button></span>';
+    return '<span class="us-chip-wrap">'+
+      '<a class="hchip hchip-link" href="'+naverUS(t)+'" target="_blank" rel="noopener">'+usName(t)+'</a>'+
+      '<a class="us-news-btn" href="'+naverUSNews(t)+'" target="_blank" rel="noopener">뉴스</a>'+
+      '<button class="us-del" data-t="'+t+'" title="삭제">×</button>'+
+    '</span>';
   }).join("");
   Array.prototype.forEach.call(box.querySelectorAll(".us-del"), function(b){
     b.onclick=function(){ var a=loadUS(); var i=a.indexOf(b.getAttribute("data-t")); if(i>=0){ a.splice(i,1); saveUS(a); renderUS(); } };
