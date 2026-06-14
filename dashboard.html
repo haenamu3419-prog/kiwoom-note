@@ -140,6 +140,16 @@
   .sortable .dragging{opacity:0.45; transform:scale(0.97);}
   #ytlist .us-chip-wrap{cursor:grab;}
   #ytlist .us-chip-wrap.dragging{opacity:0.45; transform:scale(0.97);}
+  #linklist .us-chip-wrap{cursor:grab;}
+  #linklist .us-chip-wrap.dragging{opacity:0.45; transform:scale(0.97);}
+  .linkbar-input{display:flex; gap:10px; margin:16px 0 4px; flex-wrap:wrap;}
+  .linkbar-input input{padding:11px 14px; border:0; border-radius:14px; font-family:inherit; font-size:15px; color:#5a4636; background:#fff8ee; flex:1; min-width:120px;
+    box-shadow:inset 2px 2px 5px rgba(170,140,110,0.18), inset -2px -2px 5px rgba(255,255,255,0.8);}
+  .linkbar-input input:focus{outline:2px solid var(--clay-butter);}
+  .linkbar-input input.input-err{outline:2px solid var(--up);}
+  .linkbar-input button{flex-shrink:0; padding:11px 18px; border:0; border-radius:14px; font-family:inherit; font-weight:700; font-size:15px; color:#6a5240; background:var(--clay-butter); cursor:pointer;
+    box-shadow:4px 5px 10px rgba(170,140,110,0.24), -3px -3px 8px rgba(255,255,255,0.85);}
+  .linkbar-input button:hover{transform:translateY(-2px);}
   .sort-hint{font-size:12px; color:var(--hint); font-weight:600; margin:0 0 8px; padding-left:4px;}
   .usbox{background:var(--card); border-radius:24px; padding:18px 20px;
     box-shadow:7px 9px 18px rgba(170,140,110,0.24), -6px -6px 14px rgba(255,255,255,0.9), inset 3px 3px 6px rgba(255,255,255,0.8), inset -4px -5px 9px rgba(170,140,110,0.15);}
@@ -200,24 +210,13 @@
       <span class="bn-txt"><b>실시간 뉴스</b><span class="bn-sub">saveticker · 장중 속보 모아보기</span></span>
       <span class="bn-arrow">→</span>
     </a>
-    <div class="linkrow sortable" data-skey="links">
-      <a class="newslink" href="https://cafe.naver.com/f-e/cafes/30600956/menus/93?viewType=L" target="_blank" rel="noopener">📰 장전뉴스 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://www.38.co.kr/html/fund/index.htm?o=k" target="_blank" rel="noopener">📅 공모주 청약일정 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://cafe.naver.com/f-e/cafes/11974608/menus/195" target="_blank" rel="noopener">📈 주식 관련 뉴스 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://cafe.naver.com/f-e/cafes/11974608/menus/977" target="_blank" rel="noopener">🗓️ 주식 관련 일정 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://theme.royalroader.co.kr/" target="_blank" rel="noopener">🗺️ 실시간 테마지도 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://cafe.naver.com/f-e/cafes/11974608/menus/167" target="_blank" rel="noopener">📊 장후브리핑 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://blog.naver.com/ranto28" target="_blank" rel="noopener">✍️ 메르의 블로그 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://dart.fss.or.kr/" target="_blank" rel="noopener">🏛️ 전자공시(DART) <span class="arrow">→</span></a>
-      <a class="newslink" href="https://kind.krx.co.kr/main.do?method=loadInitPage&scrnmode=1" target="_blank" rel="noopener">🔔 KRX공시(KIND) <span class="arrow">→</span></a>
-      <a class="newslink" href="https://finance.naver.com/" target="_blank" rel="noopener">💹 네이버 금융 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://comp.fnguide.com/" target="_blank" rel="noopener">🏢 기업정보(FnGuide) <span class="arrow">→</span></a>
-      <a class="newslink" href="http://www.ipostock.co.kr/main/main.asp" target="_blank" rel="noopener">🆕 IPO스탁 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://www.k-otc.or.kr/public/main" target="_blank" rel="noopener">🔄 K-OTC 장외주식 <span class="arrow">→</span></a>
-      <a class="newslink" href="https://www.thebell.co.kr/front/index.asp" target="_blank" rel="noopener">🔔 더벨(thebell) <span class="arrow">→</span></a>
-      <a class="newslink" href="https://www.kofiabond.or.kr/" target="_blank" rel="noopener">💵 채권정보(KOFIA) <span class="arrow">→</span></a>
-      <a class="newslink" href="https://seibro.or.kr/websquare/control.jsp?w2xPath=/IPORTAL/user/index.xml" target="_blank" rel="noopener">📂 SEIBRO 증권포털 <span class="arrow">→</span></a>
+    <div class="linkbar-input">
+      <input id="lkName" type="text" placeholder="이름 (예: 네이버 금융)" autocomplete="off">
+      <input id="lkUrl" type="text" placeholder="주소 (https://...)" autocomplete="off">
+      <button id="lkAdd">+ 추가</button>
     </div>
+    <div id="linklist" class="linkrow"></div>
+    <p class="us-hint" style="margin:10px 0 0;">바로가기를 추가/삭제하고, 드래그(모바일은 길게 눌러)로 순서를 바꿀 수 있어요.</p>
   </section>
 
   <section class="sec">
@@ -393,58 +392,7 @@ function renderYT(){
   Array.prototype.forEach.call(box.querySelectorAll(".us-del"), function(b){
     b.onclick=function(e){ e.stopPropagation(); var a=loadYT(); a.splice(parseInt(b.getAttribute("data-i")),1); saveYT(a); renderYT(); };
   });
-  enableYTDrag(box);
-}
-function ytAfter(box, x, y){
-  var els=Array.prototype.slice.call(box.querySelectorAll(".us-chip-wrap:not(.dragging)"));
-  var closest=null, cd=Number.NEGATIVE_INFINITY;
-  els.forEach(function(el){
-    var r=el.getBoundingClientRect();
-    var off=y - r.top - r.height/2;
-    var dx=x - r.left - r.width/2;
-    var dist=(Math.abs(off)<r.height/2)?dx:(off<0?-1e6:1e6);
-    if(dist<0 && dist>cd){ cd=dist; closest=el; }
-  });
-  return closest;
-}
-function ytCommitOrder(box){
-  var order=Array.prototype.slice.call(box.querySelectorAll(".us-chip-wrap")).map(function(el){ return parseInt(el.getAttribute("data-i")); });
-  var arr=loadYT();
-  var newArr=order.map(function(i){ return arr[i]; }).filter(Boolean);
-  saveYT(newArr); renderYT();
-}
-function enableYTDrag(box){
-  var dragging=null;
-  box.addEventListener("dragstart", function(e){
-    var w=e.target.closest(".us-chip-wrap"); if(!w) return;
-    dragging=w; w.classList.add("dragging");
-  });
-  box.addEventListener("dragend", function(){
-    if(dragging){ dragging.classList.remove("dragging"); dragging=null; ytCommitOrder(box); }
-  });
-  box.addEventListener("dragover", function(e){
-    e.preventDefault(); if(!dragging) return;
-    var after=ytAfter(box, e.clientX, e.clientY);
-    if(after==null){ box.appendChild(dragging); } else { box.insertBefore(dragging, after); }
-  });
-  // 터치(모바일): 길게 눌러 드래그
-  var tItem=null, hold=null, moved=false;
-  box.addEventListener("touchstart", function(e){
-    var w=e.target.closest(".us-chip-wrap"); if(!w) return;
-    moved=false;
-    hold=setTimeout(function(){ tItem=w; w.classList.add("dragging"); if(navigator.vibrate) navigator.vibrate(15); }, 250);
-  }, {passive:true});
-  box.addEventListener("touchmove", function(e){
-    if(!tItem){ if(hold){ clearTimeout(hold); hold=null; } return; }
-    e.preventDefault(); moved=true;
-    var t=e.touches[0];
-    var after=ytAfter(box, t.clientX, t.clientY);
-    if(after==null){ box.appendChild(tItem); } else { box.insertBefore(tItem, after); }
-  }, {passive:false});
-  function endT(){ if(hold){ clearTimeout(hold); hold=null; } if(tItem){ tItem.classList.remove("dragging"); tItem=null; ytCommitOrder(box); } }
-  box.addEventListener("touchend", endT);
-  box.addEventListener("touchcancel", endT);
-  box.addEventListener("click", function(e){ if(moved){ e.preventDefault(); moved=false; } }, true);
+  enableChipDrag(box, loadYT, saveYT, renderYT);
 }
 function addYT(){
   var nameI=document.getElementById("ytName"), urlI=document.getElementById("ytUrl");
@@ -466,6 +414,96 @@ window.addEventListener("DOMContentLoaded", function(){
   });
   renderYT();
 });
+
+// ---- 바로가기 (localStorage, 추가/삭제/순서변경) ----
+var LK_KEY="dash_links_v1";
+var LK_DEFAULT=[
+  {name:"📰 장전뉴스", url:"https://cafe.naver.com/f-e/cafes/30600956/menus/93?viewType=L"},
+  {name:"📅 공모주 청약일정", url:"https://www.38.co.kr/html/fund/index.htm?o=k"},
+  {name:"📈 주식 관련 뉴스", url:"https://cafe.naver.com/f-e/cafes/11974608/menus/195"},
+  {name:"🗓️ 주식 관련 일정", url:"https://cafe.naver.com/f-e/cafes/11974608/menus/977"},
+  {name:"🗺️ 실시간 테마지도", url:"https://theme.royalroader.co.kr/"},
+  {name:"📊 장후브리핑", url:"https://cafe.naver.com/f-e/cafes/11974608/menus/167"},
+  {name:"✍️ 메르의 블로그", url:"https://blog.naver.com/ranto28"},
+  {name:"🏛️ 전자공시(DART)", url:"https://dart.fss.or.kr/"},
+  {name:"🔔 KRX공시(KIND)", url:"https://kind.krx.co.kr/main.do?method=loadInitPage&scrnmode=1"},
+  {name:"💹 네이버 금융", url:"https://finance.naver.com/"},
+  {name:"🏢 기업정보(FnGuide)", url:"https://comp.fnguide.com/"},
+  {name:"🆕 IPO스탁", url:"http://www.ipostock.co.kr/main/main.asp"},
+  {name:"🔄 K-OTC 장외주식", url:"https://www.k-otc.or.kr/public/main"},
+  {name:"🔔 더벨(thebell)", url:"https://www.thebell.co.kr/front/index.asp"},
+  {name:"💵 채권정보(KOFIA)", url:"https://www.kofiabond.or.kr/"},
+  {name:"📂 SEIBRO 증권포털", url:"https://seibro.or.kr/websquare/control.jsp?w2xPath=/IPORTAL/user/index.xml"}
+];
+function loadLK(){ try{ var v=JSON.parse(localStorage.getItem(LK_KEY)||"null"); return Array.isArray(v)?v:LK_DEFAULT.slice(); }catch(e){ return LK_DEFAULT.slice(); } }
+function saveLK(arr){ try{ localStorage.setItem(LK_KEY, JSON.stringify(arr)); }catch(e){} }
+function normURL(url){ url=url.trim(); if(!url) return ""; if(!/^https?:\/\//.test(url)) url="https://"+url; return url; }
+function renderLK(){
+  var arr=loadLK();
+  var box=document.getElementById("linklist");
+  if(!box) return;
+  if(!arr.length){ box.innerHTML="<span class='muted'>바로가기를 추가하세요.</span>"; return; }
+  box.innerHTML=arr.map(function(c,idx){
+    return '<span class="us-chip-wrap" draggable="true" data-i="'+idx+'"><a class="newslink" href="'+c.url+'" target="_blank" rel="noopener">'+c.name+' <span class="arrow">→</span></a><button class="us-del" data-i="'+idx+'" title="삭제">×</button></span>';
+  }).join("");
+  Array.prototype.forEach.call(box.querySelectorAll(".us-del"), function(b){
+    b.onclick=function(e){ e.stopPropagation(); var a=loadLK(); a.splice(parseInt(b.getAttribute("data-i")),1); saveLK(a); renderLK(); };
+  });
+  enableChipDrag(box, loadLK, saveLK, renderLK);
+}
+function addLK(){
+  var nameI=document.getElementById("lkName"), urlI=document.getElementById("lkUrl");
+  var name=(nameI.value||"").trim();
+  var url=normURL(urlI.value||"");
+  nameI.classList.remove("input-err"); urlI.classList.remove("input-err");
+  var ok=true;
+  if(!name){ nameI.classList.add("input-err"); ok=false; }
+  if(!url){ urlI.classList.add("input-err"); ok=false; }
+  if(!ok) return;
+  var a=loadLK(); a.push({name:name, url:url}); saveLK(a);
+  nameI.value=""; urlI.value=""; nameI.focus(); renderLK();
+}
+window.addEventListener("DOMContentLoaded", function(){
+  var b=document.getElementById("lkAdd"); if(b){ b.onclick=addLK; }
+  ["lkName","lkUrl"].forEach(function(id){
+    var el=document.getElementById(id);
+    if(el){ el.addEventListener("keydown", function(e){ if(e.key==="Enter" && !e.isComposing && e.keyCode!==229) addLK(); }); }
+  });
+  renderLK();
+});
+
+// ---- 공통: 칩 드래그 순서변경 (PC + 터치) ----
+function chipAfter(box, x, y){
+  var els=Array.prototype.slice.call(box.querySelectorAll(".us-chip-wrap:not(.dragging)"));
+  var closest=null, cd=Number.NEGATIVE_INFINITY;
+  els.forEach(function(el){
+    var r=el.getBoundingClientRect();
+    var off=y - r.top - r.height/2, dx=x - r.left - r.width/2;
+    var dist=(Math.abs(off)<r.height/2)?dx:(off<0?-1e6:1e6);
+    if(dist<0 && dist>cd){ cd=dist; closest=el; }
+  });
+  return closest;
+}
+function enableChipDrag(box, loadFn, saveFn, renderFn){
+  if(box._dragBound) return; box._dragBound=true;
+  function commit(){
+    var order=Array.prototype.slice.call(box.querySelectorAll(".us-chip-wrap")).map(function(el){ return parseInt(el.getAttribute("data-i")); });
+    var arr=loadFn();
+    saveFn(order.map(function(i){ return arr[i]; }).filter(Boolean));
+    renderFn();
+  }
+  var dragging=null;
+  box.addEventListener("dragstart", function(e){ var w=e.target.closest(".us-chip-wrap"); if(!w) return; dragging=w; w.classList.add("dragging"); });
+  box.addEventListener("dragend", function(){ if(dragging){ dragging.classList.remove("dragging"); dragging=null; commit(); } });
+  box.addEventListener("dragover", function(e){ e.preventDefault(); if(!dragging) return; var a=chipAfter(box,e.clientX,e.clientY); if(a==null) box.appendChild(dragging); else box.insertBefore(dragging,a); });
+  var tItem=null, hold=null, moved=false;
+  box.addEventListener("touchstart", function(e){ var w=e.target.closest(".us-chip-wrap"); if(!w) return; moved=false; hold=setTimeout(function(){ tItem=w; w.classList.add("dragging"); if(navigator.vibrate) navigator.vibrate(15); }, 250); }, {passive:true});
+  box.addEventListener("touchmove", function(e){ if(!tItem){ if(hold){ clearTimeout(hold); hold=null; } return; } e.preventDefault(); moved=true; var t=e.touches[0]; var a=chipAfter(box,t.clientX,t.clientY); if(a==null) box.appendChild(tItem); else box.insertBefore(tItem,a); }, {passive:false});
+  function endT(){ if(hold){ clearTimeout(hold); hold=null; } if(tItem){ tItem.classList.remove("dragging"); tItem=null; commit(); } }
+  box.addEventListener("touchend", endT);
+  box.addEventListener("touchcancel", endT);
+  box.addEventListener("click", function(e){ if(moved){ e.preventDefault(); moved=false; } }, true);
+}
 
 // ---- 한국 보유종목: holdings.json(서버)에서 받아 표시 ----
 function fnguide(code){ return "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A"+code+"&cID=&MenuYn=Y&ReportGB=D&NewMenuID=Y&stkGb=701"; }
