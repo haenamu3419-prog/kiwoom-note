@@ -326,7 +326,13 @@ var US_KEY="dash_us_holdings_v1";
 var US_DEFAULT=["GOOGL","AMZN","NVDA","AVGO","MU","SNDK","TSLA","RKLB","INTC","GE","GEV","BE"];
 function loadUS(){ try{ var v=JSON.parse(localStorage.getItem(US_KEY)||"null"); return Array.isArray(v)?v:US_DEFAULT.slice(); }catch(e){ return US_DEFAULT.slice(); } }
 function saveUS(arr){ try{ localStorage.setItem(US_KEY, JSON.stringify(arr)); }catch(e){} }
-function naverUS(t){ return "https://m.stock.naver.com/worldstock/stock/"+t+"/total"; }
+// 네이버 해외종목 거래소 접미사 (.O=나스닥, .K=NYSE)
+var US_SUFFIX={
+  "GOOGL":".O","AMZN":".O","NVDA":".O","AVGO":".O","MU":".O","SNDK":".O","TSLA":".O","RKLB":".O","INTC":".O",
+  "AAPL":".O","MSFT":".O","META":".O","AMD":".O","PLTR":".O","COIN":".O","SOFI":".O","TSM":".K",
+  "GE":".K","GEV":".K","BE":".K"
+};
+function naverUS(t){ var suf=US_SUFFIX[t]||".O"; return "https://stock.naver.com/worldstock/stock/"+t+suf+"/price"; }
 function renderUS(){
   var arr=loadUS();
   var box=document.getElementById("usholdings");
@@ -506,7 +512,7 @@ function enableChipDrag(box, loadFn, saveFn, renderFn){
 }
 
 // ---- 한국 보유종목: holdings.json(서버)에서 받아 표시 ----
-function fnguide(code){ return "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A"+code+"&cID=&MenuYn=Y&ReportGB=D&NewMenuID=Y&stkGb=701"; }
+function naverKR(code){ return "https://stock.naver.com/domestic/stock/"+code+"/price"; }
 function fmtMacro(unit,v){
   if(v==null) return "-";
   if(unit==="pct") return v.toFixed(2)+"%";
@@ -537,12 +543,12 @@ async function load(){
     const d=await r.json();
     document.getElementById("updated").textContent="\uD83D\uDD52 갱신 "+(d.updated||"-");
     document.getElementById("macro").innerHTML=(d.macro||[]).map(macroCard).join("")||"<span class='muted'>데이터 없음</span>";
-    // 한국 보유종목 칩 (holdings.json → kr_holdings). 클릭 시 FnGuide.
+    // 한국 보유종목 칩 (holdings.json → kr_holdings). 클릭 시 네이버페이 증권.
     var krHold=(d.kr_holdings||[]);
     var krBox=document.getElementById("krholdings");
     if(krBox){
       krBox.innerHTML=krHold.length
-        ? krHold.map(function(h){ return '<a class="hchip hchip-link" href="'+fnguide(h.code)+'" target="_blank" rel="noopener">'+(h.name||h.code)+'</a>'; }).join("")
+        ? krHold.map(function(h){ return '<a class="hchip hchip-link" href="'+naverKR(h.code)+'" target="_blank" rel="noopener">'+(h.name||h.code)+'</a>'; }).join("")
         : "";
     }
     const dart=d.dart||[];
