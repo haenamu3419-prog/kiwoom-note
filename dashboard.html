@@ -138,6 +138,8 @@
   .memo-empty{color:var(--hint); font-size:14px; font-weight:600; padding:6px 2px;}
   .sortable .newslink, .sortable .ytlink{cursor:grab;}
   .sortable .dragging{opacity:0.45; transform:scale(0.97);}
+  #ytlist .us-chip-wrap{cursor:grab;}
+  #ytlist .us-chip-wrap.dragging{opacity:0.45; transform:scale(0.97);}
   .sort-hint{font-size:12px; color:var(--hint); font-weight:600; margin:0 0 8px; padding-left:4px;}
   .usbox{background:var(--card); border-radius:24px; padding:18px 20px;
     box-shadow:7px 9px 18px rgba(170,140,110,0.24), -6px -6px 14px rgba(255,255,255,0.9), inset 3px 3px 6px rgba(255,255,255,0.8), inset -4px -5px 9px rgba(170,140,110,0.15);}
@@ -220,16 +222,14 @@
 
   <section class="sec">
     <div class="sec-head"><span class="pill" style="background:var(--clay-peach)"></span><h2>즐겨보는 유튜브</h2><span class="tag">YOUTUBE</span></div>
-    <div class="linkrow sortable" data-skey="youtube">
-      <a class="ytlink" href="https://www.youtube.com/@futuresnow/videos" target="_blank" rel="noopener">▶ 오선의 미국증시 라이브</a>
-      <a class="ytlink" href="https://www.youtube.com/@3protv/videos" target="_blank" rel="noopener">▶ 삼프로TV</a>
-      <a class="ytlink" href="https://www.youtube.com/@koreanstockrider/videos" target="_blank" rel="noopener">▶ 증시각도기TV</a>
-      <a class="ytlink" href="https://www.youtube.com/@hkglobalmarket/videos" target="_blank" rel="noopener">▶ 한경글로벌마켓</a>
-      <a class="ytlink" href="https://www.youtube.com/@understanding./videos" target="_blank" rel="noopener">▶ 언더스탠딩</a>
-      <a class="ytlink" href="https://www.youtube.com/channel/UC8kMkLj4kAqMTeOeVQgxyUg/videos" target="_blank" rel="noopener">▶ 공모주 한잔</a>
-      <a class="ytlink" href="https://www.youtube.com/@gjbox0301/videos" target="_blank" rel="noopener">▶ 공모주린이의 투자백서</a>
-      <a class="ytlink" href="https://www.youtube.com/@%EA%B2%BD%EC%9D%BD%EB%82%A8_%EA%B9%80%EA%B4%91%EC%84%9DTV/videos" target="_blank" rel="noopener">▶ 경읽남 김광석TV</a>
-      <a class="ytlink" href="https://www.youtube.com/@hs_academy/videos" target="_blank" rel="noopener">▶ 이효석 아카데미</a>
+    <div class="usbox">
+      <div class="us-input">
+        <input id="ytName" type="text" placeholder="채널 이름 (예: 삼프로TV)" autocomplete="off">
+        <input id="ytUrl" type="text" placeholder="채널 주소 (https://youtube.com/@...)" autocomplete="off">
+        <button id="ytAdd">+ 추가</button>
+      </div>
+      <div id="ytlist" class="linkrow"></div>
+      <p class="us-hint">유튜브 채널 페이지의 주소(@핸들 또는 channel 주소)를 붙여넣으면 됩니다. 칩의 ×로 삭제, 드래그(모바일은 길게 눌러)로 순서 변경.</p>
     </div>
   </section>
 
@@ -355,6 +355,116 @@ window.addEventListener("DOMContentLoaded", function(){
   var b=document.getElementById("usAdd"); if(b){ b.onclick=addUS; }
   var i=document.getElementById("usText"); if(i){ i.addEventListener("keydown", function(e){ if(e.key==="Enter" && !e.isComposing && e.keyCode!==229) addUS(); }); }
   renderUS();
+});
+
+// ---- 즐겨보는 유튜브 (localStorage, 추가/삭제) ----
+var YT_KEY="dash_yt_v1";
+var YT_DEFAULT=[
+  {name:"오선의 미국증시 라이브", url:"https://www.youtube.com/@futuresnow/videos"},
+  {name:"삼프로TV", url:"https://www.youtube.com/@3protv/videos"},
+  {name:"증시각도기TV", url:"https://www.youtube.com/@koreanstockrider/videos"},
+  {name:"한경글로벌마켓", url:"https://www.youtube.com/@hkglobalmarket/videos"},
+  {name:"언더스탠딩", url:"https://www.youtube.com/@understanding./videos"},
+  {name:"공모주 한잔", url:"https://www.youtube.com/channel/UC8kMkLj4kAqMTeOeVQgxyUg/videos"},
+  {name:"공모주린이의 투자백서", url:"https://www.youtube.com/@gjbox0301/videos"},
+  {name:"경읽남 김광석TV", url:"https://www.youtube.com/@%EA%B2%BD%EC%9D%BD%EB%82%A8_%EA%B9%80%EA%B4%91%EC%84%9DTV/videos"},
+  {name:"이효석 아카데미", url:"https://www.youtube.com/@hs_academy/videos"}
+];
+function loadYT(){ try{ var v=JSON.parse(localStorage.getItem(YT_KEY)||"null"); return Array.isArray(v)?v:YT_DEFAULT.slice(); }catch(e){ return YT_DEFAULT.slice(); } }
+function saveYT(arr){ try{ localStorage.setItem(YT_KEY, JSON.stringify(arr)); }catch(e){} }
+function normYT(url){
+  url=url.trim();
+  if(!url) return "";
+  if(!/^https?:\/\//.test(url)){
+    if(url.charAt(0)==="@") url="https://www.youtube.com/"+url;
+    else url="https://"+url;
+  }
+  if(/youtube\.com\/(@[^/]+|channel\/[^/]+)$/.test(url)) url+="/videos";
+  return url;
+}
+function renderYT(){
+  var arr=loadYT();
+  var box=document.getElementById("ytlist");
+  if(!box) return;
+  if(!arr.length){ box.innerHTML="<span class='muted'>채널을 추가하세요.</span>"; return; }
+  box.innerHTML=arr.map(function(c,idx){
+    return '<span class="us-chip-wrap" draggable="true" data-i="'+idx+'"><a class="ytlink" href="'+c.url+'" target="_blank" rel="noopener">▶ '+c.name+'</a><button class="us-del" data-i="'+idx+'" title="삭제">×</button></span>';
+  }).join("");
+  Array.prototype.forEach.call(box.querySelectorAll(".us-del"), function(b){
+    b.onclick=function(e){ e.stopPropagation(); var a=loadYT(); a.splice(parseInt(b.getAttribute("data-i")),1); saveYT(a); renderYT(); };
+  });
+  enableYTDrag(box);
+}
+function ytAfter(box, x, y){
+  var els=Array.prototype.slice.call(box.querySelectorAll(".us-chip-wrap:not(.dragging)"));
+  var closest=null, cd=Number.NEGATIVE_INFINITY;
+  els.forEach(function(el){
+    var r=el.getBoundingClientRect();
+    var off=y - r.top - r.height/2;
+    var dx=x - r.left - r.width/2;
+    var dist=(Math.abs(off)<r.height/2)?dx:(off<0?-1e6:1e6);
+    if(dist<0 && dist>cd){ cd=dist; closest=el; }
+  });
+  return closest;
+}
+function ytCommitOrder(box){
+  var order=Array.prototype.slice.call(box.querySelectorAll(".us-chip-wrap")).map(function(el){ return parseInt(el.getAttribute("data-i")); });
+  var arr=loadYT();
+  var newArr=order.map(function(i){ return arr[i]; }).filter(Boolean);
+  saveYT(newArr); renderYT();
+}
+function enableYTDrag(box){
+  var dragging=null;
+  box.addEventListener("dragstart", function(e){
+    var w=e.target.closest(".us-chip-wrap"); if(!w) return;
+    dragging=w; w.classList.add("dragging");
+  });
+  box.addEventListener("dragend", function(){
+    if(dragging){ dragging.classList.remove("dragging"); dragging=null; ytCommitOrder(box); }
+  });
+  box.addEventListener("dragover", function(e){
+    e.preventDefault(); if(!dragging) return;
+    var after=ytAfter(box, e.clientX, e.clientY);
+    if(after==null){ box.appendChild(dragging); } else { box.insertBefore(dragging, after); }
+  });
+  // 터치(모바일): 길게 눌러 드래그
+  var tItem=null, hold=null, moved=false;
+  box.addEventListener("touchstart", function(e){
+    var w=e.target.closest(".us-chip-wrap"); if(!w) return;
+    moved=false;
+    hold=setTimeout(function(){ tItem=w; w.classList.add("dragging"); if(navigator.vibrate) navigator.vibrate(15); }, 250);
+  }, {passive:true});
+  box.addEventListener("touchmove", function(e){
+    if(!tItem){ if(hold){ clearTimeout(hold); hold=null; } return; }
+    e.preventDefault(); moved=true;
+    var t=e.touches[0];
+    var after=ytAfter(box, t.clientX, t.clientY);
+    if(after==null){ box.appendChild(tItem); } else { box.insertBefore(tItem, after); }
+  }, {passive:false});
+  function endT(){ if(hold){ clearTimeout(hold); hold=null; } if(tItem){ tItem.classList.remove("dragging"); tItem=null; ytCommitOrder(box); } }
+  box.addEventListener("touchend", endT);
+  box.addEventListener("touchcancel", endT);
+  box.addEventListener("click", function(e){ if(moved){ e.preventDefault(); moved=false; } }, true);
+}
+function addYT(){
+  var nameI=document.getElementById("ytName"), urlI=document.getElementById("ytUrl");
+  var name=(nameI.value||"").trim();
+  var url=normYT(urlI.value||"");
+  nameI.classList.remove("input-err"); urlI.classList.remove("input-err");
+  var ok=true;
+  if(!name){ nameI.classList.add("input-err"); ok=false; }
+  if(!url){ urlI.classList.add("input-err"); ok=false; }
+  if(!ok) return;
+  var a=loadYT(); a.push({name:name, url:url}); saveYT(a);
+  nameI.value=""; urlI.value=""; nameI.focus(); renderYT();
+}
+window.addEventListener("DOMContentLoaded", function(){
+  var b=document.getElementById("ytAdd"); if(b){ b.onclick=addYT; }
+  ["ytName","ytUrl"].forEach(function(id){
+    var el=document.getElementById(id);
+    if(el){ el.addEventListener("keydown", function(e){ if(e.key==="Enter" && !e.isComposing && e.keyCode!==229) addYT(); }); }
+  });
+  renderYT();
 });
 
 // ---- 한국 보유종목: holdings.json(서버)에서 받아 표시 ----
