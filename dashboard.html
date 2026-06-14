@@ -152,6 +152,22 @@
   .us-del{border:0; background:transparent; color:var(--clay-peach-d); font-size:16px; font-weight:900; cursor:pointer; line-height:1; padding:0 2px;}
   .us-del:hover{color:var(--up);}
   .us-hint{font-size:12px; color:var(--hint); font-weight:600; margin:12px 0 0;}
+  .krbox{background:var(--card); border-radius:24px; padding:18px 20px; margin-bottom:14px;
+    box-shadow:7px 9px 18px rgba(170,140,110,0.24), -6px -6px 14px rgba(255,255,255,0.9), inset 3px 3px 6px rgba(255,255,255,0.8), inset -4px -5px 9px rgba(170,140,110,0.15);}
+  .kr-input{display:flex; gap:10px; margin-bottom:14px; flex-wrap:wrap;}
+  .kr-input input{padding:11px 14px; border:0; border-radius:14px; font-family:inherit; font-size:15px; color:#5a4636; background:#fff8ee;
+    box-shadow:inset 2px 2px 5px rgba(170,140,110,0.18), inset -2px -2px 5px rgba(255,255,255,0.8);}
+  .kr-input input#krCode{width:140px; flex:0 0 auto;}
+  .kr-input input#krName{flex:1; min-width:120px;}
+  .kr-input input:focus{outline:2px solid var(--clay-peach);}
+  .kr-input button{flex-shrink:0; padding:11px 18px; border:0; border-radius:14px; font-family:inherit; font-weight:700; font-size:15px; color:#5a4636; background:var(--clay-peach); cursor:pointer;
+    box-shadow:4px 5px 10px rgba(170,140,110,0.24), -3px -3px 8px rgba(255,255,255,0.85);}
+  .kr-input button:hover{transform:translateY(-2px);}
+  .kr-sync{margin-top:14px; display:flex; align-items:flex-start; gap:14px; flex-wrap:wrap;}
+  .kr-sync button{flex-shrink:0; padding:9px 16px; border:0; border-radius:14px; font-family:inherit; font-weight:700; font-size:13px; color:#5a4636; background:var(--clay-mint); cursor:pointer;
+    box-shadow:4px 5px 10px rgba(170,140,110,0.2), -3px -3px 8px rgba(255,255,255,0.85);}
+  .kr-sync button:hover{transform:translateY(-2px);}
+  .kr-sync .us-hint{flex:1; margin:0;}
 </style>
 </head>
 <body>
@@ -228,8 +244,19 @@
   </section>
 
   <section class="sec">
-    <div class="sec-head"><span class="pill" style="background:var(--clay-peach)"></span><h2>한국 보유종목 공시</h2><span class="tag">DART</span></div>
-    <div id="krholdings" class="holdings"></div>
+    <div class="sec-head"><span class="pill" style="background:var(--clay-peach)"></span><h2>한국 보유종목</h2><span class="tag">FNGUIDE · DART</span></div>
+    <div class="krbox">
+      <div class="kr-input">
+        <input id="krCode" type="text" placeholder="종목코드 (예: 005930)" inputmode="numeric" maxlength="6">
+        <input id="krName" type="text" placeholder="종목명 (예: 삼성전자)">
+        <button id="krAdd">+ 추가</button>
+      </div>
+      <div id="krholdings" class="holdings"></div>
+      <div class="kr-sync">
+        <button id="krCopy">📋 holdings.json 복사</button>
+        <p class="us-hint">종목명 클릭 → FnGuide 기업정보. 복사한 내용을 GitHub의 <code>holdings.json</code>에 붙여넣으면, 저녁 8시에 그 종목들의 DART 공시를 자동 확인합니다.</p>
+      </div>
+    </div>
     <div class="panel" id="krdart"><div class="row"><span class="muted">불러오는 중…</span></div></div>
   </section>
 
@@ -341,6 +368,65 @@ window.addEventListener("DOMContentLoaded", function(){
   var i=document.getElementById("usText"); if(i){ i.addEventListener("keydown", function(e){ if(e.key==="Enter") addUS(); }); }
   renderUS();
 });
+
+// ---- 한국 보유종목 (localStorage, code+name) ----
+var KR_KEY="dash_kr_holdings_v1";
+var KR_DEFAULT=[
+  {"code":"000660","name":"SK하이닉스"},{"code":"005380","name":"현대차"},
+  {"code":"005490","name":"POSCO홀딩스"},{"code":"005930","name":"삼성전자"},
+  {"code":"005935","name":"삼성전자우"},{"code":"006260","name":"LS"},
+  {"code":"006800","name":"미래에셋증권"},{"code":"011070","name":"LG이노텍"},
+  {"code":"012330","name":"현대모비스"},{"code":"034020","name":"두산에너빌리티"},
+  {"code":"051360","name":"토비스"},{"code":"066570","name":"LG전자"},
+  {"code":"454910","name":"두산로보틱스"},{"code":"466920","name":"SOL 조선TOP3플러스"}
+];
+function loadKR(){ try{ var v=JSON.parse(localStorage.getItem(KR_KEY)||"null"); return Array.isArray(v)?v:KR_DEFAULT.slice(); }catch(e){ return KR_DEFAULT.slice(); } }
+function saveKR(arr){ try{ localStorage.setItem(KR_KEY, JSON.stringify(arr)); }catch(e){} }
+function fnguide(code){ return "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A"+code+"&cID=&MenuYn=Y&ReportGB=D&NewMenuID=Y&stkGb=701"; }
+function renderKR(){
+  var arr=loadKR();
+  var box=document.getElementById("krholdings");
+  if(!box) return;
+  if(!arr.length){ box.innerHTML="<span class='muted'>종목을 추가하세요.</span>"; return; }
+  box.innerHTML=arr.map(function(h){
+    return '<span class="us-chip-wrap">'+
+      '<a class="hchip hchip-link" href="'+fnguide(h.code)+'" target="_blank" rel="noopener">'+h.name+'</a>'+
+      '<button class="us-del" data-c="'+h.code+'" title="삭제">×</button>'+
+    '</span>';
+  }).join("");
+  Array.prototype.forEach.call(box.querySelectorAll(".us-del"), function(b){
+    b.onclick=function(){
+      var a=loadKR(); var c=b.getAttribute("data-c");
+      a=a.filter(function(h){ return h.code!==c; });
+      saveKR(a); renderKR();
+    };
+  });
+}
+function addKR(){
+  var codeI=document.getElementById("krCode"), nameI=document.getElementById("krName");
+  var code=(codeI.value||"").trim().replace(/[^0-9]/g,"");
+  var name=(nameI.value||"").trim();
+  if(!code || code.length!==6 || !name) return;
+  var a=loadKR();
+  if(!a.some(function(h){ return h.code===code; })){ a.push({code:code, name:name}); saveKR(a); }
+  codeI.value=""; nameI.value=""; codeI.focus(); renderKR();
+}
+function copyKR(){
+  var txt=JSON.stringify(loadKR(), null, 2);
+  navigator.clipboard.writeText(txt).then(function(){
+    var b=document.getElementById("krCopy"); var old=b.textContent;
+    b.textContent="복사됨!"; setTimeout(function(){ b.textContent=old; }, 1500);
+  });
+}
+window.addEventListener("DOMContentLoaded", function(){
+  var b=document.getElementById("krAdd"); if(b){ b.onclick=addKR; }
+  var c=document.getElementById("krCopy"); if(c){ c.onclick=copyKR; }
+  ["krCode","krName"].forEach(function(id){
+    var el=document.getElementById(id);
+    if(el){ el.addEventListener("keydown", function(e){ if(e.key==="Enter") addKR(); }); }
+  });
+  renderKR();
+});
 function fmtMacro(unit,v){
   if(v==null) return "-";
   if(unit==="pct") return v.toFixed(2)+"%";
@@ -371,12 +457,6 @@ async function load(){
     const d=await r.json();
     document.getElementById("updated").textContent="\uD83D\uDD52 갱신 "+(d.updated||"-");
     document.getElementById("macro").innerHTML=(d.macro||[]).map(macroCard).join("")||"<span class='muted'>데이터 없음</span>";
-    // 한국 보유종목: 클릭 시 FnGuide 해당 종목으로. holdings 전체 우선, 없으면 공시기준.
-    var krHold=(d.kr_holdings && d.kr_holdings.length)? d.kr_holdings : (d.dart||[]);
-    function fnguide(code){ return "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A"+code+"&cID=&MenuYn=Y&ReportGB=D&NewMenuID=Y&stkGb=701"; }
-    document.getElementById("krholdings").innerHTML=krHold.map(function(h){
-      return '<a class="hchip hchip-link" href="'+fnguide(h.code)+'" target="_blank" rel="noopener">'+h.name+'</a>';
-    }).join("");
     const dart=d.dart||[];
     document.getElementById("krdart").innerHTML=dart.length?dart.map(dartRow).join(""):"<div class='row'><span class='muted'>오늘 신규 공시가 없어요.</span></div>";
   }catch(e){

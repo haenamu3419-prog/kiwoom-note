@@ -1,23 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-대시보드 데이터 생성기 (GitHub Actions 용)
-==========================================
-FRED(금리·유가·환율) + Finnhub(미국주 시세·뉴스)를 조회해
+대시보드 데이터 생성기 (GitHub Actions 용, 하루 4회)
+====================================================
+FRED(금리·유가·환율) + DART(한국 보유종목 당일 공시)를 조회해
 dashboard_data.json 으로 저장한다. 대시보드 HTML 이 이 파일을 읽어 표시한다.
-(브라우저 직접호출 시 CORS 문제를 피하기 위한 방식 B)
+
+한국 보유종목은 키움 자동조회 없이 holdings.json(코드+이름)을 그대로 읽는다.
+holdings.json은 대시보드의 "한국 보유종목" 입력칸에서 "holdings.json 복사" 버튼으로
+복사해 붙여넣어 관리한다.
 
 환경변수(GitHub Secrets):
   FRED_API_KEY
-  FINNHUB_API_KEY
-  US_TICKERS_PATH  (선택, 기본 us_tickers.json)
+  DART_API_KEY
 
 출력: dashboard_data.json
 """
 
 import os
 import json
-import time
 import datetime
 import contextlib
 import io
@@ -26,9 +27,7 @@ import requests
 
 KST = datetime.timezone(datetime.timedelta(hours=9))
 OUT = "dashboard_data.json"
-TICKERS_PATH = os.environ.get("US_TICKERS_PATH", "us_tickers.json")
 HOLDINGS_PATH = os.environ.get("HOLDINGS_PATH", "holdings.json")
-NEWS_PER_STOCK = 5
 
 MACRO = [
     ("DGS30", "미국채 30년물", "pct"),
@@ -73,49 +72,6 @@ def build_macro():
     return rows
 
 
-def load_tickers():
-    if not os.path.exists(TICKERS_PATH):
-        return []
-    with open(TICKERS_PATH, encoding="utf-8") as f:
-        return [str(t).strip().upper() for t in json.load(f) if str(t).strip()]
-
-
-def build_us():
-    key = os.environ.get("FINNHUB_API_KEY")
-    tickers = load_tickers()
-    if not key or not tickers:
-        return []
-    today = datetime.datetime.now(KST).date()
-    start = today - datetime.timedelta(days=2)
-    out = []
-    for sym in tickers:
-        entry = {"sym": sym, "price": None, "change_pct": None, "news": []}
-        try:
-            q = requests.get("https://finnhub.io/api/v1/quote",
-                             params={"symbol": sym, "token": key}, timeout=15).json()
-            if q.get("c"):
-                entry["price"] = q["c"]
-                entry["change_pct"] = q.get("dp", 0)
-        except Exception:
-            pass
-        try:
-            news = requests.get("https://finnhub.io/api/v1/company-news",
-                                params={"symbol": sym, "from": start.strftime("%Y-%m-%d"),
-                                        "to": today.strftime("%Y-%m-%d"), "token": key},
-                                timeout=15).json()
-            if isinstance(news, list):
-                news.sort(key=lambda a: a.get("datetime", 0), reverse=True)
-                for a in news[:NEWS_PER_STOCK]:
-                    h = (a.get("headline") or "").strip()
-                    if h:
-                        entry["news"].append({"headline": h, "url": a.get("url", "")})
-        except Exception:
-            pass
-        out.append(entry)
-        time.sleep(0.3)
-    return out
-
-
 def load_kr_holdings():
     if not os.path.exists(HOLDINGS_PATH):
         return []
@@ -130,10 +86,9 @@ def load_kr_holdings():
     return out
 
 
-def build_dart():
-    """한국 보유종목(holdings.json)의 어제~오늘 DART 공시를 조회."""
+def build_dart(holdings):
+    """한국 보유종목의 '당일' DART 공시를 조회 (하루 여러 번 실행)."""
     key = os.environ.get("DART_API_KEY")
-    holdings = load_kr_holdings()
     if not key or not holdings:
         return []
     try:
@@ -142,14 +97,13 @@ def build_dart():
         return []
     dart = OpenDartReader(key)
     today = datetime.datetime.now(KST).date()
-    start = today - datetime.timedelta(days=1)
     name_by = {h["code"]: h["name"] for h in holdings}
     rows = []
     for h in holdings:
         code = h["code"]
         try:
             with contextlib.redirect_stdout(io.StringIO()):
-                df = dart.list(code, start=start.strftime("%Y%m%d"),
+                df = dart.list(code, start=today.strftime("%Y%m%d"),
                                end=today.strftime("%Y%m%d"))
         except Exception:
             continue
@@ -168,16 +122,16 @@ def build_dart():
 
 
 def main():
+    holdings = load_kr_holdings()
     data = {
         "updated": datetime.datetime.now(KST).strftime("%Y-%m-%d %H:%M KST"),
         "macro": build_macro(),
-        "us": build_us(),
-        "dart": build_dart(),
-        "kr_holdings": load_kr_holdings(),
+        "dart": build_dart(holdings),
+        "kr_holdings": holdings,
     }
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"✅ {OUT} 저장: 금리 {len(data['macro'])} / 미국주 {len(data['us'])} / 공시종목 {len(data['dart'])}")
+    print(f"OK {OUT} 저장: 금리 {len(data['macro'])} / 보유종목 {len(holdings)} / 공시종목 {len(data['dart'])}")
 
 
 if __name__ == "__main__":
