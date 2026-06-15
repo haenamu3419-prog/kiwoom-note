@@ -86,6 +86,16 @@
   .bignews .bn-txt b{font-size:21px; font-weight:900; letter-spacing:-0.01em;}
   .bignews .bn-sub{font-size:13px; font-weight:600; opacity:0.92; margin-top:2px;}
   .bignews .bn-arrow{font-size:24px; font-weight:900;}
+  .npay-row{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:4px;}
+  .npay-btn{display:flex; flex-direction:column; align-items:center; gap:7px; padding:20px 12px; text-decoration:none;
+    border-radius:22px; color:#3a6b4e; font-weight:800; font-size:17px; background:var(--clay-mint);
+    box-shadow:6px 8px 16px rgba(120,160,130,0.3), -5px -5px 12px rgba(255,255,255,0.85), inset 2px 2px 5px rgba(255,255,255,0.7), inset -3px -4px 8px rgba(110,150,120,0.18);
+    transition:transform .18s ease;}
+  .npay-btn:nth-child(2){background:var(--clay-butter); color:#8a6a25; box-shadow:6px 8px 16px rgba(180,150,80,0.3), -5px -5px 12px rgba(255,255,255,0.85), inset 2px 2px 5px rgba(255,255,255,0.7), inset -3px -4px 8px rgba(170,140,80,0.18);}
+  .npay-btn:nth-child(3){background:var(--clay-lav); color:#5b4a8a; box-shadow:6px 8px 16px rgba(150,130,200,0.3), -5px -5px 12px rgba(255,255,255,0.85), inset 2px 2px 5px rgba(255,255,255,0.7), inset -3px -4px 8px rgba(130,110,180,0.18);}
+  .npay-btn:hover{transform:translateY(-3px);}
+  .npay-btn .npay-ic{font-size:28px;}
+  @media (max-width:480px){ .npay-btn{font-size:15px; padding:16px 8px;} .npay-btn .npay-ic{font-size:24px;} }
   .newslink{display:inline-flex; align-items:center; gap:8px; padding:13px 22px;
     background:var(--clay-butter); color:#6a5240; font-weight:700; font-size:16px; text-decoration:none; border-radius:20px;
     box-shadow:6px 7px 14px rgba(170,140,110,0.26), -4px -4px 10px rgba(255,255,255,0.9), inset 2px 2px 4px rgba(255,255,255,0.6), inset -3px -3px 6px rgba(170,140,110,0.16);
@@ -203,8 +213,12 @@
   </section>
 
   <section class="sec">
-    <div class="sec-head"><span class="pill" style="background:var(--clay-mint)"></span><h2>금리 · 유가 · 환율</h2><span class="tag">FRED</span></div>
-    <div class="blocks" id="macro"><span class="muted">불러오는 중…</span></div>
+    <div class="sec-head"><span class="pill" style="background:var(--clay-mint)"></span><h2>네이버페이 증권</h2><span class="tag">MARKET</span></div>
+    <div class="npay-row">
+      <a class="npay-btn" href="https://stock.naver.com/market/stock/kr" target="_blank" rel="noopener"><span class="npay-ic">📊</span><span>주식</span></a>
+      <a class="npay-btn" href="https://stock.naver.com/market/crypto" target="_blank" rel="noopener"><span class="npay-ic">🪙</span><span>가상자산</span></a>
+      <a class="npay-btn" href="https://stock.naver.com/market/marketindex/major" target="_blank" rel="noopener"><span class="npay-ic">🧭</span><span>시장지표</span></a>
+    </div>
     <a class="bignews" href="https://www.saveticker.com/news" target="_blank" rel="noopener">
       <span class="bn-ico">⚡</span>
       <span class="bn-txt"><b>실시간 뉴스</b><span class="bn-sub">saveticker · 장중 속보 모아보기</span></span>
@@ -542,7 +556,6 @@ async function load(){
     if(!r.ok) throw new Error("dashboard_data.json 을 찾을 수 없습니다 ("+r.status+")");
     const d=await r.json();
     document.getElementById("updated").textContent="\uD83D\uDD52 갱신 "+(d.updated||"-");
-    document.getElementById("macro").innerHTML=(d.macro||[]).map(macroCard).join("")||"<span class='muted'>데이터 없음</span>";
     // 한국 보유종목 칩 (holdings.json → kr_holdings). 클릭 시 네이버페이 증권.
     var krHold=(d.kr_holdings||[]);
     var krBox=document.getElementById("krholdings");
@@ -555,7 +568,6 @@ async function load(){
     document.getElementById("krdart").innerHTML=dart.length?dart.map(dartRow).join(""):"<div class='row'><span class='muted'>오늘 신규 공시가 없어요.</span></div>";
   }catch(e){
     document.getElementById("updated").textContent="";
-    document.getElementById("macro").innerHTML='<span class="err">'+e.message+'</span>';
     document.getElementById("krdart").innerHTML="<div class='row'><span class='muted'>dashboard_data.json 이 같은 저장소에 있어야 해요. dashboard-data 워크플로우를 한 번 실행하면 생겨요.</span></div>";
   }
 }
