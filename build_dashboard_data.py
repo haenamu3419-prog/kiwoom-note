@@ -87,7 +87,8 @@ def load_kr_holdings():
 
 
 def build_dart(holdings):
-    """한국 보유종목의 '당일' DART 공시를 조회 (하루 여러 번 실행)."""
+    """한국 보유종목의 최근(어제~오늘) DART 공시를 조회.
+    새벽 시간대에 실행돼도 전날 공시까지 잡히도록 범위를 넓힌다."""
     key = os.environ.get("DART_API_KEY")
     if not key or not holdings:
         return []
@@ -97,13 +98,14 @@ def build_dart(holdings):
         return []
     dart = OpenDartReader(key)
     today = datetime.datetime.now(KST).date()
+    start = today - datetime.timedelta(days=1)
     name_by = {h["code"]: h["name"] for h in holdings}
     rows = []
     for h in holdings:
         code = h["code"]
         try:
             with contextlib.redirect_stdout(io.StringIO()):
-                df = dart.list(code, start=today.strftime("%Y%m%d"),
+                df = dart.list(code, start=start.strftime("%Y%m%d"),
                                end=today.strftime("%Y%m%d"))
         except Exception:
             continue
