@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17 17:26 KST",
+  "updated": "2026-06-17 20:55 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -77,6 +77,11 @@
       "code": "006800",
       "name": "미래에셋증권",
       "items": [
+        {
+          "report": "[기재정정]주요사항보고서(자기주식취득결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000504",
+          "dt": "20260617"
+        },
         {
           "report": "투자설명서(일괄신고)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000067",
