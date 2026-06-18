@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18 09:42 KST",
+  "updated": "2026-06-18 17:05 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 95.0,
-      "prev": 94.32
+      "cur": 84.65,
+      "prev": 88.62
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 97.46,
-      "prev": 97.29
+      "cur": 84.36,
+      "prev": 88.64
     },
     {
       "name": "원/달러",
@@ -52,6 +52,17 @@
   ],
   "dart": [
     {
+      "code": "005380",
+      "name": "현대차",
+      "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618800715",
+          "dt": "20260618"
+        }
+      ]
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
@@ -66,6 +77,16 @@
       "code": "006800",
       "name": "미래에셋증권",
       "items": [
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000139",
+          "dt": "20260618"
+        },
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000134",
+          "dt": "20260618"
+        },
         {
           "report": "[기재정정]주요사항보고서(자기주식취득결정)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000504",
