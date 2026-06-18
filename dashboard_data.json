@@ -1,29 +1,29 @@
 {
-  "updated": "2026-06-17 23:28 KST",
+  "updated": "2026-06-18 09:13 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 4.97,
+      "cur": 4.93,
       "prev": 4.97
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.47,
-      "prev": 4.48
+      "cur": 4.43,
+      "prev": 4.47
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.07,
-      "prev": 4.09
+      "cur": 4.05,
+      "prev": 4.07
     },
     {
       "name": "연준 기준금리",
       "unit": "pct",
       "cur": 3.63,
-      "prev": 3.62
+      "prev": 3.63
     },
     {
       "name": "WTI 유가",
@@ -51,17 +51,6 @@
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "풍문또는보도에대한해명              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616800847",
-          "dt": "20260616"
-        }
-      ]
-    },
     {
       "code": "005930",
       "name": "삼성전자",
@@ -91,16 +80,6 @@
           "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000046",
           "dt": "20260617"
-        },
-        {
-          "report": "투자설명서(일괄신고)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000245",
-          "dt": "20260616"
-        },
-        {
-          "report": "일괄신고추가서류(파생결합증권-주가연계증권)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000232",
-          "dt": "20260616"
         }
       ]
     }
