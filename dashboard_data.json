@@ -1,23 +1,23 @@
 {
-  "updated": "2026-06-18 23:16 KST",
+  "updated": "2026-06-19 09:22 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
       "cur": 4.93,
-      "prev": 4.97
+      "prev": 4.93
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.43,
-      "prev": 4.47
+      "cur": 4.49,
+      "prev": 4.43
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.05,
-      "prev": 4.07
+      "cur": 4.2,
+      "prev": 4.05
     },
     {
       "name": "연준 기준금리",
@@ -63,20 +63,14 @@
       ]
     },
     {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000422",
-          "dt": "20260617"
-        }
-      ]
-    },
-    {
       "code": "006800",
       "name": "미래에셋증권",
       "items": [
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000015",
+          "dt": "20260619"
+        },
         {
           "report": "증권발행실적보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000139",
@@ -86,21 +80,6 @@
           "report": "증권발행실적보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000134",
           "dt": "20260618"
-        },
-        {
-          "report": "[기재정정]주요사항보고서(자기주식취득결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000504",
-          "dt": "20260617"
-        },
-        {
-          "report": "투자설명서(일괄신고)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000067",
-          "dt": "20260617"
-        },
-        {
-          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000046",
-          "dt": "20260617"
         }
       ]
     }
