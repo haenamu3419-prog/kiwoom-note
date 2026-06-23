@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23 09:01 KST",
+  "updated": "2026-06-23 15:48 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -71,6 +71,16 @@
       "code": "006800",
       "name": "미래에셋증권",
       "items": [
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000206",
+          "dt": "20260623"
+        },
+        {
+          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000178",
+          "dt": "20260623"
+        },
         {
           "report": "증권발행실적보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260622000148",
