@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24 15:45 KST",
+  "updated": "2026-06-24 19:26 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,6 +52,43 @@
   ],
   "dart": [
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "증권신고서(지분증권)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000511",
+          "dt": "20260624"
+        },
+        {
+          "report": "주요사항보고서(해외증권시장주권등상장결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000423",
+          "dt": "20260624"
+        },
+        {
+          "report": "주요사항보고서(유상증자결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000420",
+          "dt": "20260624"
+        },
+        {
+          "report": "증권예탁증권(DR)발행결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624800801",
+          "dt": "20260624"
+        }
+      ]
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624801004",
+          "dt": "20260624"
+        }
+      ]
+    },
+    {
       "code": "006800",
       "name": "미래에셋증권",
       "items": [
@@ -99,6 +136,17 @@
           "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000178",
           "dt": "20260623"
+        }
+      ]
+    },
+    {
+      "code": "051360",
+      "name": "토비스",
+      "items": [
+        {
+          "report": "주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624900825",
+          "dt": "20260624"
         }
       ]
     }
