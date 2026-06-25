@@ -1,23 +1,23 @@
 {
-  "updated": "2026-06-24 22:26 KST",
+  "updated": "2026-06-25 09:05 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 4.95,
-      "prev": 4.9
+      "cur": 4.94,
+      "prev": 4.95
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.51,
-      "prev": 4.46
+      "cur": 4.5,
+      "prev": 4.51
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.24,
-      "prev": 4.19
+      "cur": 4.16,
+      "prev": 4.24
     },
     {
       "name": "연준 기준금리",
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 84.65,
-      "prev": 88.62
+      "cur": 78.94,
+      "prev": 80.35
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 84.36,
-      "prev": 88.64
+      "cur": 76.49,
+      "prev": 80.46
     },
     {
       "name": "원/달러",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 17.28,
-      "prev": 16.78
+      "cur": 19.49,
+      "prev": 17.28
     }
   ],
   "dart": [
@@ -126,16 +126,6 @@
           "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000021",
           "dt": "20260624"
-        },
-        {
-          "report": "투자설명서(일괄신고)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000206",
-          "dt": "20260623"
-        },
-        {
-          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000178",
-          "dt": "20260623"
         }
       ]
     },
