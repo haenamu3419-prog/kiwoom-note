@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25 15:44 KST",
+  "updated": "2026-06-25 19:18 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -103,6 +103,21 @@
       "name": "미래에셋증권",
       "items": [
         {
+          "report": "[기재정정]특수관계인과의수익증권거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000595",
+          "dt": "20260625"
+        },
+        {
+          "report": "[기재정정]특수관계인과의수익증권거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000584",
+          "dt": "20260625"
+        },
+        {
+          "report": "[기재정정]특수관계인과의수익증권거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000549",
+          "dt": "20260625"
+        },
+        {
           "report": "증권발행실적보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000273",
           "dt": "20260625"
@@ -146,6 +161,17 @@
           "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000021",
           "dt": "20260624"
+        }
+      ]
+    },
+    {
+      "code": "017670",
+      "name": "SK텔레콤",
+      "items": [
+        {
+          "report": "투자판단관련주요경영사항              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625800905",
+          "dt": "20260625"
         }
       ]
     },
