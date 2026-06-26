@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26 15:53 KST",
+  "updated": "2026-06-26 19:26 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -56,6 +56,11 @@
       "name": "SK하이닉스",
       "items": [
         {
+          "report": "중대재해발생              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626801398",
+          "dt": "20260626"
+        },
+        {
           "report": "특수관계인으로부터자산양수",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000363",
           "dt": "20260626"
@@ -93,6 +98,21 @@
       "items": [
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000675",
+          "dt": "20260626"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000597",
+          "dt": "20260626"
+        },
+        {
+          "report": "지속가능경영보고서등관련사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626800871",
+          "dt": "20260626"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625000389",
           "dt": "20260625"
         }
@@ -102,6 +122,26 @@
       "code": "006800",
       "name": "미래에셋증권",
       "items": [
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000636",
+          "dt": "20260626"
+        },
+        {
+          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000601",
+          "dt": "20260626"
+        },
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000581",
+          "dt": "20260626"
+        },
+        {
+          "report": "일괄신고추가서류(파생결합증권-주가연계증권)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000560",
+          "dt": "20260626"
+        },
         {
           "report": "[기재정정]특수관계인과의수익증권거래",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000470",
@@ -180,6 +220,26 @@
       "code": "051360",
       "name": "토비스",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000599",
+          "dt": "20260626"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000584",
+          "dt": "20260626"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000559",
+          "dt": "20260626"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000525",
+          "dt": "20260626"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000502",
