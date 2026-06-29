@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29 16:27 KST",
+  "updated": "2026-06-29 21:04 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -63,9 +63,25 @@
       ]
     },
     {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "[기재정정]장래사업ㆍ경영계획(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629801230",
+          "dt": "20260629"
+        }
+      ]
+    },
+    {
       "code": "006800",
       "name": "미래에셋증권",
       "items": [
+        {
+          "report": "증권신고서(채무증권)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000560",
+          "dt": "20260629"
+        },
         {
           "report": "투자설명서(일괄신고)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000102",
