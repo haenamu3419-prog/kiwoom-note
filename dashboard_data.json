@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30 15:53 KST",
+  "updated": "2026-06-30 19:34 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -56,6 +56,11 @@
       "name": "SK하이닉스",
       "items": [
         {
+          "report": "[기재정정]증권신고서(지분증권)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001095",
+          "dt": "20260630"
+        },
+        {
           "report": "장래사업ㆍ경영계획(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629800981",
           "dt": "20260629"
@@ -79,6 +84,11 @@
       "items": [
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000993",
+          "dt": "20260630"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000544",
           "dt": "20260630"
         },
@@ -98,6 +108,11 @@
       "code": "006400",
       "name": "삼성SDI",
       "items": [
+        {
+          "report": "금전대여결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801094",
+          "dt": "20260630"
+        },
         {
           "report": "지속가능경영보고서등관련사항(자율공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630800097",
@@ -172,6 +187,11 @@
       "name": "삼성생명",
       "items": [
         {
+          "report": "지속가능경영보고서등관련사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801374",
+          "dt": "20260630"
+        },
+        {
           "report": "특수관계인과의수익증권거래",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000280",
           "dt": "20260630"
@@ -202,6 +222,11 @@
       "code": "034020",
       "name": "두산에너빌리티",
       "items": [
+        {
+          "report": "[기재정정]단일판매ㆍ공급계약체결(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801489",
+          "dt": "20260630"
+        },
         {
           "report": "지속가능경영보고서등관련사항(자율공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630800070",
