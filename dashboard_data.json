@@ -1,23 +1,23 @@
 {
-  "updated": "2026-06-30 22:11 KST",
+  "updated": "2026-07-01 09:02 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 4.87,
-      "prev": 4.86
+      "cur": 4.86,
+      "prev": 4.87
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
       "cur": 4.38,
-      "prev": 4.4
+      "prev": 4.38
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.07,
-      "prev": 4.09
+      "cur": 4.1,
+      "prev": 4.07
     },
     {
       "name": "연준 기준금리",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 18.41,
-      "prev": 18.89
+      "cur": 17.65,
+      "prev": 18.41
     }
   ],
   "dart": [
@@ -59,11 +59,6 @@
           "report": "[기재정정]증권신고서(지분증권)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001095",
           "dt": "20260630"
-        },
-        {
-          "report": "장래사업ㆍ경영계획(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629800981",
-          "dt": "20260629"
         }
       ]
     },
@@ -96,11 +91,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000459",
           "dt": "20260630"
-        },
-        {
-          "report": "[기재정정]장래사업ㆍ경영계획(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629801230",
-          "dt": "20260629"
         }
       ]
     },
@@ -148,21 +138,6 @@
           "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000481",
           "dt": "20260630"
-        },
-        {
-          "report": "증권신고서(채무증권)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000560",
-          "dt": "20260629"
-        },
-        {
-          "report": "투자설명서(일괄신고)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000102",
-          "dt": "20260629"
-        },
-        {
-          "report": "일괄신고추가서류(파생결합증권-주가연계증권)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000084",
-          "dt": "20260629"
         }
       ]
     },
