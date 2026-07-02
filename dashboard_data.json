@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02 15:38 KST",
+  "updated": "2026-07-02 19:13 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -156,6 +156,11 @@
       "name": "삼성전기",
       "items": [
         {
+          "report": "타법인주식및출자증권취득결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702800664",
+          "dt": "20260702"
+        },
+        {
           "report": "장래사업ㆍ경영계획(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702800206",
           "dt": "20260702"
@@ -164,6 +169,22 @@
           "report": "주식등의대량보유상황보고서(약식)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000266",
           "dt": "20260701"
+        }
+      ]
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "items": [
+        {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702000437",
+          "dt": "20260702"
+        },
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702800592",
+          "dt": "20260702"
         }
       ]
     },
