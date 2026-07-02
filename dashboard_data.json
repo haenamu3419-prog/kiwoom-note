@@ -1,23 +1,23 @@
 {
-  "updated": "2026-07-01 22:37 KST",
+  "updated": "2026-07-02 09:03 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 4.86,
-      "prev": 4.87
+      "cur": 4.91,
+      "prev": 4.86
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.38,
+      "cur": 4.44,
       "prev": 4.38
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.1,
-      "prev": 4.07
+      "cur": 4.14,
+      "prev": 4.1
     },
     {
       "name": "연준 기준금리",
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 78.94,
-      "prev": 80.35
+      "cur": 71.87,
+      "prev": 70.3
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 76.49,
-      "prev": 80.46
+      "cur": 71.59,
+      "prev": 70.16
     },
     {
       "name": "원/달러",
@@ -64,11 +64,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000528",
           "dt": "20260701"
-        },
-        {
-          "report": "[기재정정]증권신고서(지분증권)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630001095",
-          "dt": "20260630"
         }
       ]
     },
@@ -80,11 +75,6 @@
           "report": "영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701800788",
           "dt": "20260701"
-        },
-        {
-          "report": "지속가능경영보고서등관련사항(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630800715",
-          "dt": "20260630"
         }
       ]
     },
@@ -96,21 +86,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000525",
           "dt": "20260701"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000993",
-          "dt": "20260630"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000544",
-          "dt": "20260630"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000459",
-          "dt": "20260630"
         }
       ]
     },
@@ -122,16 +97,6 @@
           "report": "주식등의대량보유상황보고서(약식)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000293",
           "dt": "20260701"
-        },
-        {
-          "report": "금전대여결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801094",
-          "dt": "20260630"
-        },
-        {
-          "report": "지속가능경영보고서등관련사항(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630800097",
-          "dt": "20260630"
         }
       ]
     },
@@ -168,31 +133,6 @@
           "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000044",
           "dt": "20260701"
-        },
-        {
-          "report": "증권발행실적보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000730",
-          "dt": "20260630"
-        },
-        {
-          "report": "투자설명서(일괄신고)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000527",
-          "dt": "20260630"
-        },
-        {
-          "report": "투자설명서(일괄신고)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000508",
-          "dt": "20260630"
-        },
-        {
-          "report": "일괄신고추가서류(파생결합증권-주가연계증권)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000505",
-          "dt": "20260630"
-        },
-        {
-          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000481",
-          "dt": "20260630"
         }
       ]
     },
@@ -204,68 +144,6 @@
           "report": "주식등의대량보유상황보고서(약식)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000266",
           "dt": "20260701"
-        },
-        {
-          "report": "지속가능경영보고서등관련사항(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630800419",
-          "dt": "20260630"
-        },
-        {
-          "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630800114",
-          "dt": "20260630"
-        }
-      ]
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "items": [
-        {
-          "report": "지속가능경영보고서등관련사항(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801374",
-          "dt": "20260630"
-        },
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000280",
-          "dt": "20260630"
-        },
-        {
-          "report": "특수관계인에대한부동산임대",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000274",
-          "dt": "20260630"
-        },
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000271",
-          "dt": "20260630"
-        },
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000267",
-          "dt": "20260630"
-        },
-        {
-          "report": "특수관계인에대한증여",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000224",
-          "dt": "20260630"
-        }
-      ]
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "items": [
-        {
-          "report": "[기재정정]단일판매ㆍ공급계약체결(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801489",
-          "dt": "20260630"
-        },
-        {
-          "report": "지속가능경영보고서등관련사항(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630800070",
-          "dt": "20260630"
         }
       ]
     },
