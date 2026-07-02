@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02 09:03 KST",
+  "updated": "2026-07-02 15:38 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -94,6 +94,11 @@
       "name": "삼성SDI",
       "items": [
         {
+          "report": "장래사업ㆍ경영계획(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702800279",
+          "dt": "20260702"
+        },
+        {
           "report": "주식등의대량보유상황보고서(약식)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000293",
           "dt": "20260701"
@@ -104,6 +109,16 @@
       "code": "006800",
       "name": "미래에셋증권",
       "items": [
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702000343",
+          "dt": "20260702"
+        },
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702000326",
+          "dt": "20260702"
+        },
         {
           "report": "지속가능경영보고서등관련사항(자율공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701800517",
@@ -140,6 +155,11 @@
       "code": "009150",
       "name": "삼성전기",
       "items": [
+        {
+          "report": "장래사업ㆍ경영계획(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702800206",
+          "dt": "20260702"
+        },
         {
           "report": "주식등의대량보유상황보고서(약식)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000266",
