@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03 15:28 KST",
+  "updated": "2026-07-03 19:09 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -51,6 +51,17 @@
     }
   ],
   "dart": [
+    {
+      "code": "005380",
+      "name": "현대차",
+      "items": [
+        {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703801045",
+          "dt": "20260703"
+        }
+      ]
+    },
     {
       "code": "006400",
       "name": "삼성SDI",
