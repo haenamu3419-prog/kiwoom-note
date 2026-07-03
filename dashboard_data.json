@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03 09:02 KST",
+  "updated": "2026-07-03 15:28 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -57,6 +57,11 @@
       "items": [
         {
           "report": "장래사업ㆍ경영계획(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703800492",
+          "dt": "20260703"
+        },
+        {
+          "report": "장래사업ㆍ경영계획(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702800279",
           "dt": "20260702"
         }
@@ -66,6 +71,41 @@
       "code": "006800",
       "name": "미래에셋증권",
       "items": [
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000317",
+          "dt": "20260703"
+        },
+        {
+          "report": "일괄신고추가서류(기타파생결합증권)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000311",
+          "dt": "20260703"
+        },
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000214",
+          "dt": "20260703"
+        },
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000174",
+          "dt": "20260703"
+        },
+        {
+          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000151",
+          "dt": "20260703"
+        },
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000117",
+          "dt": "20260703"
+        },
+        {
+          "report": "일괄신고추가서류(파생결합증권-주가연계증권)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000096",
+          "dt": "20260703"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000007",
@@ -87,6 +127,11 @@
       "code": "009150",
       "name": "삼성전기",
       "items": [
+        {
+          "report": "장래사업ㆍ경영계획(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703800494",
+          "dt": "20260703"
+        },
         {
           "report": "타법인주식및출자증권취득결정              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702800664",
