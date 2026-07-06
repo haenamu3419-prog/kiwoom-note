@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06 09:02 KST",
+  "updated": "2026-07-06 16:09 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -50,7 +50,65 @@
       "prev": 16.45
     }
   ],
-  "dart": [],
+  "dart": [
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
+      "items": [
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000215",
+          "dt": "20260706"
+        },
+        {
+          "report": "일괄신고추가서류(파생결합증권-주가연계증권)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000212",
+          "dt": "20260706"
+        },
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000168",
+          "dt": "20260706"
+        },
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000128",
+          "dt": "20260706"
+        },
+        {
+          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000123",
+          "dt": "20260706"
+        },
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000087",
+          "dt": "20260706"
+        },
+        {
+          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000079",
+          "dt": "20260706"
+        },
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000031",
+          "dt": "20260706"
+        }
+      ]
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "items": [
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800363",
+          "dt": "20260706"
+        }
+      ]
+    }
+  ],
   "kr_holdings": [
     {
       "code": "000660",
