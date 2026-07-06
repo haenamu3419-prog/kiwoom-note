@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06 16:09 KST",
+  "updated": "2026-07-06 20:41 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -51,6 +51,38 @@
     }
   ],
   "dart": [
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "[기재정정]증권신고서(지분증권)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000444",
+          "dt": "20260706"
+        },
+        {
+          "report": "[기재정정]주요사항보고서(유상증자결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000403",
+          "dt": "20260706"
+        },
+        {
+          "report": "[기재정정]증권예탁증권(DR)발행결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800684",
+          "dt": "20260706"
+        }
+      ]
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800672",
+          "dt": "20260706"
+        }
+      ]
+    },
     {
       "code": "006800",
       "name": "미래에셋증권",
