@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07 15:42 KST",
+  "updated": "2026-07-07 19:29 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -76,6 +76,11 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "주요사항보고서(자기주식처분결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000403",
+          "dt": "20260707"
+        },
         {
           "report": "기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707800015",
@@ -187,6 +192,17 @@
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800363",
           "dt": "20260706"
+        }
+      ]
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707800489",
+          "dt": "20260707"
         }
       ]
     }
