@@ -1,23 +1,23 @@
 {
-  "updated": "2026-07-07 22:23 KST",
+  "updated": "2026-07-08 08:54 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 4.98,
-      "prev": 4.97
+      "cur": 4.99,
+      "prev": 4.98
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.49,
-      "prev": 4.48
+      "cur": 4.48,
+      "prev": 4.49
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.14,
-      "prev": 4.17
+      "cur": 4.13,
+      "prev": 4.14
     },
     {
       "name": "연준 기준금리",
@@ -46,32 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.81,
-      "prev": 16.15
+      "cur": 15.57,
+      "prev": 15.81
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "[기재정정]증권신고서(지분증권)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000444",
-          "dt": "20260706"
-        },
-        {
-          "report": "[기재정정]주요사항보고서(유상증자결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000403",
-          "dt": "20260706"
-        },
-        {
-          "report": "[기재정정]증권예탁증권(DR)발행결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800684",
-          "dt": "20260706"
-        }
-      ]
-    },
     {
       "code": "005930",
       "name": "삼성전자",
@@ -90,11 +69,6 @@
           "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707800004",
           "dt": "20260707"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800672",
-          "dt": "20260706"
         }
       ]
     },
@@ -141,57 +115,6 @@
           "report": "증권발행실적보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000020",
           "dt": "20260707"
-        },
-        {
-          "report": "투자설명서(일괄신고)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000215",
-          "dt": "20260706"
-        },
-        {
-          "report": "일괄신고추가서류(파생결합증권-주가연계증권)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000212",
-          "dt": "20260706"
-        },
-        {
-          "report": "증권발행실적보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000168",
-          "dt": "20260706"
-        },
-        {
-          "report": "투자설명서(일괄신고)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000128",
-          "dt": "20260706"
-        },
-        {
-          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000123",
-          "dt": "20260706"
-        },
-        {
-          "report": "투자설명서(일괄신고)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000087",
-          "dt": "20260706"
-        },
-        {
-          "report": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000079",
-          "dt": "20260706"
-        },
-        {
-          "report": "증권발행실적보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000031",
-          "dt": "20260706"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800363",
-          "dt": "20260706"
         }
       ]
     },
