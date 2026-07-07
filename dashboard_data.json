@@ -1,23 +1,23 @@
 {
-  "updated": "2026-07-06 23:31 KST",
+  "updated": "2026-07-07 09:03 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 4.97,
-      "prev": 4.91
+      "cur": 4.98,
+      "prev": 4.97
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.48,
-      "prev": 4.44
+      "cur": 4.49,
+      "prev": 4.48
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.17,
-      "prev": 4.14
+      "cur": 4.14,
+      "prev": 4.17
     },
     {
       "name": "연준 기준금리",
@@ -40,8 +40,8 @@
     {
       "name": "원/달러",
       "unit": "won",
-      "cur": 1533.44,
-      "prev": 1541.44
+      "cur": 1538.05,
+      "prev": 1550.59
     },
     {
       "name": "VIX",
@@ -76,6 +76,16 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707800015",
+          "dt": "20260707"
+        },
+        {
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707800004",
+          "dt": "20260707"
+        },
         {
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706800672",
