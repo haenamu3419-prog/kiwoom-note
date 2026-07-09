@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09 09:05 KST",
+  "updated": "2026-07-09 19:28 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,6 +52,22 @@
   ],
   "dart": [
     {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000691",
+          "dt": "20260709"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000662",
+          "dt": "20260709"
+        }
+      ]
+    },
+    {
       "code": "006400",
       "name": "삼성SDI",
       "items": [
@@ -67,8 +83,33 @@
       "name": "미래에셋증권",
       "items": [
         {
-          "report": "효력발생안내( 2026.6.29. 제출 증권신고서(채무증권) )",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629100043",
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000556",
+          "dt": "20260709"
+        },
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000555",
+          "dt": "20260709"
+        },
+        {
+          "report": "투자설명서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000548",
+          "dt": "20260709"
+        },
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800430",
+          "dt": "20260709"
+        },
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000397",
+          "dt": "20260709"
+        },
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000379",
           "dt": "20260709"
         },
         {
@@ -100,6 +141,22 @@
           "report": "[기재정정]일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708000090",
           "dt": "20260708"
+        }
+      ]
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800242",
+          "dt": "20260709"
+        },
+        {
+          "report": "결산실적공시예고(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800238",
+          "dt": "20260709"
         }
       ]
     },
