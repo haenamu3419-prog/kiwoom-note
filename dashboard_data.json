@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10 15:41 KST",
+  "updated": "2026-07-10 19:27 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -88,9 +88,35 @@
       ]
     },
     {
+      "code": "005380",
+      "name": "현대차",
+      "items": [
+        {
+          "report": "특수관계인으로부터기타유가증권매수",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000577",
+          "dt": "20260710"
+        },
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800714",
+          "dt": "20260710"
+        }
+      ]
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000678",
+          "dt": "20260710"
+        },
+        {
+          "report": "자기주식처분결과보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000585",
+          "dt": "20260710"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000211",
