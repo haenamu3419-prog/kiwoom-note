@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10 09:00 KST",
+  "updated": "2026-07-10 15:41 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -93,6 +93,11 @@
       "items": [
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000211",
+          "dt": "20260710"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000703",
           "dt": "20260710"
         },
@@ -120,42 +125,6 @@
       ]
     },
     {
-      "code": "006800",
-      "name": "미래에셋증권",
-      "items": [
-        {
-          "report": "증권발행실적보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000556",
-          "dt": "20260709"
-        },
-        {
-          "report": "증권발행실적보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000555",
-          "dt": "20260709"
-        },
-        {
-          "report": "투자설명서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000548",
-          "dt": "20260709"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800430",
-          "dt": "20260709"
-        },
-        {
-          "report": "증권발행실적보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000397",
-          "dt": "20260709"
-        },
-        {
-          "report": "증권발행실적보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000379",
-          "dt": "20260709"
-        }
-      ]
-    },
-    {
       "code": "009150",
       "name": "삼성전기",
       "items": [
@@ -168,6 +137,22 @@
           "report": "결산실적공시예고(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800238",
           "dt": "20260709"
+        }
+      ]
+    },
+    {
+      "code": "051360",
+      "name": "토비스",
+      "items": [
+        {
+          "report": "[기재정정]증권발행실적보고서(합병등)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000149",
+          "dt": "20260710"
+        },
+        {
+          "report": "[기재정정]주요사항보고서(회사분할결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000095",
+          "dt": "20260710"
         }
       ]
     }
@@ -190,40 +175,24 @@
       "name": "삼성SDI"
     },
     {
-      "code": "006800",
-      "name": "미래에셋증권"
-    },
-    {
       "code": "009150",
       "name": "삼성전기"
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스"
     },
     {
       "code": "032830",
       "name": "삼성생명"
     },
     {
-      "code": "034020",
-      "name": "두산에너빌리티"
+      "code": "034730",
+      "name": "SK"
     },
     {
       "code": "051360",
       "name": "토비스"
     },
     {
-      "code": "466920",
-      "name": "SOL 조선TOP3플러스"
-    },
-    {
       "code": "471990",
       "name": "KODEX AI반도체핵심장비"
-    },
-    {
-      "code": "487240",
-      "name": "KODEX AI전력핵심설비"
     }
   ]
 }
