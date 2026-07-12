@@ -1,29 +1,29 @@
 {
-  "updated": "2026-07-10 22:16 KST",
+  "updated": "2026-07-13 08:49 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.06,
-      "prev": 5.05
+      "cur": 5.05,
+      "prev": 5.06
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.56,
-      "prev": 4.55
+      "cur": 4.54,
+      "prev": 4.56
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.21,
-      "prev": 4.19
+      "cur": 4.16,
+      "prev": 4.21
     },
     {
       "name": "연준 기준금리",
       "unit": "pct",
       "cur": 3.62,
-      "prev": 3.63
+      "prev": 3.62
     },
     {
       "name": "WTI 유가",
@@ -46,139 +46,19 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 16.9,
-      "prev": 16.13
+      "cur": 15.84,
+      "prev": 16.9
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "투자설명서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000012",
-          "dt": "20260710"
-        },
-        {
-          "report": "[발행조건확정]증권신고서(지분증권)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000010",
-          "dt": "20260710"
-        },
-        {
-          "report": "[기재정정]주요사항보고서(유상증자결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000008",
-          "dt": "20260710"
-        },
-        {
-          "report": "[기재정정]주요사항보고서(해외증권시장주권등상장결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000002",
-          "dt": "20260710"
-        },
-        {
-          "report": "[기재정정]증권예탁증권(DR)발행결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800023",
-          "dt": "20260710"
-        },
-        {
-          "report": "효력발생안내( 2026.6.30. 제출 증권신고서(지분증권) )",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630100041",
-          "dt": "20260710"
-        }
-      ]
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "items": [
-        {
-          "report": "특수관계인으로부터기타유가증권매수",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000577",
-          "dt": "20260710"
-        },
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800714",
-          "dt": "20260710"
-        }
-      ]
-    },
     {
       "code": "005930",
       "name": "삼성전자",
       "items": [
         {
-          "report": "주식등의대량보유상황보고서(일반)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000678",
-          "dt": "20260710"
-        },
-        {
-          "report": "자기주식처분결과보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000585",
-          "dt": "20260710"
-        },
-        {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000211",
-          "dt": "20260710"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000703",
-          "dt": "20260710"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000691",
-          "dt": "20260709"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709000662",
-          "dt": "20260709"
-        }
-      ]
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "items": [
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800054",
-          "dt": "20260709"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800242",
-          "dt": "20260709"
-        },
-        {
-          "report": "결산실적공시예고(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709800238",
-          "dt": "20260709"
-        }
-      ]
-    },
-    {
-      "code": "051360",
-      "name": "토비스",
-      "items": [
-        {
-          "report": "[기재정정]증권발행실적보고서(합병등)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000149",
-          "dt": "20260710"
-        },
-        {
-          "report": "[기재정정]주요사항보고서(회사분할결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000095",
-          "dt": "20260710"
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000718",
+          "dt": "20260713"
         }
       ]
     }
