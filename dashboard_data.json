@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13 08:49 KST",
+  "updated": "2026-07-13 19:33 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,9 +52,36 @@
   ],
   "dart": [
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "주요사항보고서(해외증권시장주권등상장)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000324",
+          "dt": "20260713"
+        }
+      ]
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "items": [
+        {
+          "report": "생산중단              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713800350",
+          "dt": "20260713"
+        }
+      ]
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "주요사항보고서(자기주식처분결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000395",
+          "dt": "20260713"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000718",
