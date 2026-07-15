@@ -1,41 +1,41 @@
 {
-  "updated": "2026-07-15 21:20 KST",
+  "updated": "2026-07-16 08:55 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.1,
-      "prev": 5.06
+      "cur": 5.08,
+      "prev": 5.1
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.62,
-      "prev": 4.56
+      "cur": 4.58,
+      "prev": 4.62
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.26,
-      "prev": 4.21
+      "cur": 4.18,
+      "prev": 4.26
     },
     {
       "name": "연준 기준금리",
       "unit": "pct",
-      "cur": 3.62,
+      "cur": 3.63,
       "prev": 3.62
     },
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 69.6,
-      "prev": 69.73
+      "cur": 79.2,
+      "prev": 72.45
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 69.56,
-      "prev": 68.68
+      "cur": 81.62,
+      "prev": 74.34
     },
     {
       "name": "원/달러",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 17.16,
-      "prev": 15.03
+      "cur": 16.5,
+      "prev": 17.16
     }
   ],
   "dart": [
@@ -90,43 +90,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000139",
           "dt": "20260715"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000175",
-          "dt": "20260714"
-        }
-      ]
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "items": [
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714800179",
-          "dt": "20260714"
-        }
-      ]
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "items": [
-        {
-          "report": "계열금융회사의약관에의한금융거래-[유가증권-채권]",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000146",
-          "dt": "20260714"
-        },
-        {
-          "report": "계열금융회사의약관에의한금융거래-[유가증권-수익증권]",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000144",
-          "dt": "20260714"
-        },
-        {
-          "report": "계열금융회사의약관에의한금융거래-[보험]",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000142",
-          "dt": "20260714"
         }
       ]
     }
