@@ -1,29 +1,29 @@
 {
-  "updated": "2026-07-16 21:25 KST",
+  "updated": "2026-07-17 08:54 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
       "cur": 5.08,
-      "prev": 5.1
+      "prev": 5.08
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.58,
-      "prev": 4.62
+      "cur": 4.55,
+      "prev": 4.58
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.18,
-      "prev": 4.26
+      "cur": 4.13,
+      "prev": 4.18
     },
     {
       "name": "연준 기준금리",
       "unit": "pct",
       "cur": 3.63,
-      "prev": 3.62
+      "prev": 3.63
     },
     {
       "name": "WTI 유가",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 16.5,
-      "prev": 17.16
+      "cur": 15.67,
+      "prev": 16.5
     }
   ],
   "dart": [
@@ -59,21 +59,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000582",
           "dt": "20260716"
-        },
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715800456",
-          "dt": "20260715"
-        },
-        {
-          "report": "유상증자또는주식관련사채등의발행결과(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715800045",
-          "dt": "20260715"
-        },
-        {
-          "report": "증권발행실적보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000004",
-          "dt": "20260715"
         }
       ]
     },
@@ -106,21 +91,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000280",
           "dt": "20260716"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000412",
-          "dt": "20260715"
-        },
-        {
-          "report": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000380",
-          "dt": "20260715"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000139",
-          "dt": "20260715"
         }
       ]
     }
