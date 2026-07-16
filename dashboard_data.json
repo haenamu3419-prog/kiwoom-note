@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16 14:36 KST",
+  "updated": "2026-07-16 18:20 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -56,6 +56,11 @@
       "name": "SK하이닉스",
       "items": [
         {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000582",
+          "dt": "20260716"
+        },
+        {
           "report": "기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715800456",
           "dt": "20260715"
@@ -73,9 +78,30 @@
       ]
     },
     {
+      "code": "005380",
+      "name": "현대차",
+      "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800634",
+          "dt": "20260716"
+        }
+      ]
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "자기주식처분결과보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000796",
+          "dt": "20260716"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000648",
+          "dt": "20260716"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000280",
