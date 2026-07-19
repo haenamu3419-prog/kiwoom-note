@@ -1,23 +1,23 @@
 {
-  "updated": "2026-07-17 21:16 KST",
+  "updated": "2026-07-20 08:52 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.08,
+      "cur": 5.09,
       "prev": 5.08
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.55,
-      "prev": 4.58
+      "cur": 4.57,
+      "prev": 4.55
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.13,
-      "prev": 4.18
+      "cur": 4.16,
+      "prev": 4.13
     },
     {
       "name": "연준 기준금리",
@@ -46,55 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.67,
-      "prev": 16.5
+      "cur": 16.73,
+      "prev": 15.67
     }
   ],
-  "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000582",
-          "dt": "20260716"
-        }
-      ]
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "items": [
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800634",
-          "dt": "20260716"
-        }
-      ]
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "자기주식처분결과보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000796",
-          "dt": "20260716"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000648",
-          "dt": "20260716"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000280",
-          "dt": "20260716"
-        }
-      ]
-    }
-  ],
+  "dart": [],
   "kr_holdings": [
     {
       "code": "000660",
