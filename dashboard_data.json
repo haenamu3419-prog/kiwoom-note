@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20 08:52 KST",
+  "updated": "2026-07-20 19:18 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -50,7 +50,30 @@
       "prev": 15.67
     }
   ],
-  "dart": [],
+  "dart": [
+    {
+      "code": "005380",
+      "name": "현대차",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000316",
+          "dt": "20260720"
+        }
+      ]
+    },
+    {
+      "code": "051360",
+      "name": "토비스",
+      "items": [
+        {
+          "report": "[기재정정]증권발행실적보고서(합병등)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000048",
+          "dt": "20260720"
+        }
+      ]
+    }
+  ],
   "kr_holdings": [
     {
       "code": "000660",
