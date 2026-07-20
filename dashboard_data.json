@@ -1,23 +1,23 @@
 {
-  "updated": "2026-07-20 22:11 KST",
+  "updated": "2026-07-21 08:53 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.09,
-      "prev": 5.08
+      "cur": 5.06,
+      "prev": 5.09
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.57,
-      "prev": 4.55
+      "cur": 4.55,
+      "prev": 4.57
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.16,
-      "prev": 4.13
+      "cur": 4.18,
+      "prev": 4.16
     },
     {
       "name": "연준 기준금리",
@@ -40,14 +40,14 @@
     {
       "name": "원/달러",
       "unit": "won",
-      "cur": 1501.06,
-      "prev": 1508.76
+      "cur": 1489.44,
+      "prev": 1478.2
     },
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 16.73,
-      "prev": 15.67
+      "cur": 18.77,
+      "prev": 16.73
     }
   ],
   "dart": [
@@ -59,6 +59,17 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000316",
           "dt": "20260720"
+        }
+      ]
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000360",
+          "dt": "20260721"
         }
       ]
     },
