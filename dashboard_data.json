@@ -1,23 +1,23 @@
 {
-  "updated": "2026-07-21 21:41 KST",
+  "updated": "2026-07-22 08:52 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.06,
-      "prev": 5.09
+      "cur": 5.11,
+      "prev": 5.06
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.55,
-      "prev": 4.57
+      "cur": 4.6,
+      "prev": 4.55
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.18,
-      "prev": 4.16
+      "cur": 4.21,
+      "prev": 4.18
     },
     {
       "name": "연준 기준금리",
@@ -46,22 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 18.77,
-      "prev": 16.73
+      "cur": 18.65,
+      "prev": 18.77
     }
   ],
   "dart": [
-    {
-      "code": "005380",
-      "name": "현대차",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000316",
-          "dt": "20260720"
-        }
-      ]
-    },
     {
       "code": "005930",
       "name": "삼성전자",
@@ -3789,17 +3778,6 @@
       ]
     },
     {
-      "code": "051360",
-      "name": "토비스",
-      "items": [
-        {
-          "report": "[기재정정]증권발행실적보고서(합병등)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000048",
-          "dt": "20260720"
-        }
-      ]
-    },
-    {
       "code": "105560",
       "name": "KB금융",
       "items": [
@@ -3807,11 +3785,6 @@
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721800305",
           "dt": "20260721"
-        },
-        {
-          "report": "[기재정정]주식소각결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720800766",
-          "dt": "20260720"
         }
       ]
     }
