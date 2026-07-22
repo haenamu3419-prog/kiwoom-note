@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22 08:52 KST",
+  "updated": "2026-07-22 14:45 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,9 +52,25 @@
   ],
   "dart": [
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "풍문또는보도에대한해명              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722800178",
+          "dt": "20260722"
+        }
+      ]
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000161",
+          "dt": "20260722"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721001369",
@@ -3774,6 +3790,17 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720000360",
           "dt": "20260721"
+        }
+      ]
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000031",
+          "dt": "20260722"
         }
       ]
     },
