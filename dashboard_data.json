@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23 14:50 KST",
+  "updated": "2026-07-23 18:29 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -72,6 +72,21 @@
       "name": "현대차",
       "items": [
         {
+          "report": "공정거래자율준수프로그램운영현황(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800961",
+          "dt": "20260723"
+        },
+        {
+          "report": "주요사항보고서(자기주식처분결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000599",
+          "dt": "20260723"
+        },
+        {
+          "report": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000574",
+          "dt": "20260723"
+        },
+        {
           "report": "현금ㆍ현물배당결정              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800323",
           "dt": "20260723"
@@ -92,6 +107,11 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800875",
+          "dt": "20260723"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000114",
@@ -136,6 +156,26 @@
       "name": "SK",
       "items": [
         {
+          "report": "타법인주식및출자증권취득결정(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800946",
+          "dt": "20260723"
+        },
+        {
+          "report": "투자판단관련주요경영사항(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800930",
+          "dt": "20260723"
+        },
+        {
+          "report": "현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800523",
+          "dt": "20260723"
+        },
+        {
+          "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800516",
+          "dt": "20260723"
+        },
+        {
           "report": "지주회사의자회사편입(자회사의 주요경영사항)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722800875",
           "dt": "20260722"
@@ -150,6 +190,52 @@
           "report": "주권매매거래정지해제              (감자 주권 변경상장)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722900835",
           "dt": "20260722"
+        }
+      ]
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "items": [
+        {
+          "report": "주요사항보고서(상각형조건부자본증권발행결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000413",
+          "dt": "20260723"
+        },
+        {
+          "report": "주식소각결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800512",
+          "dt": "20260723"
+        },
+        {
+          "report": "주요사항보고서(자기주식취득신탁계약체결결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000345",
+          "dt": "20260723"
+        },
+        {
+          "report": "현금ㆍ현물배당결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800477",
+          "dt": "20260723"
+        },
+        {
+          "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800475",
+          "dt": "20260723"
+        },
+        {
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800451",
+          "dt": "20260723"
+        },
+        {
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800439",
+          "dt": "20260723"
+        },
+        {
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800438",
+          "dt": "20260723"
         }
       ]
     }
