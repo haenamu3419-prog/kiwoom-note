@@ -1,23 +1,23 @@
 {
-  "updated": "2026-07-23 21:44 KST",
+  "updated": "2026-07-24 08:56 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.13,
-      "prev": 5.11
+      "cur": 5.15,
+      "prev": 5.13
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.63,
-      "prev": 4.6
+      "cur": 4.67,
+      "prev": 4.63
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.26,
-      "prev": 4.21
+      "cur": 4.31,
+      "prev": 4.26
     },
     {
       "name": "연준 기준금리",
@@ -46,27 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 17.05,
-      "prev": 18.65
+      "cur": 16.64,
+      "prev": 17.05
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "신규시설투자등              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722800829",
-          "dt": "20260722"
-        },
-        {
-          "report": "풍문또는보도에대한해명              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722800178",
-          "dt": "20260722"
-        }
-      ]
-    },
     {
       "code": "005380",
       "name": "현대차",
@@ -116,27 +100,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000114",
           "dt": "20260723"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000429",
-          "dt": "20260722"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000161",
-          "dt": "20260722"
-        }
-      ]
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000031",
-          "dt": "20260722"
         }
       ]
     },
@@ -155,6 +118,11 @@
       "code": "034730",
       "name": "SK",
       "items": [
+        {
+          "report": "특수관계인으로부터주식의취득",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000002",
+          "dt": "20260724"
+        },
         {
           "report": "[기재정정]타법인주식및출자증권취득결정(자회사의 주요경영사항)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723801026",
@@ -179,22 +147,6 @@
           "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정(자회사의 주요경영사항)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800516",
           "dt": "20260723"
-        },
-        {
-          "report": "지주회사의자회사편입(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722800875",
-          "dt": "20260722"
-        }
-      ]
-    },
-    {
-      "code": "051360",
-      "name": "토비스",
-      "items": [
-        {
-          "report": "주권매매거래정지해제              (감자 주권 변경상장)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722900835",
-          "dt": "20260722"
         }
       ]
     },
