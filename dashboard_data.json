@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23 18:29 KST",
+  "updated": "2026-07-23 21:44 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -155,6 +155,11 @@
       "code": "034730",
       "name": "SK",
       "items": [
+        {
+          "report": "[기재정정]타법인주식및출자증권취득결정(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723801026",
+          "dt": "20260723"
+        },
         {
           "report": "타법인주식및출자증권취득결정(자회사의 주요경영사항)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800946",
