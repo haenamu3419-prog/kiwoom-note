@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23 08:58 KST",
+  "updated": "2026-07-23 14:50 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -68,9 +68,35 @@
       ]
     },
     {
+      "code": "005380",
+      "name": "현대차",
+      "items": [
+        {
+          "report": "현금ㆍ현물배당결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800323",
+          "dt": "20260723"
+        },
+        {
+          "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800321",
+          "dt": "20260723"
+        },
+        {
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800315",
+          "dt": "20260723"
+        }
+      ]
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000114",
+          "dt": "20260723"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000429",
