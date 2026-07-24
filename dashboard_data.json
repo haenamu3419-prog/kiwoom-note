@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24 14:47 KST",
+  "updated": "2026-07-24 18:26 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -56,6 +56,16 @@
       "name": "현대차",
       "items": [
         {
+          "report": "생산중단              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800692",
+          "dt": "20260724"
+        },
+        {
+          "report": "특수관계인에대한출자",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000432",
+          "dt": "20260724"
+        },
+        {
           "report": "공정거래자율준수프로그램운영현황(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800961",
           "dt": "20260723"
@@ -92,6 +102,11 @@
       "name": "삼성전자",
       "items": [
         {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000625",
+          "dt": "20260724"
+        },
+        {
           "report": "풍문또는보도에대한해명(미확정)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800875",
           "dt": "20260723"
@@ -122,6 +137,47 @@
           "report": "단일판매ㆍ공급계약체결              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800073",
           "dt": "20260723"
+        }
+      ]
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "items": [
+        {
+          "report": "특수관계인으로부터주식의취득",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000660",
+          "dt": "20260724"
+        },
+        {
+          "report": "특수관계인으로부터주식의취득",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000657",
+          "dt": "20260724"
+        },
+        {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000604",
+          "dt": "20260724"
+        },
+        {
+          "report": "특수관계인과의수익증권거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000601",
+          "dt": "20260724"
+        },
+        {
+          "report": "특수관계인과의수익증권거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000584",
+          "dt": "20260724"
+        },
+        {
+          "report": "특수관계인과의수익증권거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000570",
+          "dt": "20260724"
+        },
+        {
+          "report": "특수관계인과의수익증권거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000528",
+          "dt": "20260724"
         }
       ]
     },
