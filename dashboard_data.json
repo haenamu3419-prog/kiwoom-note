@@ -1,23 +1,23 @@
 {
-  "updated": "2026-07-24 21:23 KST",
+  "updated": "2026-07-27 08:56 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.15,
-      "prev": 5.13
+      "cur": 5.17,
+      "prev": 5.15
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.67,
-      "prev": 4.63
+      "cur": 4.71,
+      "prev": 4.67
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.31,
-      "prev": 4.26
+      "cur": 4.37,
+      "prev": 4.31
     },
     {
       "name": "연준 기준금리",
@@ -46,224 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 16.64,
-      "prev": 17.05
+      "cur": 18.7,
+      "prev": 16.64
     }
   ],
-  "dart": [
-    {
-      "code": "005380",
-      "name": "현대차",
-      "items": [
-        {
-          "report": "생산중단              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800692",
-          "dt": "20260724"
-        },
-        {
-          "report": "특수관계인에대한출자",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000432",
-          "dt": "20260724"
-        },
-        {
-          "report": "공정거래자율준수프로그램운영현황(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800961",
-          "dt": "20260723"
-        },
-        {
-          "report": "주요사항보고서(자기주식처분결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000599",
-          "dt": "20260723"
-        },
-        {
-          "report": "약관에의한금융거래시계열금융회사의거래상대방의공시",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000574",
-          "dt": "20260723"
-        },
-        {
-          "report": "현금ㆍ현물배당결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800323",
-          "dt": "20260723"
-        },
-        {
-          "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800321",
-          "dt": "20260723"
-        },
-        {
-          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800315",
-          "dt": "20260723"
-        }
-      ]
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "주식등의대량보유상황보고서(일반)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000625",
-          "dt": "20260724"
-        },
-        {
-          "report": "풍문또는보도에대한해명(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800875",
-          "dt": "20260723"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000114",
-          "dt": "20260723"
-        }
-      ]
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000046",
-          "dt": "20260724"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800073",
-          "dt": "20260723"
-        }
-      ]
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "items": [
-        {
-          "report": "특수관계인으로부터주식의취득",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000660",
-          "dt": "20260724"
-        },
-        {
-          "report": "특수관계인으로부터주식의취득",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000657",
-          "dt": "20260724"
-        },
-        {
-          "report": "주식등의대량보유상황보고서(일반)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000604",
-          "dt": "20260724"
-        },
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000601",
-          "dt": "20260724"
-        },
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000584",
-          "dt": "20260724"
-        },
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000570",
-          "dt": "20260724"
-        },
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000528",
-          "dt": "20260724"
-        }
-      ]
-    },
-    {
-      "code": "034730",
-      "name": "SK",
-      "items": [
-        {
-          "report": "특수관계인으로부터주식의취득",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000002",
-          "dt": "20260724"
-        },
-        {
-          "report": "[기재정정]타법인주식및출자증권취득결정(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723801026",
-          "dt": "20260723"
-        },
-        {
-          "report": "타법인주식및출자증권취득결정(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800946",
-          "dt": "20260723"
-        },
-        {
-          "report": "투자판단관련주요경영사항(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800930",
-          "dt": "20260723"
-        },
-        {
-          "report": "현금ㆍ현물배당결정(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800523",
-          "dt": "20260723"
-        },
-        {
-          "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800516",
-          "dt": "20260723"
-        }
-      ]
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "items": [
-        {
-          "report": "주요사항보고서(상각형조건부자본증권발행결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000413",
-          "dt": "20260723"
-        },
-        {
-          "report": "주식소각결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800512",
-          "dt": "20260723"
-        },
-        {
-          "report": "주요사항보고서(자기주식취득신탁계약체결결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000345",
-          "dt": "20260723"
-        },
-        {
-          "report": "현금ㆍ현물배당결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800477",
-          "dt": "20260723"
-        },
-        {
-          "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800475",
-          "dt": "20260723"
-        },
-        {
-          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800451",
-          "dt": "20260723"
-        },
-        {
-          "report": "연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800439",
-          "dt": "20260723"
-        },
-        {
-          "report": "연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800438",
-          "dt": "20260723"
-        }
-      ]
-    }
-  ],
+  "dart": [],
   "kr_holdings": [
     {
       "code": "000660",
