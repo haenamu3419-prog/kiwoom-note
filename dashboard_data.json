@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27 15:25 KST",
+  "updated": "2026-07-27 19:49 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -79,6 +79,17 @@
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000099",
+          "dt": "20260727"
+        }
+      ]
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727800655",
           "dt": "20260727"
         }
       ]
