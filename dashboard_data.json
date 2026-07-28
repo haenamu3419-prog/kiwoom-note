@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28 14:43 KST",
+  "updated": "2026-07-28 18:41 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -78,6 +78,11 @@
       "items": [
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000302",
+          "dt": "20260728"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000099",
           "dt": "20260727"
         }
@@ -91,6 +96,17 @@
           "report": "기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727800655",
           "dt": "20260727"
+        }
+      ]
+    },
+    {
+      "code": "034730",
+      "name": "SK",
+      "items": [
+        {
+          "report": "지속가능경영보고서등관련사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800648",
+          "dt": "20260728"
         }
       ]
     }
