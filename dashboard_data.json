@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 14:48 KST",
+  "updated": "2026-07-29 18:43 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -63,9 +63,35 @@
       ]
     },
     {
+      "code": "005380",
+      "name": "현대차",
+      "items": [
+        {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800842",
+          "dt": "20260729"
+        }
+      ]
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000521",
+          "dt": "20260729"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000512",
+          "dt": "20260729"
+        },
+        {
+          "report": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000343",
+          "dt": "20260729"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000302",
@@ -101,6 +127,22 @@
         {
           "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729900234",
+          "dt": "20260729"
+        }
+      ]
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "items": [
+        {
+          "report": "투자설명서(일괄신고)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000432",
+          "dt": "20260729"
+        },
+        {
+          "report": "일괄신고추가서류",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000418",
           "dt": "20260729"
         }
       ]
