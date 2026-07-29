@@ -1,23 +1,23 @@
 {
-  "updated": "2026-07-29 18:43 KST",
+  "updated": "2026-07-30 08:57 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.12,
-      "prev": 5.16
+      "cur": 5.09,
+      "prev": 5.12
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.65,
-      "prev": 4.69
+      "cur": 4.61,
+      "prev": 4.65
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.31,
-      "prev": 4.33
+      "cur": 4.26,
+      "prev": 4.31
     },
     {
       "name": "연준 기준금리",
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 84.38,
-      "prev": 83.43
+      "cur": 84.25,
+      "prev": 91.74
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 86.99,
-      "prev": 85.01
+      "cur": 91.82,
+      "prev": 100.31
     },
     {
       "name": "원/달러",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 18.67,
-      "prev": 18.58
+      "cur": 18.21,
+      "prev": 18.67
     }
   ],
   "dart": [
@@ -78,6 +78,11 @@
       "name": "삼성전자",
       "items": [
         {
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800077",
+          "dt": "20260730"
+        },
+        {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000521",
           "dt": "20260729"
@@ -91,22 +96,6 @@
           "report": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000343",
           "dt": "20260729"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000302",
-          "dt": "20260728"
-        }
-      ]
-    },
-    {
-      "code": "034730",
-      "name": "SK",
-      "items": [
-        {
-          "report": "지속가능경영보고서등관련사항(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800648",
-          "dt": "20260728"
         }
       ]
     },
