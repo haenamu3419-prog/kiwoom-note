@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30 14:36 KST",
+  "updated": "2026-07-30 18:34 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -67,6 +67,11 @@
       "name": "현대차",
       "items": [
         {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000497",
+          "dt": "20260730"
+        },
+        {
           "report": "풍문또는보도에대한해명(미확정)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800842",
           "dt": "20260729"
@@ -77,6 +82,31 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "특수관계인과의보험거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000518",
+          "dt": "20260730"
+        },
+        {
+          "report": "특수관계인에대한출자",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000505",
+          "dt": "20260730"
+        },
+        {
+          "report": "특수관계인에대한출자",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000503",
+          "dt": "20260730"
+        },
+        {
+          "report": "기타경영사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800825",
+          "dt": "20260730"
+        },
+        {
+          "report": "기타경영사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800822",
+          "dt": "20260730"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000240",
@@ -137,6 +167,17 @@
       ]
     },
     {
+      "code": "034730",
+      "name": "SK",
+      "items": [
+        {
+          "report": "파생상품거래손실발생(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800570",
+          "dt": "20260730"
+        }
+      ]
+    },
+    {
       "code": "051360",
       "name": "토비스",
       "items": [
@@ -161,6 +202,11 @@
       "code": "105560",
       "name": "KB금융",
       "items": [
+        {
+          "report": "증권발행실적보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000322",
+          "dt": "20260730"
+        },
         {
           "report": "투자설명서(일괄신고)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000432",
