@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30 18:34 KST",
+  "updated": "2026-07-30 21:49 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -55,6 +55,11 @@
       "code": "000660",
       "name": "SK하이닉스",
       "items": [
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800996",
+          "dt": "20260730"
+        },
         {
           "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800013",
