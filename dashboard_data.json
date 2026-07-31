@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31 08:58 KST",
+  "updated": "2026-07-31 15:08 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -55,6 +55,11 @@
       "code": "000660",
       "name": "SK하이닉스",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731000082",
+          "dt": "20260731"
+        },
         {
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800996",
@@ -154,6 +159,17 @@
           "report": "파생상품거래손실발생(자회사의 주요경영사항)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800570",
           "dt": "20260730"
+        }
+      ]
+    },
+    {
+      "code": "051360",
+      "name": "토비스",
+      "items": [
+        {
+          "report": "주식등의대량보유상황보고서(약식)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731000128",
+          "dt": "20260731"
         }
       ]
     },
