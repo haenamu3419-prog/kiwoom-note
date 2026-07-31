@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31 15:08 KST",
+  "updated": "2026-07-31 18:50 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -72,6 +72,11 @@
       "name": "현대차",
       "items": [
         {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731801010",
+          "dt": "20260731"
+        },
+        {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000497",
           "dt": "20260730"
@@ -82,6 +87,26 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731801296",
+          "dt": "20260731"
+        },
+        {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731000779",
+          "dt": "20260731"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731000755",
+          "dt": "20260731"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731000690",
+          "dt": "20260731"
+        },
         {
           "report": "특수관계인과의보험거래",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730000518",
@@ -156,6 +181,11 @@
       "name": "SK",
       "items": [
         {
+          "report": "타법인주식및출자증권처분결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731801321",
+          "dt": "20260731"
+        },
+        {
           "report": "파생상품거래손실발생(자회사의 주요경영사항)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800570",
           "dt": "20260730"
@@ -166,6 +196,11 @@
       "code": "051360",
       "name": "토비스",
       "items": [
+        {
+          "report": "[기재정정]주요사항보고서(자기주식취득결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731000756",
+          "dt": "20260731"
+        },
         {
           "report": "주식등의대량보유상황보고서(약식)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731000128",
