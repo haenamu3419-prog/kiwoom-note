@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-04 18:43 KST",
+  "updated": "2026-08-05 08:58 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.27,
-      "prev": 5.21
+      "cur": 5.23,
+      "prev": 5.27
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.75,
-      "prev": 4.68
+      "cur": 4.7,
+      "prev": 4.75
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.28,
-      "prev": 4.23
+      "cur": 4.25,
+      "prev": 4.28
     },
     {
       "name": "연준 기준금리",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.99,
-      "prev": 17.09
+      "cur": 15.86,
+      "prev": 15.99
     }
   ],
   "dart": [
@@ -59,11 +59,6 @@
           "report": "자기주식처분결과보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000313",
           "dt": "20260804"
-        },
-        {
-          "report": "영업(잠정)실적(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800709",
-          "dt": "20260803"
         }
       ]
     },
@@ -71,6 +66,11 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000010",
+          "dt": "20260805"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000544",
@@ -85,58 +85,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000499",
           "dt": "20260804"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000197",
-          "dt": "20260803"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000173",
-          "dt": "20260803"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000043",
-          "dt": "20260803"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000004",
-          "dt": "20260803"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800520",
-          "dt": "20260803"
-        }
-      ]
-    },
-    {
-      "code": "034730",
-      "name": "SK",
-      "items": [
-        {
-          "report": "주요사항보고서(전환사채권발행결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000002",
-          "dt": "20260803"
-        },
-        {
-          "report": "현금ㆍ현물배당결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800012",
-          "dt": "20260803"
-        },
-        {
-          "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800008",
-          "dt": "20260803"
         }
       ]
     }
