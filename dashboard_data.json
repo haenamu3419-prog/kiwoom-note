@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06 08:55 KST",
+  "updated": "2026-08-06 14:44 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -92,6 +92,16 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000236",
+          "dt": "20260806"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000098",
+          "dt": "20260806"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000001",
