@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07 13:51 KST",
+  "updated": "2026-08-07 17:18 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,6 +52,37 @@
   ],
   "dart": [
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "주요사항보고서(자기주식처분결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000537",
+          "dt": "20260807"
+        },
+        {
+          "report": "신규시설투자등              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800613",
+          "dt": "20260807"
+        },
+        {
+          "report": "신규시설투자등              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800602",
+          "dt": "20260807"
+        },
+        {
+          "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800596",
+          "dt": "20260807"
+        },
+        {
+          "report": "현금ㆍ현물배당결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800589",
+          "dt": "20260807"
+        }
+      ]
+    },
+    {
       "code": "005380",
       "name": "현대차",
       "items": [
@@ -66,6 +97,26 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000626",
+          "dt": "20260807"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000528",
+          "dt": "20260807"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000459",
+          "dt": "20260807"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000357",
+          "dt": "20260807"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000484",
