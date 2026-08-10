@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10 13:26 KST",
+  "updated": "2026-08-10 17:45 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -56,6 +56,11 @@
       "name": "SK하이닉스",
       "items": [
         {
+          "report": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800434",
+          "dt": "20260810"
+        },
+        {
           "report": "조회공시요구(풍문또는보도)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800101",
           "dt": "20260810"
@@ -66,6 +71,21 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000353",
+          "dt": "20260810"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000256",
+          "dt": "20260810"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000227",
+          "dt": "20260810"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000078",
