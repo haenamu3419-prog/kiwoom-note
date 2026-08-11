@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11 13:16 KST",
+  "updated": "2026-08-11 17:12 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -73,6 +73,11 @@
       "items": [
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000285",
+          "dt": "20260811"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000011",
           "dt": "20260811"
         },
@@ -102,6 +107,11 @@
       "code": "006400",
       "name": "삼성SDI",
       "items": [
+        {
+          "report": "투자판단관련주요경영사항              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800246",
+          "dt": "20260811"
+        },
         {
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800212",
