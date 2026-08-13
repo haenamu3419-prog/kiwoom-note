@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-13 20:54 KST",
+  "updated": "2026-08-14 08:36 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
       "cur": 5.24,
-      "prev": 5.25
+      "prev": 5.24
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.7,
-      "prev": 4.72
+      "cur": 4.68,
+      "prev": 4.7
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.22,
-      "prev": 4.25
+      "cur": 4.2,
+      "prev": 4.22
     },
     {
       "name": "연준 기준금리",
@@ -46,44 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.28,
-      "prev": 15.46
+      "cur": 14.55,
+      "prev": 15.28
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000344",
-          "dt": "20260812"
-        }
-      ]
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "items": [
-        {
-          "report": "특수관계인으로부터기타유가증권매수",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000874",
-          "dt": "20260812"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000559",
-          "dt": "20260812"
-        }
-      ]
-    },
     {
       "code": "032830",
       "name": "삼성생명",
@@ -118,11 +85,6 @@
           "report": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001439",
           "dt": "20260813"
-        },
-        {
-          "report": "지주회사의자회사탈퇴(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800877",
-          "dt": "20260812"
         }
       ]
     }
