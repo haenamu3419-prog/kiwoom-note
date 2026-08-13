@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13 13:47 KST",
+  "updated": "2026-08-13 17:26 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -99,6 +99,26 @@
       "code": "034730",
       "name": "SK",
       "items": [
+        {
+          "report": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001464",
+          "dt": "20260813"
+        },
+        {
+          "report": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001456",
+          "dt": "20260813"
+        },
+        {
+          "report": "동일인등출자계열회사와의상품ㆍ용역거래변경",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001448",
+          "dt": "20260813"
+        },
+        {
+          "report": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001439",
+          "dt": "20260813"
+        },
         {
           "report": "지주회사의자회사탈퇴(자회사의 주요경영사항)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800877",
