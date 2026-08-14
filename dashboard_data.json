@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14 17:21 KST",
+  "updated": "2026-08-14 20:51 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -100,6 +100,11 @@
         {
           "report": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003912",
+          "dt": "20260814"
+        },
+        {
+          "report": "반기보고서 (2026.06)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003699",
           "dt": "20260814"
         },
         {
@@ -215,6 +220,17 @@
         {
           "report": "반기보고서 (2026.06)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000716",
+          "dt": "20260814"
+        }
+      ]
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "items": [
+        {
+          "report": "반기보고서 (2026.06)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004200",
           "dt": "20260814"
         }
       ]
