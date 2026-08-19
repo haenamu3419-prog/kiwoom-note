@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19 12:41 KST",
+  "updated": "2026-08-19 16:45 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,6 +52,27 @@
   ],
   "dart": [
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "주식소각결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800340",
+          "dt": "20260819"
+        },
+        {
+          "report": "수시공시의무관련사항(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800338",
+          "dt": "20260819"
+        },
+        {
+          "report": "주요사항보고서(자기주식취득결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000254",
+          "dt": "20260819"
+        }
+      ]
+    },
+    {
       "code": "005380",
       "name": "현대차",
       "items": [
@@ -63,9 +84,30 @@
       ]
     },
     {
+      "code": "034730",
+      "name": "SK",
+      "items": [
+        {
+          "report": "지주회사의자회사편입(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800382",
+          "dt": "20260819"
+        },
+        {
+          "report": "지주회사의자회사편입(자회사의 주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800369",
+          "dt": "20260819"
+        }
+      ]
+    },
+    {
       "code": "105560",
       "name": "KB금융",
       "items": [
+        {
+          "report": "[기재정정]주요사항보고서(상각형조건부자본증권발행결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000279",
+          "dt": "20260819"
+        },
         {
           "report": "[기재정정]일괄신고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818000230",
