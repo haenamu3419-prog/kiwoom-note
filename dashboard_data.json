@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-19 20:32 KST",
+  "updated": "2026-08-20 08:18 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.31,
-      "prev": 5.25
+      "cur": 5.28,
+      "prev": 5.31
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.72,
-      "prev": 4.68
+      "cur": 4.71,
+      "prev": 4.72
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
       "cur": 4.19,
-      "prev": 4.17
+      "prev": 4.19
     },
     {
       "name": "연준 기준금리",
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 84.77,
-      "prev": 83.76
+      "cur": 86.48,
+      "prev": 86.04
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 93.26,
-      "prev": 92.74
+      "cur": 95.29,
+      "prev": 92.43
     },
     {
       "name": "원/달러",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.19,
-      "prev": 14.25
+      "cur": 15.84,
+      "prev": 15.19
     }
   ],
   "dart": [
@@ -69,17 +69,6 @@
           "report": "주요사항보고서(자기주식취득결정)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000254",
           "dt": "20260819"
-        }
-      ]
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818000199",
-          "dt": "20260818"
         }
       ]
     },
@@ -112,11 +101,6 @@
           "report": "[기재정정]주요사항보고서(상각형조건부자본증권발행결정)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000279",
           "dt": "20260819"
-        },
-        {
-          "report": "[기재정정]일괄신고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818000230",
-          "dt": "20260818"
         }
       ]
     }
