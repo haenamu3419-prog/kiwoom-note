@@ -1,17 +1,17 @@
 {
-  "updated": "2026-08-20 20:34 KST",
+  "updated": "2026-08-21 08:20 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.28,
-      "prev": 5.31
+      "cur": 5.19,
+      "prev": 5.28
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.71,
-      "prev": 4.72
+      "cur": 4.65,
+      "prev": 4.71
     },
     {
       "name": "미국채 2년물",
@@ -46,32 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.84,
-      "prev": 15.19
+      "cur": 14.89,
+      "prev": 15.84
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "주식소각결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800340",
-          "dt": "20260819"
-        },
-        {
-          "report": "수시공시의무관련사항(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800338",
-          "dt": "20260819"
-        },
-        {
-          "report": "주요사항보고서(자기주식취득결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000254",
-          "dt": "20260819"
-        }
-      ]
-    },
     {
       "code": "005930",
       "name": "삼성전자",
@@ -85,22 +64,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000040",
           "dt": "20260820"
-        }
-      ]
-    },
-    {
-      "code": "034730",
-      "name": "SK",
-      "items": [
-        {
-          "report": "지주회사의자회사편입(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800382",
-          "dt": "20260819"
-        },
-        {
-          "report": "지주회사의자회사편입(자회사의 주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800369",
-          "dt": "20260819"
         }
       ]
     },
@@ -138,16 +101,6 @@
           "report": "기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800320",
           "dt": "20260820"
-        },
-        {
-          "report": "증권신고서(채무증권)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000353",
-          "dt": "20260819"
-        },
-        {
-          "report": "[기재정정]주요사항보고서(상각형조건부자본증권발행결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000279",
-          "dt": "20260819"
         }
       ]
     }
