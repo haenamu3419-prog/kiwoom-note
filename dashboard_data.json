@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21 16:49 KST",
+  "updated": "2026-08-21 20:32 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -56,6 +56,11 @@
       "name": "SK하이닉스",
       "items": [
         {
+          "report": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000615",
+          "dt": "20260821"
+        },
+        {
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800617",
           "dt": "20260821"
@@ -91,11 +96,6 @@
           "dt": "20260821"
         },
         {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000504",
-          "dt": "20260821"
-        },
-        {
           "report": "자기주식처분결과보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000495",
           "dt": "20260821"
@@ -116,6 +116,21 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "기타경영사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800837",
+          "dt": "20260821"
+        },
+        {
+          "report": "주요사항보고서(자기주식취득결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000616",
+          "dt": "20260821"
+        },
+        {
+          "report": "수시공시의무관련사항(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800763",
+          "dt": "20260821"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000262",
