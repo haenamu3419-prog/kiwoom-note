@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21 08:20 KST",
+  "updated": "2026-08-21 12:46 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,6 +52,17 @@
   ],
   "dart": [
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "조회공시요구(풍문또는보도)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800214",
+          "dt": "20260821"
+        }
+      ]
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
@@ -68,38 +79,33 @@
       ]
     },
     {
-      "code": "051360",
-      "name": "토비스",
+      "code": "042660",
+      "name": "한화오션",
       "items": [
         {
-          "report": "[기재정정]주식소각결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820900282",
-          "dt": "20260820"
-        },
-        {
-          "report": "자기주식취득결과보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000129",
+          "report": "[기재정정]타인에대한채무보증결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800640",
           "dt": "20260820"
         }
       ]
     },
     {
-      "code": "105560",
-      "name": "KB금융",
+      "code": "329180",
+      "name": "HD현대중공업",
       "items": [
         {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800325",
-          "dt": "20260820"
+          "report": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800136",
+          "dt": "20260821"
         },
         {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800322",
-          "dt": "20260820"
+          "report": "조회공시요구(풍문또는보도)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800054",
+          "dt": "20260821"
         },
         {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800320",
+          "report": "[첨부정정]지속가능경영보고서등관련사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800399",
           "dt": "20260820"
         }
       ]
@@ -111,16 +117,12 @@
       "name": "SK하이닉스"
     },
     {
-      "code": "005380",
-      "name": "현대차"
-    },
-    {
       "code": "005930",
       "name": "삼성전자"
     },
     {
-      "code": "006400",
-      "name": "삼성SDI"
+      "code": "006340",
+      "name": "대원전선"
     },
     {
       "code": "009150",
@@ -131,24 +133,24 @@
       "name": "삼성생명"
     },
     {
-      "code": "034730",
-      "name": "SK"
+      "code": "042660",
+      "name": "한화오션"
     },
     {
-      "code": "051360",
-      "name": "토비스"
+      "code": "068270",
+      "name": "셀트리온"
     },
     {
-      "code": "091160",
-      "name": "KODEX 반도체"
+      "code": "080220",
+      "name": "제주반도체"
     },
     {
-      "code": "105560",
-      "name": "KB금융"
+      "code": "278470",
+      "name": "에이피알"
     },
     {
-      "code": "237350",
-      "name": "KODEX 코스피100"
+      "code": "329180",
+      "name": "HD현대중공업"
     }
   ]
 }
