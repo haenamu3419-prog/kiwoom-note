@@ -1,17 +1,17 @@
 {
-  "updated": "2026-08-21 20:32 KST",
+  "updated": "2026-08-24 08:15 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.19,
-      "prev": 5.28
+      "cur": 5.23,
+      "prev": 5.19
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.65,
-      "prev": 4.71
+      "cur": 4.69,
+      "prev": 4.65
     },
     {
       "name": "미국채 2년물",
@@ -46,148 +46,19 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 14.89,
-      "prev": 15.84
+      "cur": 16.01,
+      "prev": 14.89
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000615",
-          "dt": "20260821"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800617",
-          "dt": "20260821"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000531",
-          "dt": "20260821"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000527",
-          "dt": "20260821"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000524",
-          "dt": "20260821"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000519",
-          "dt": "20260821"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000516",
-          "dt": "20260821"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000513",
-          "dt": "20260821"
-        },
-        {
-          "report": "자기주식처분결과보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000495",
-          "dt": "20260821"
-        },
-        {
-          "report": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800524",
-          "dt": "20260821"
-        },
-        {
-          "report": "조회공시요구(풍문또는보도)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800214",
-          "dt": "20260821"
-        }
-      ]
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "기타경영사항(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800837",
-          "dt": "20260821"
-        },
-        {
-          "report": "주요사항보고서(자기주식취득결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000616",
-          "dt": "20260821"
-        },
-        {
-          "report": "수시공시의무관련사항(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800763",
-          "dt": "20260821"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000262",
-          "dt": "20260821"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000290",
-          "dt": "20260820"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000040",
-          "dt": "20260820"
-        }
-      ]
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "items": [
-        {
-          "report": "[기재정정]타인에대한채무보증결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800640",
-          "dt": "20260820"
-        }
-      ]
-    },
     {
       "code": "068270",
       "name": "셀트리온",
       "items": [
         {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000493",
-          "dt": "20260821"
-        }
-      ]
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "items": [
-        {
-          "report": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800136",
-          "dt": "20260821"
-        },
-        {
-          "report": "조회공시요구(풍문또는보도)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800054",
-          "dt": "20260821"
-        },
-        {
-          "report": "[첨부정정]지속가능경영보고서등관련사항(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800399",
-          "dt": "20260820"
+          "report": "투자판단관련주요경영사항              (CTP51(키트루다 바이오시밀러) 한국 품목허가 신청)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800001",
+          "dt": "20260824"
         }
       ]
     }
