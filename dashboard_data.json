@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24 08:15 KST",
+  "updated": "2026-08-24 17:00 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -16,8 +16,9 @@
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.19,
-      "prev": 4.19
+      "cur": null,
+      "prev": null,
+      "err": "502 Server Error: Bad Gateway for url: https://api.stlouisfed.org/fred/series/observations?series_id=DGS2&api_key=6fe631a187fbb39a65df33c278c4f008&file_type=json&sort_order=desc&limit=12"
     },
     {
       "name": "연준 기준금리",
@@ -52,12 +53,50 @@
   ],
   "dart": [
     {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000222",
+          "dt": "20260824"
+        }
+      ]
+    },
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000009",
+          "dt": "20260824"
+        },
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800062",
+          "dt": "20260824"
+        }
+      ]
+    },
+    {
       "code": "068270",
       "name": "셀트리온",
       "items": [
         {
           "report": "투자판단관련주요경영사항              (CTP51(키트루다 바이오시밀러) 한국 품목허가 신청)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800001",
+          "dt": "20260824"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800122",
           "dt": "20260824"
         }
       ]
