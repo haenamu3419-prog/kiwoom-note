@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-25 20:35 KST",
+  "updated": "2026-08-26 08:20 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.27,
-      "prev": 5.23
+      "cur": 5.23,
+      "prev": 5.27
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.74,
-      "prev": 4.69
+      "cur": 4.7,
+      "prev": 4.74
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
       "cur": 4.24,
-      "prev": 4.19
+      "prev": 4.24
     },
     {
       "name": "연준 기준금리",
@@ -46,38 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.13,
-      "prev": 16.01
+      "cur": 15.85,
+      "prev": 15.13
     }
   ],
   "dart": [
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000222",
-          "dt": "20260824"
-        }
-      ]
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000009",
-          "dt": "20260824"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800062",
-          "dt": "20260824"
-        }
-      ]
-    },
     {
       "code": "042660",
       "name": "한화오션",
@@ -102,22 +75,6 @@
           "report": "풍문또는보도에대한해명(미확정)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825800463",
           "dt": "20260825"
-        },
-        {
-          "report": "투자판단관련주요경영사항              (CTP51(키트루다 바이오시밀러) 한국 품목허가 신청)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800001",
-          "dt": "20260824"
-        }
-      ]
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "items": [
-        {
-          "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800122",
-          "dt": "20260824"
         }
       ]
     }
