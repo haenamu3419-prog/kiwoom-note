@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25 12:43 KST",
+  "updated": "2026-08-25 16:49 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -79,9 +79,30 @@
       ]
     },
     {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "[기재정정]단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825800541",
+          "dt": "20260825"
+        },
+        {
+          "report": "특수관계인과의내부거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000283",
+          "dt": "20260825"
+        }
+      ]
+    },
+    {
       "code": "068270",
       "name": "셀트리온",
       "items": [
+        {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825800463",
+          "dt": "20260825"
+        },
         {
           "report": "투자판단관련주요경영사항              (CTP51(키트루다 바이오시밀러) 한국 품목허가 신청)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800001",
