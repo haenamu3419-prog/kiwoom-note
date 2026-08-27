@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-26 20:36 KST",
+  "updated": "2026-08-27 13:11 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.23,
-      "prev": 5.27
+      "cur": 5.17,
+      "prev": 5.23
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.7,
-      "prev": 4.74
+      "cur": 4.64,
+      "prev": 4.7
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.24,
+      "cur": 4.17,
       "prev": 4.24
     },
     {
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 86.48,
-      "prev": 86.04
+      "cur": 83.9,
+      "prev": 86.34
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 95.29,
-      "prev": 92.43
+      "cur": 88.24,
+      "prev": 92.71
     },
     {
       "name": "원/달러",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.85,
-      "prev": 15.13
+      "cur": 15.45,
+      "prev": 15.85
     }
   ],
   "dart": [
@@ -68,29 +68,18 @@
       ]
     },
     {
-      "code": "042660",
-      "name": "한화오션",
+      "code": "006340",
+      "name": "대원전선",
       "items": [
         {
-          "report": "[기재정정]단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825800541",
-          "dt": "20260825"
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827800051",
+          "dt": "20260827"
         },
         {
-          "report": "특수관계인과의내부거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000283",
-          "dt": "20260825"
-        }
-      ]
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "items": [
-        {
-          "report": "풍문또는보도에대한해명(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825800463",
-          "dt": "20260825"
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000053",
+          "dt": "20260827"
         }
       ]
     }
