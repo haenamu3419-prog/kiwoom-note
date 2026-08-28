@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28 05:57 KST",
+  "updated": "2026-08-28 15:28 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,6 +52,17 @@
   ],
   "dart": [
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000879",
+          "dt": "20260828"
+        }
+      ]
+    },
+    {
       "code": "006340",
       "name": "대원전선",
       "items": [
@@ -82,6 +93,11 @@
       "code": "329180",
       "name": "HD현대중공업",
       "items": [
+        {
+          "report": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000020",
+          "dt": "20260828"
+        },
         {
           "report": "영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827800389",
