@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31 18:15 KST",
+  "updated": "2026-08-31 23:59 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -10,8 +10,9 @@
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.67,
-      "prev": 4.66
+      "cur": null,
+      "prev": null,
+      "err": "500 Server Error: Internal Server Error for url: https://api.stlouisfed.org/fred/series/observations?series_id=DGS10&api_key=6fe631a187fbb39a65df33c278c4f008&file_type=json&sort_order=desc&limit=12"
     },
     {
       "name": "미국채 2년물",
@@ -46,8 +47,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 14.51,
-      "prev": 15.21
+      "cur": 14.43,
+      "prev": 14.51
     }
   ],
   "dart": [
