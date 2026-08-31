@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-28 15:28 KST",
+  "updated": "2026-08-31 10:02 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.18,
-      "prev": 5.17
+      "cur": 5.19,
+      "prev": 5.18
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.66,
-      "prev": 4.64
+      "cur": 4.67,
+      "prev": 4.66
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.19,
-      "prev": 4.17
+      "cur": 4.2,
+      "prev": 4.19
     },
     {
       "name": "연준 기준금리",
@@ -46,19 +46,24 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.21,
-      "prev": 15.45
+      "cur": 14.51,
+      "prev": 15.21
     }
   ],
   "dart": [
     {
-      "code": "000660",
-      "name": "SK하이닉스",
+      "code": "005930",
+      "name": "삼성전자",
       "items": [
         {
-          "report": "대규모기업집단현황공시[분기별공시(개별회사용)]",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000879",
-          "dt": "20260828"
+          "report": "대규모기업집단현황공시[분기별공시(대표회사용)]",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000250",
+          "dt": "20260831"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000066",
+          "dt": "20260831"
         }
       ]
     },
@@ -67,25 +72,14 @@
       "name": "대원전선",
       "items": [
         {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827800051",
-          "dt": "20260827"
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000114",
+          "dt": "20260831"
         },
         {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000053",
-          "dt": "20260827"
-        }
-      ]
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "items": [
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827800431",
-          "dt": "20260827"
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831800090",
+          "dt": "20260831"
         }
       ]
     },
@@ -94,14 +88,9 @@
       "name": "HD현대중공업",
       "items": [
         {
-          "report": "대규모기업집단현황공시[분기별공시(개별회사용)]",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000020",
-          "dt": "20260828"
-        },
-        {
-          "report": "영업(잠정)실적(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827800389",
-          "dt": "20260827"
+          "report": "중대재해발생              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831800001",
+          "dt": "20260831"
         }
       ]
     }
