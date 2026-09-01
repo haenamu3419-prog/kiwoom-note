@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-01 02:58 KST",
+  "updated": "2026-09-01 10:34 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.19,
-      "prev": 5.18
+      "cur": 5.22,
+      "prev": 5.19
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.67,
-      "prev": 4.66
+      "cur": 4.73,
+      "prev": 4.67
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.2,
-      "prev": 4.19
+      "cur": 4.34,
+      "prev": 4.2
     },
     {
       "name": "연준 기준금리",
@@ -40,8 +40,8 @@
     {
       "name": "원/달러",
       "unit": "won",
-      "cur": 1385.01,
-      "prev": 1393.35
+      "cur": 1379.41,
+      "prev": 1381.25
     },
     {
       "name": "VIX",
@@ -88,6 +88,11 @@
       "name": "삼성전기",
       "items": [
         {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901800106",
+          "dt": "20260901"
+        },
+        {
           "report": "대규모기업집단현황공시[분기별공시(개별회사용)]",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000803",
           "dt": "20260831"
@@ -114,6 +119,11 @@
       "code": "042660",
       "name": "한화오션",
       "items": [
+        {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901800108",
+          "dt": "20260901"
+        },
         {
           "report": "기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831800342",
