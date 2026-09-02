@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-02 00:26 KST",
+  "updated": "2026-09-02 09:46 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.22,
-      "prev": 5.19
+      "cur": 5.25,
+      "prev": 5.22
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.73,
-      "prev": 4.67
+      "cur": 4.75,
+      "prev": 4.73
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
       "cur": 4.34,
-      "prev": 4.2
+      "prev": 4.34
     },
     {
       "name": "연준 기준금리",
