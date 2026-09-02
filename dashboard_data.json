@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 21:03 KST",
+  "updated": "2026-09-03 00:02 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,34 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 14.92,
-      "prev": 14.43
+      "cur": 16.34,
+      "prev": 14.92
     }
   ],
-  "dart": [
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901800106",
-          "dt": "20260901"
-        }
-      ]
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "items": [
-        {
-          "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901800108",
-          "dt": "20260901"
-        }
-      ]
-    }
-  ],
+  "dart": [],
   "kr_holdings": [
     {
       "code": "000660",
