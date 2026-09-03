@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03 16:42 KST",
+  "updated": "2026-09-03 21:02 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -10,8 +10,9 @@
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.79,
-      "prev": 4.75
+      "cur": null,
+      "prev": null,
+      "err": "502 Server Error: Bad Gateway for url: https://api.stlouisfed.org/fred/series/observations?series_id=DGS10&api_key=6fe631a187fbb39a65df33c278c4f008&file_type=json&sort_order=desc&limit=12"
     },
     {
       "name": "미국채 2년물",
