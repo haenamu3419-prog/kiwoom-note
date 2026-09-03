@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-03 00:02 KST",
+  "updated": "2026-09-03 09:54 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.25,
-      "prev": 5.22
+      "cur": 5.27,
+      "prev": 5.25
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.75,
-      "prev": 4.73
+      "cur": 4.79,
+      "prev": 4.75
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.34,
+      "cur": 4.39,
       "prev": 4.34
     },
     {
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 83.9,
-      "prev": 86.34
+      "cur": 91.48,
+      "prev": 87.03
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 88.24,
-      "prev": 92.71
+      "cur": 96.02,
+      "prev": 89.75
     },
     {
       "name": "원/달러",
@@ -50,7 +50,40 @@
       "prev": 14.92
     }
   ],
-  "dart": [],
+  "dart": [
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000010",
+          "dt": "20260903"
+        },
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903800057",
+          "dt": "20260903"
+        }
+      ]
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903800002",
+          "dt": "20260903"
+        },
+        {
+          "report": "소송등의제기ㆍ신청(일정금액이상의청구)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903800001",
+          "dt": "20260903"
+        }
+      ]
+    }
+  ],
   "kr_holdings": [
     {
       "code": "000660",
