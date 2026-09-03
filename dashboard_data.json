@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03 09:54 KST",
+  "updated": "2026-09-03 16:42 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -63,6 +63,17 @@
         {
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903800057",
+          "dt": "20260903"
+        }
+      ]
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "items": [
+        {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903800096",
           "dt": "20260903"
         }
       ]
