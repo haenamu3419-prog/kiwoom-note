@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08 21:05 KST",
+  "updated": "2026-09-09 00:01 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 14.32,
-      "prev": 15.2
+      "cur": 15.3,
+      "prev": 14.53
     }
   ],
   "dart": [
@@ -59,44 +59,6 @@
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908800624",
           "dt": "20260908"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907800230",
-          "dt": "20260907"
-        }
-      ]
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000110",
-          "dt": "20260907"
-        }
-      ]
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "items": [
-        {
-          "report": "투자판단관련주요경영사항              (CTP44(다잘렉스 바이오시밀러) 한국 임상 3상 시험계획 변경신청 승인)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907800002",
-          "dt": "20260907"
-        },
-        {
-          "report": "투자판단관련주요경영사항              (CTP51(키트루다 바이오시밀러) 미국 임상 3상 시험계획 변경신청 승인)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907800004",
-          "dt": "20260907"
         }
       ]
     },
