@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08 09:52 KST",
+  "updated": "2026-09-08 16:46 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -86,6 +86,17 @@
           "report": "투자판단관련주요경영사항              (CTP51(키트루다 바이오시밀러) 미국 임상 3상 시험계획 변경신청 승인)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907800004",
           "dt": "20260907"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "주식등의대량보유상황보고서(약식)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000302",
+          "dt": "20260908"
         }
       ]
     }
