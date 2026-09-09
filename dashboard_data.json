@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09 21:16 KST",
+  "updated": "2026-09-10 00:04 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.3,
-      "prev": 14.53
+      "cur": 15.72,
+      "prev": 15.3
     }
   ],
   "dart": [
@@ -75,11 +75,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000113",
           "dt": "20260909"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908800624",
-          "dt": "20260908"
         }
       ]
     },
@@ -112,17 +107,6 @@
           "report": "주요사항보고서(회사합병결정)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000045",
           "dt": "20260909"
-        }
-      ]
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "items": [
-        {
-          "report": "주식등의대량보유상황보고서(약식)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000302",
-          "dt": "20260908"
         }
       ]
     }
