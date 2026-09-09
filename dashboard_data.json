@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-09 00:01 KST",
+  "updated": "2026-09-09 09:59 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.25,
-      "prev": 5.27
+      "cur": 5.24,
+      "prev": 5.25
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.77,
-      "prev": 4.79
+      "cur": 4.78,
+      "prev": 4.77
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.34,
-      "prev": 4.39
+      "cur": 4.37,
+      "prev": 4.34
     },
     {
       "name": "연준 기준금리",
@@ -40,8 +40,8 @@
     {
       "name": "원/달러",
       "unit": "won",
-      "cur": 1379.41,
-      "prev": 1381.25
+      "cur": 1346.51,
+      "prev": 1356.89
     },
     {
       "name": "VIX",
@@ -59,6 +59,17 @@
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908800624",
           "dt": "20260908"
+        }
+      ]
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "투자판단관련주요경영사항              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909800003",
+          "dt": "20260909"
         }
       ]
     },
