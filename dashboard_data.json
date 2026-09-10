@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10 16:49 KST",
+  "updated": "2026-09-10 21:10 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -82,6 +82,11 @@
       "code": "042660",
       "name": "한화오션",
       "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910800549",
+          "dt": "20260910"
+        },
         {
           "report": "투자판단관련주요경영사항              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909800003",
