@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-10 23:56 KST",
+  "updated": "2026-09-11 09:47 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.25,
-      "prev": 5.24
+      "cur": 5.28,
+      "prev": 5.25
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.8,
-      "prev": 4.78
+      "cur": 4.83,
+      "prev": 4.8
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.39,
-      "prev": 4.37
+      "cur": 4.43,
+      "prev": 4.39
     },
     {
       "name": "연준 기준금리",
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 91.48,
-      "prev": 87.03
+      "cur": 97.26,
+      "prev": 94.21
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 96.02,
-      "prev": 89.75
+      "cur": 109.51,
+      "prev": 106.12
     },
     {
       "name": "원/달러",
@@ -46,38 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.72,
-      "prev": 15.3
+      "cur": 16.46,
+      "prev": 15.72
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909800559",
-          "dt": "20260909"
-        }
-      ]
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등거래계획보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000516",
-          "dt": "20260909"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000113",
-          "dt": "20260909"
-        }
-      ]
-    },
     {
       "code": "042660",
       "name": "한화오션",
@@ -86,32 +59,6 @@
           "report": "기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910800549",
           "dt": "20260910"
-        },
-        {
-          "report": "투자판단관련주요경영사항              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909800003",
-          "dt": "20260909"
-        }
-      ]
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "items": [
-        {
-          "report": "주주명부폐쇄기간또는기준일설정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909800116",
-          "dt": "20260909"
-        },
-        {
-          "report": "회사합병결정(종속회사의주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909800113",
-          "dt": "20260909"
-        },
-        {
-          "report": "주요사항보고서(회사합병결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000045",
-          "dt": "20260909"
         }
       ]
     },
