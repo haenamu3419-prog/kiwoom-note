@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14 09:38 KST",
+  "updated": "2026-09-14 17:30 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -50,7 +50,30 @@
       "prev": 16.46
     }
   ],
-  "dart": [],
+  "dart": [
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914000248",
+          "dt": "20260914"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914800398",
+          "dt": "20260914"
+        }
+      ]
+    }
+  ],
   "kr_holdings": [
     {
       "code": "000660",
