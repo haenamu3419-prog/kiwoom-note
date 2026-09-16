@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16 09:59 KST",
+  "updated": "2026-09-16 17:14 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -63,6 +63,17 @@
         {
           "report": "자기주식취득결과보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000002",
+          "dt": "20260916"
+        }
+      ]
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "items": [
+        {
+          "report": "[첨부정정]주요사항보고서(회사합병결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000451",
           "dt": "20260916"
         }
       ]
