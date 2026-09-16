@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-16 00:30 KST",
+  "updated": "2026-09-16 09:59 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.35,
-      "prev": 5.37
+      "cur": 5.34,
+      "prev": 5.35
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.96,
-      "prev": 4.95
+      "cur": 4.97,
+      "prev": 4.96
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.63,
-      "prev": 4.56
+      "cur": 4.65,
+      "prev": 4.63
     },
     {
       "name": "연준 기준금리",
@@ -50,7 +50,24 @@
       "prev": 15.84
     }
   ],
-  "dart": [],
+  "dart": [
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "items": [
+        {
+          "report": "주식소각결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916800015",
+          "dt": "20260916"
+        },
+        {
+          "report": "자기주식취득결과보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000002",
+          "dt": "20260916"
+        }
+      ]
+    }
+  ],
   "kr_holdings": [
     {
       "code": "000660",
