@@ -1,28 +1,28 @@
 {
-  "updated": "2026-09-18 23:53 KST",
+  "updated": "2026-09-21 09:47 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.35,
-      "prev": 5.36
+      "cur": 5.29,
+      "prev": 5.35
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 5.01,
-      "prev": 5.0
+      "cur": 4.94,
+      "prev": 5.01
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.74,
-      "prev": 4.67
+      "cur": 4.67,
+      "prev": 4.74
     },
     {
       "name": "연준 기준금리",
       "unit": "pct",
-      "cur": 3.63,
+      "cur": 3.88,
       "prev": 3.63
     },
     {
@@ -50,77 +50,7 @@
       "prev": 17.71
     }
   ],
-  "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800583",
-          "dt": "20260918"
-        }
-      ]
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800754",
-          "dt": "20260918"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000212",
-          "dt": "20260918"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000191",
-          "dt": "20260918"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000097",
-          "dt": "20260917"
-        }
-      ]
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000002",
-          "dt": "20260917"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917800035",
-          "dt": "20260917"
-        }
-      ]
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "items": [
-        {
-          "report": "조회공시요구(풍문또는보도)에대한답변(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800259",
-          "dt": "20260918"
-        },
-        {
-          "report": "풍문또는보도에대한해명(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800250",
-          "dt": "20260918"
-        }
-      ]
-    }
-  ],
+  "dart": [],
   "kr_holdings": [
     {
       "code": "000660",
