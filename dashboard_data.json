@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21 09:47 KST",
+  "updated": "2026-09-21 17:31 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -50,7 +50,51 @@
       "prev": 17.71
     }
   ],
-  "dart": [],
+  "dart": [
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "items": [
+        {
+          "report": "특수관계인과의보험거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000365",
+          "dt": "20260921"
+        },
+        {
+          "report": "특수관계인에대한출자",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000359",
+          "dt": "20260921"
+        },
+        {
+          "report": "특수관계인과의수익증권거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000351",
+          "dt": "20260921"
+        }
+      ]
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "[기재정정]단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921800302",
+          "dt": "20260921"
+        }
+      ]
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "items": [
+        {
+          "report": "투자판단관련주요경영사항              (CTP44(다잘렉스 바이오시밀러) 유럽 임상 3상 시험계획 변경신청 승인(Part1&2))",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921800165",
+          "dt": "20260921"
+        }
+      ]
+    }
+  ],
   "kr_holdings": [
     {
       "code": "000660",
