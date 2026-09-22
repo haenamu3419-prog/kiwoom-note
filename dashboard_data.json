@@ -1,29 +1,29 @@
 {
-  "updated": "2026-09-22 01:57 KST",
+  "updated": "2026-09-22 10:23 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.29,
-      "prev": 5.35
+      "cur": 5.34,
+      "prev": 5.29
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.94,
-      "prev": 5.01
+      "cur": 5.01,
+      "prev": 4.94
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.67,
-      "prev": 4.74
+      "cur": 4.76,
+      "prev": 4.67
     },
     {
       "name": "연준 기준금리",
       "unit": "pct",
       "cur": 3.88,
-      "prev": 3.63
+      "prev": 3.88
     },
     {
       "name": "WTI 유가",
@@ -40,8 +40,8 @@
     {
       "name": "원/달러",
       "unit": "won",
-      "cur": 1340.3,
-      "prev": 1345.63
+      "cur": 1387.97,
+      "prev": 1380.46
     },
     {
       "name": "VIX",
@@ -51,6 +51,22 @@
     }
   ],
   "dart": [
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000009",
+          "dt": "20260922"
+        },
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922800046",
+          "dt": "20260922"
+        }
+      ]
+    },
     {
       "code": "032830",
       "name": "삼성생명",
