@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22 10:23 KST",
+  "updated": "2026-09-22 17:12 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -51,6 +51,17 @@
     }
   ],
   "dart": [
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922000361",
+          "dt": "20260922"
+        }
+      ]
+    },
     {
       "code": "006340",
       "name": "대원전선",
@@ -107,6 +118,17 @@
           "report": "투자판단관련주요경영사항              (CTP44(다잘렉스 바이오시밀러) 유럽 임상 3상 시험계획 변경신청 승인(Part1&2))",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921800165",
           "dt": "20260921"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "단일판매ㆍ공급계약체결(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922800219",
+          "dt": "20260922"
         }
       ]
     }
