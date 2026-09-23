@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23 10:10 KST",
+  "updated": "2026-09-23 17:14 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -86,6 +86,33 @@
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922800046",
           "dt": "20260922"
+        }
+      ]
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "items": [
+        {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000534",
+          "dt": "20260923"
+        },
+        {
+          "report": "투자판단관련주요경영사항              (CTP13 SC(짐펜트라) 미국 임상 3상 시험계획 승인)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923800359",
+          "dt": "20260923"
+        }
+      ]
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "items": [
+        {
+          "report": "단기차입금증가결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923900683",
+          "dt": "20260923"
         }
       ]
     },
