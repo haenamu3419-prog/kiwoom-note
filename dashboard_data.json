@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-30 01:51 KST",
+  "updated": "2026-09-30 10:47 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.49,
-      "prev": 5.47
+      "cur": 5.56,
+      "prev": 5.49
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 5.17,
-      "prev": 5.18
+      "cur": 5.24,
+      "prev": 5.17
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.81,
-      "prev": 4.87
+      "cur": 4.92,
+      "prev": 4.81
     },
     {
       "name": "연준 기준금리",
@@ -46,7 +46,7 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 14.21,
+      "cur": 16.07,
       "prev": 14.87
     }
   ],
@@ -81,6 +81,17 @@
           "report": "주요사항보고서(자기주식취득결정)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000153",
           "dt": "20260929"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "[기재정정]단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800154",
+          "dt": "20260930"
         }
       ]
     }
