@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30 22:33 KST",
+  "updated": "2026-10-01 01:45 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 16.07,
-      "prev": 14.87
+      "cur": 16.04,
+      "prev": 16.07
     }
   ],
   "dart": [
@@ -59,39 +59,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000861",
           "dt": "20260930"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929800281",
-          "dt": "20260929"
-        }
-      ]
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "items": [
-        {
-          "report": "특수관계인과의내부거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000302",
-          "dt": "20260929"
-        }
-      ]
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "items": [
-        {
-          "report": "주요사항보고서(자기주식취득결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000153",
-          "dt": "20260929"
         }
       ]
     },
