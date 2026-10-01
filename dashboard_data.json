@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01 10:46 KST",
+  "updated": "2026-10-01 23:22 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 16.04,
-      "prev": 16.07
+      "cur": 16.34,
+      "prev": 16.04
     }
   ],
   "dart": [
@@ -59,6 +59,22 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000861",
           "dt": "20260930"
+        }
+      ]
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000251",
+          "dt": "20261001"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000203",
+          "dt": "20261001"
         }
       ]
     },
