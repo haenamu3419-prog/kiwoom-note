@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-02 02:19 KST",
+  "updated": "2026-10-02 10:56 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.59,
-      "prev": 5.56
+      "cur": 5.64,
+      "prev": 5.59
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 5.26,
-      "prev": 5.24
+      "cur": 5.29,
+      "prev": 5.26
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.89,
-      "prev": 4.92
+      "cur": 4.88,
+      "prev": 4.89
     },
     {
       "name": "연준 기준금리",
@@ -64,6 +64,17 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000203",
           "dt": "20261001"
+        }
+      ]
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "items": [
+        {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002800172",
+          "dt": "20261002"
         }
       ]
     }
