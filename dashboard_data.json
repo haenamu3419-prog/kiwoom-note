@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07 11:00 KST",
+  "updated": "2026-10-07 18:42 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -75,6 +75,33 @@
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800096",
           "dt": "20261006"
+        }
+      ]
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "[기재정정]타법인주식및출자증권취득결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800463",
+          "dt": "20261007"
+        },
+        {
+          "report": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800450",
+          "dt": "20261007"
+        }
+      ]
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "items": [
+        {
+          "report": "주식등의대량보유상황보고서(약식)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000312",
+          "dt": "20261007"
         }
       ]
     }
