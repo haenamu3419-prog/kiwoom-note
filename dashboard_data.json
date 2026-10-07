@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07 23:22 KST",
+  "updated": "2026-10-08 02:44 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 96.16,
-      "prev": 99.37
+      "cur": 96.24,
+      "prev": 96.13
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 113.96,
-      "prev": 119.97
+      "cur": 125.44,
+      "prev": 125.51
     },
     {
       "name": "원/달러",
@@ -51,33 +51,6 @@
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "동일인등출자계열회사와의상품ㆍ용역거래변경",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000253",
-          "dt": "20261006"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800130",
-          "dt": "20261006"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800096",
-          "dt": "20261006"
-        }
-      ]
-    },
     {
       "code": "042660",
       "name": "한화오션",
