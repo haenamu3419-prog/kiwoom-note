@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08 11:24 KST",
+  "updated": "2026-10-08 18:53 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -56,6 +56,11 @@
       "name": "삼성전자",
       "items": [
         {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000706",
+          "dt": "20261008"
+        },
+        {
           "report": "기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800028",
           "dt": "20261008"
@@ -68,9 +73,30 @@
       ]
     },
     {
+      "code": "032830",
+      "name": "삼성생명",
+      "items": [
+        {
+          "report": "주요사항보고서(자본으로인정되는채무증권발행결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000655",
+          "dt": "20261008"
+        }
+      ]
+    },
+    {
       "code": "042660",
       "name": "한화오션",
       "items": [
+        {
+          "report": "[기재정정]타법인주식및출자증권취득결정(자율공시)(종속회사의주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800626",
+          "dt": "20261008"
+        },
+        {
+          "report": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800617",
+          "dt": "20261008"
+        },
         {
           "report": "[기재정정]타법인주식및출자증권취득결정              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800463",
