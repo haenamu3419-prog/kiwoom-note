@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-08 18:53 KST",
+  "updated": "2026-10-12 11:00 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.64,
-      "prev": 5.66
+      "cur": 5.6,
+      "prev": 5.67
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 5.27,
-      "prev": 5.31
+      "cur": 5.22,
+      "prev": 5.28
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.79,
-      "prev": 4.84
+      "cur": 4.75,
+      "prev": 4.77
     },
     {
       "name": "연준 기준금리",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.01,
-      "prev": 15.52
+      "cur": 15.41,
+      "prev": 15.08
     }
   ],
   "dart": [
@@ -56,30 +56,35 @@
       "name": "삼성전자",
       "items": [
         {
-          "report": "주식등의대량보유상황보고서(일반)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000706",
-          "dt": "20261008"
-        },
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800028",
-          "dt": "20261008"
-        },
-        {
-          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800004",
-          "dt": "20261008"
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000021",
+          "dt": "20261012"
         }
       ]
     },
     {
-      "code": "032830",
-      "name": "삼성생명",
+      "code": "006340",
+      "name": "대원전선",
       "items": [
         {
-          "report": "주요사항보고서(자본으로인정되는채무증권발행결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000655",
-          "dt": "20261008"
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000011",
+          "dt": "20261012"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000008",
+          "dt": "20261012"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000006",
+          "dt": "20261012"
+        },
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800091",
+          "dt": "20261012"
         }
       ]
     },
@@ -88,35 +93,20 @@
       "name": "한화오션",
       "items": [
         {
-          "report": "[기재정정]타법인주식및출자증권취득결정(자율공시)(종속회사의주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800626",
-          "dt": "20261008"
-        },
-        {
-          "report": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800617",
-          "dt": "20261008"
-        },
-        {
-          "report": "[기재정정]타법인주식및출자증권취득결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800463",
-          "dt": "20261007"
-        },
-        {
-          "report": "[기재정정]유상증자결정(종속회사의주요경영사항)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800450",
-          "dt": "20261007"
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000060",
+          "dt": "20261012"
         }
       ]
     },
     {
-      "code": "080220",
-      "name": "제주반도체",
+      "code": "068270",
+      "name": "셀트리온",
       "items": [
         {
-          "report": "주식등의대량보유상황보고서(약식)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000312",
-          "dt": "20261007"
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800004",
+          "dt": "20261012"
         }
       ]
     }
