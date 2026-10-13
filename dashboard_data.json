@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13 19:02 KST",
+  "updated": "2026-10-14 03:05 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 14.84,
-      "prev": 15.41
+      "cur": 15.21,
+      "prev": 14.84
     }
   ],
   "dart": [
@@ -64,58 +64,6 @@
           "report": "임원ㆍ주요주주특정증권등거래계획보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000379",
           "dt": "20261013"
-        },
-        {
-          "report": "자기주식취득결과보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000421",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000021",
-          "dt": "20261012"
-        }
-      ]
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000011",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000008",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000006",
-          "dt": "20261012"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800091",
-          "dt": "20261012"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800255",
-          "dt": "20261012"
-        },
-        {
-          "report": "결산실적공시예고(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800250",
-          "dt": "20261012"
         }
       ]
     },
@@ -132,62 +80,6 @@
           "report": "결산실적공시예고(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800178",
           "dt": "20261013"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000340",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000324",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000260",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000242",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000231",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000205",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000156",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000139",
-          "dt": "20261012"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000060",
-          "dt": "20261012"
-        }
-      ]
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "items": [
-        {
-          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800004",
-          "dt": "20261012"
         }
       ]
     },
