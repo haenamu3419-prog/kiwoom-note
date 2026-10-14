@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14 21:48 KST",
+  "updated": "2026-10-15 00:46 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.21,
-      "prev": 14.84
+      "cur": 15.27,
+      "prev": 15.21
     }
   ],
   "dart": [
@@ -59,38 +59,6 @@
           "report": "기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800385",
           "dt": "20261014"
-        }
-      ]
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800651",
-          "dt": "20261013"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등거래계획보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000379",
-          "dt": "20261013"
-        }
-      ]
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "items": [
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800180",
-          "dt": "20261013"
-        },
-        {
-          "report": "결산실적공시예고(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800178",
-          "dt": "20261013"
         }
       ]
     },
@@ -129,11 +97,6 @@
           "report": "주주총회소집결의              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800278",
           "dt": "20261014"
-        },
-        {
-          "report": "[기재정정]단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234",
-          "dt": "20261013"
         }
       ]
     }
