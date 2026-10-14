@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14 10:33 KST",
+  "updated": "2026-10-14 17:20 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,6 +52,17 @@
   ],
   "dart": [
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800385",
+          "dt": "20261014"
+        }
+      ]
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
@@ -84,9 +95,30 @@
       ]
     },
     {
+      "code": "080220",
+      "name": "제주반도체",
+      "items": [
+        {
+          "report": "단기차입금증가결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900345",
+          "dt": "20261014"
+        }
+      ]
+    },
+    {
       "code": "329180",
       "name": "HD현대중공업",
       "items": [
+        {
+          "report": "주주명부폐쇄기간또는기준일설정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800295",
+          "dt": "20261014"
+        },
+        {
+          "report": "주주총회소집결의              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800278",
+          "dt": "20261014"
+        },
         {
           "report": "[기재정정]단일판매ㆍ공급계약체결              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234",
