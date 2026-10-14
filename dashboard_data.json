@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14 17:20 KST",
+  "updated": "2026-10-14 21:48 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -91,6 +91,17 @@
           "report": "결산실적공시예고(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800178",
           "dt": "20261013"
+        }
+      ]
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "items": [
+        {
+          "report": "투자판단관련주요경영사항              (CTP13 SC(짐펜트라) 한국 임상 3상 시험계획 승인)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800646",
+          "dt": "20261014"
         }
       ]
     },
