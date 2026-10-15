@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15 21:34 KST",
+  "updated": "2026-10-16 00:33 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,44 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 15.27,
-      "prev": 15.21
+      "cur": 16.87,
+      "prev": 15.27
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800385",
-          "dt": "20261014"
-        }
-      ]
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "items": [
-        {
-          "report": "투자판단관련주요경영사항              (CTP13 SC(짐펜트라) 한국 임상 3상 시험계획 승인)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800646",
-          "dt": "20261014"
-        }
-      ]
-    },
-    {
-      "code": "080220",
-      "name": "제주반도체",
-      "items": [
-        {
-          "report": "단기차입금증가결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900345",
-          "dt": "20261014"
-        }
-      ]
-    },
     {
       "code": "329180",
       "name": "HD현대중공업",
@@ -92,16 +59,6 @@
           "report": "단일판매ㆍ공급계약체결              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800353",
           "dt": "20261015"
-        },
-        {
-          "report": "주주명부폐쇄기간또는기준일설정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800295",
-          "dt": "20261014"
-        },
-        {
-          "report": "주주총회소집결의              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800278",
-          "dt": "20261014"
         }
       ]
     }
