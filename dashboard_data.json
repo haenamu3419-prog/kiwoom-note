@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15 10:11 KST",
+  "updated": "2026-10-15 16:57 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -88,6 +88,11 @@
       "code": "329180",
       "name": "HD현대중공업",
       "items": [
+        {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800353",
+          "dt": "20261015"
+        },
         {
           "report": "주주명부폐쇄기간또는기준일설정              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800295",
