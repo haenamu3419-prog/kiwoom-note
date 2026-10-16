@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16 21:14 KST",
+  "updated": "2026-10-17 00:19 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 16.87,
-      "prev": 15.27
+      "cur": 16.46,
+      "prev": 16.87
     }
   ],
   "dart": [
@@ -101,17 +101,6 @@
           "report": "결산실적공시예고(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800235",
           "dt": "20261016"
-        }
-      ]
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "items": [
-        {
-          "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800353",
-          "dt": "20261015"
         }
       ]
     }
