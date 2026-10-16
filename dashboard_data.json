@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16 09:58 KST",
+  "updated": "2026-10-16 16:51 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -51,6 +51,43 @@
     }
   ],
   "dart": [
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "items": [
+        {
+          "report": "계열금융회사의약관에의한금융거래-[유가증권-채권]",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000453",
+          "dt": "20261016"
+        },
+        {
+          "report": "계열금융회사의약관에의한금융거래-[유가증권-수익증권]",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000446",
+          "dt": "20261016"
+        },
+        {
+          "report": "계열금융회사의약관에의한금융거래-[보험]",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000442",
+          "dt": "20261016"
+        }
+      ]
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800236",
+          "dt": "20261016"
+        },
+        {
+          "report": "결산실적공시예고(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800235",
+          "dt": "20261016"
+        }
+      ]
+    },
     {
       "code": "329180",
       "name": "HD현대중공업",
