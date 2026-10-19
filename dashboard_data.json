@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-17 00:19 KST",
+  "updated": "2026-10-19 09:43 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.52,
-      "prev": 5.56
+      "cur": 5.43,
+      "prev": 5.52
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 5.19,
-      "prev": 5.21
+      "cur": 5.1,
+      "prev": 5.19
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.82,
-      "prev": 4.79
+      "cur": 4.77,
+      "prev": 4.82
     },
     {
       "name": "연준 기준금리",
@@ -50,61 +50,7 @@
       "prev": 16.87
     }
   ],
-  "dart": [
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "주식등의대량보유상황보고서(일반)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000505",
-          "dt": "20261016"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000492",
-          "dt": "20261016"
-        }
-      ]
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "items": [
-        {
-          "report": "계열금융회사의약관에의한금융거래-[유가증권-채권]",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000453",
-          "dt": "20261016"
-        },
-        {
-          "report": "계열금융회사의약관에의한금융거래-[유가증권-수익증권]",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000446",
-          "dt": "20261016"
-        },
-        {
-          "report": "계열금융회사의약관에의한금융거래-[보험]",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000442",
-          "dt": "20261016"
-        }
-      ]
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "items": [
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800236",
-          "dt": "20261016"
-        },
-        {
-          "report": "결산실적공시예고(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800235",
-          "dt": "20261016"
-        }
-      ]
-    }
-  ],
+  "dart": [],
   "kr_holdings": [
     {
       "code": "000660",
