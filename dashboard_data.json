@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19 09:43 KST",
+  "updated": "2026-10-19 17:25 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -50,7 +50,72 @@
       "prev": 16.87
     }
   ],
-  "dart": [],
+  "dart": [
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000318",
+          "dt": "20261019"
+        }
+      ]
+    },
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000065",
+          "dt": "20261019"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000063",
+          "dt": "20261019"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000062",
+          "dt": "20261019"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000059",
+          "dt": "20261019"
+        },
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800170",
+          "dt": "20261019"
+        }
+      ]
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "items": [
+        {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800610",
+          "dt": "20261019"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800435",
+          "dt": "20261019"
+        }
+      ]
+    }
+  ],
   "kr_holdings": [
     {
       "code": "000660",
