@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19 17:25 KST",
+  "updated": "2026-10-19 23:32 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 16.46,
-      "prev": 16.87
+      "cur": 19.99,
+      "prev": 16.46
     }
   ],
   "dart": [
@@ -100,6 +100,17 @@
         {
           "report": "단일판매ㆍ공급계약체결              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800610",
+          "dt": "20261019"
+        }
+      ]
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000344",
           "dt": "20261019"
         }
       ]
