@@ -1,53 +1,61 @@
 {
-  "updated": "2026-10-21 21:50 KST",
+  "updated": "2026-10-22 00:54 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.48,
-      "prev": 5.43
+      "cur": null,
+      "prev": null,
+      "err": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 5.15,
-      "prev": 5.09
+      "cur": null,
+      "prev": null,
+      "err": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.77,
-      "prev": 4.74
+      "cur": null,
+      "prev": null,
+      "err": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "name": "연준 기준금리",
       "unit": "pct",
-      "cur": 3.88,
-      "prev": 3.88
+      "cur": null,
+      "prev": null,
+      "err": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 101.91,
-      "prev": 100.86
+      "cur": null,
+      "prev": null,
+      "err": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 126.55,
-      "prev": 125.78
+      "cur": null,
+      "prev": null,
+      "err": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "name": "원/달러",
       "unit": "won",
-      "cur": 1334.03,
-      "prev": 1343.31
+      "cur": null,
+      "prev": null,
+      "err": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 18.44,
-      "prev": 19.99
+      "cur": null,
+      "prev": null,
+      "err": "Expecting value: line 1 column 1 (char 0)"
     }
   ],
   "dart": [
@@ -63,28 +71,6 @@
       ]
     },
     {
-      "code": "068270",
-      "name": "셀트리온",
-      "items": [
-        {
-          "report": "자기주식취득결과보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000090",
-          "dt": "20261020"
-        }
-      ]
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "items": [
-        {
-          "report": "불성실공시법인지정예고              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020800767",
-          "dt": "20261020"
-        }
-      ]
-    },
-    {
       "code": "329180",
       "name": "HD현대중공업",
       "items": [
@@ -92,11 +78,6 @@
           "report": "기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800389",
           "dt": "20261021"
-        },
-        {
-          "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020800221",
-          "dt": "20261020"
         }
       ]
     }
