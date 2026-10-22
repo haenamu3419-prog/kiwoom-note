@@ -1,61 +1,53 @@
 {
-  "updated": "2026-10-22 10:09 KST",
+  "updated": "2026-10-22 17:15 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": null,
-      "prev": null,
-      "err": "Expecting value: line 1 column 1 (char 0)"
+      "cur": 5.42,
+      "prev": 5.48
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": null,
-      "prev": null,
-      "err": "Expecting value: line 1 column 1 (char 0)"
+      "cur": 5.12,
+      "prev": 5.15
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": null,
-      "prev": null,
-      "err": "Expecting value: line 1 column 1 (char 0)"
+      "cur": 4.79,
+      "prev": 4.77
     },
     {
       "name": "연준 기준금리",
       "unit": "pct",
-      "cur": null,
-      "prev": null,
-      "err": "Expecting value: line 1 column 1 (char 0)"
+      "cur": 3.88,
+      "prev": 3.88
     },
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": null,
-      "prev": null,
-      "err": "Expecting value: line 1 column 1 (char 0)"
+      "cur": 107.89,
+      "prev": 110.01
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": null,
-      "prev": null,
-      "err": "Expecting value: line 1 column 1 (char 0)"
+      "cur": 115.22,
+      "prev": 118.82
     },
     {
       "name": "원/달러",
       "unit": "won",
-      "cur": null,
-      "prev": null,
-      "err": "Expecting value: line 1 column 1 (char 0)"
+      "cur": 1334.03,
+      "prev": 1343.31
     },
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": null,
-      "prev": null,
-      "err": "Expecting value: line 1 column 1 (char 0)"
+      "cur": 17.31,
+      "prev": 18.44
     }
   ],
   "dart": [
@@ -67,6 +59,17 @@
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800343",
           "dt": "20261021"
+        }
+      ]
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "items": [
+        {
+          "report": "투자판단관련주요경영사항              (반감기 연장 기술이 적용된 장기 지속형 항APRIL 항체 Licensein 계약 체결)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800167",
+          "dt": "20261022"
         }
       ]
     },
