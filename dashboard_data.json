@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22 21:53 KST",
+  "updated": "2026-10-23 00:50 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,22 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 17.31,
-      "prev": 18.44
+      "cur": 16.68,
+      "prev": 17.31
     }
   ],
   "dart": [
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "items": [
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800343",
-          "dt": "20261021"
-        }
-      ]
-    },
     {
       "code": "068270",
       "name": "셀트리온",
@@ -70,17 +59,6 @@
           "report": "투자판단관련주요경영사항              (반감기 연장 기술이 적용된 장기 지속형 항APRIL 항체 Licensein 계약 체결)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800167",
           "dt": "20261022"
-        }
-      ]
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "items": [
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800389",
-          "dt": "20261021"
         }
       ]
     }
