@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23 21:32 KST",
+  "updated": "2026-10-24 00:41 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 16.68,
-      "prev": 17.31
+      "cur": 19.03,
+      "prev": 16.68
     }
   ],
   "dart": [
@@ -86,17 +86,6 @@
           "report": "주식등의대량보유상황보고서(일반)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000469",
           "dt": "20261023"
-        }
-      ]
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "items": [
-        {
-          "report": "투자판단관련주요경영사항              (반감기 연장 기술이 적용된 장기 지속형 항APRIL 항체 Licensein 계약 체결)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800167",
-          "dt": "20261022"
         }
       ]
     }
