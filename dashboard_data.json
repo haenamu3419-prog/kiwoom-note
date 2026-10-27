@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27 22:06 KST",
+  "updated": "2026-10-28 01:23 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,48 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 19.45,
-      "prev": 19.03
+      "cur": 18.39,
+      "prev": 19.45
     }
   ],
   "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000273",
-          "dt": "20261026"
-        },
-        {
-          "report": "[기재정정]주식소각결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800524",
-          "dt": "20261026"
-        },
-        {
-          "report": "자기주식취득결과보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000259",
-          "dt": "20261026"
-        },
-        {
-          "report": "풍문또는보도에대한해명(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800118",
-          "dt": "20261026"
-        }
-      ]
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000017",
-          "dt": "20261026"
-        }
-      ]
-    },
     {
       "code": "032830",
       "name": "삼성생명",
@@ -107,11 +70,6 @@
           "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800240",
           "dt": "20261027"
-        },
-        {
-          "report": "자기주식취득결과보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000196",
-          "dt": "20261026"
         }
       ]
     },
@@ -128,11 +86,6 @@
           "report": "[기재정정]연결재무제표기준영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800047",
           "dt": "20261027"
-        },
-        {
-          "report": "주요사항보고서(자기주식취득결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000084",
-          "dt": "20261026"
         }
       ]
     },
