@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-28 01:23 KST",
+  "updated": "2026-10-28 10:59 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.33,
-      "prev": 5.29
+      "cur": 5.31,
+      "prev": 5.33
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
       "cur": 5.0,
-      "prev": 4.96
+      "prev": 5.0
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.69,
-      "prev": 4.65
+      "cur": 4.68,
+      "prev": 4.69
     },
     {
       "name": "연준 기준금리",
@@ -51,6 +51,42 @@
     }
   ],
   "dart": [
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "[기재정정]기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800052",
+          "dt": "20261028"
+        },
+        {
+          "report": "주요사항보고서(자기주식취득결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000014",
+          "dt": "20261028"
+        },
+        {
+          "report": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800048",
+          "dt": "20261028"
+        },
+        {
+          "report": "현금ㆍ현물배당결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800045",
+          "dt": "20261028"
+        },
+        {
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800036",
+          "dt": "20261028"
+        },
+        {
+          "report": "수시공시의무관련사항(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800040",
+          "dt": "20261028"
+        }
+      ]
+    },
     {
       "code": "032830",
       "name": "삼성생명",
