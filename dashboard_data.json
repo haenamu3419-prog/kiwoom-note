@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29 11:03 KST",
+  "updated": "2026-10-29 18:15 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -96,6 +96,51 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "기타경영사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800752",
+          "dt": "20261029"
+        },
+        {
+          "report": "기타경영사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800748",
+          "dt": "20261029"
+        },
+        {
+          "report": "특수관계인에대한증여",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000573",
+          "dt": "20261029"
+        },
+        {
+          "report": "특수관계인에대한증여",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000567",
+          "dt": "20261029"
+        },
+        {
+          "report": "특수관계인에대한증여",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000564",
+          "dt": "20261029"
+        },
+        {
+          "report": "특수관계인에대한증여",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000557",
+          "dt": "20261029"
+        },
+        {
+          "report": "주요사항보고서(자기주식처분결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000539",
+          "dt": "20261029"
+        },
+        {
+          "report": "특수관계인과의보험거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000525",
+          "dt": "20261029"
+        },
+        {
+          "report": "특수관계인에대한출자",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000501",
+          "dt": "20261029"
+        },
         {
           "report": "장래사업ㆍ경영계획(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800102",
