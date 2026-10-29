@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-29 02:05 KST",
+  "updated": "2026-10-29 11:03 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.31,
-      "prev": 5.33
+      "cur": 5.3,
+      "prev": 5.31
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 5.0,
+      "cur": 4.99,
       "prev": 5.0
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.68,
-      "prev": 4.69
+      "cur": 4.7,
+      "prev": 4.68
     },
     {
       "name": "연준 기준금리",
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 107.89,
-      "prev": 110.01
+      "cur": 103.37,
+      "prev": 105.25
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 115.22,
-      "prev": 118.82
+      "cur": 123.1,
+      "prev": 128.12
     },
     {
       "name": "원/달러",
@@ -55,6 +55,11 @@
       "code": "000660",
       "name": "SK하이닉스",
       "items": [
+        {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800130",
+          "dt": "20261029"
+        },
         {
           "report": "[기재정정]기업설명회(IR)개최(안내공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800052",
@@ -84,6 +89,32 @@
           "report": "수시공시의무관련사항(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800040",
           "dt": "20261028"
+        }
+      ]
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "장래사업ㆍ경영계획(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800102",
+          "dt": "20261029"
+        },
+        {
+          "report": "[기재정정]연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800099",
+          "dt": "20261029"
+        },
+        {
+          "report": "현금ㆍ현물배당결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+          "dt": "20261029"
+        },
+        {
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800087",
+          "dt": "20261029"
         }
       ]
     },
