@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-30 02:22 KST",
+  "updated": "2026-10-30 11:21 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.3,
-      "prev": 5.31
+      "cur": 5.37,
+      "prev": 5.3
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.99,
-      "prev": 5.0
+      "cur": 5.05,
+      "prev": 4.99
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.7,
-      "prev": 4.68
+      "cur": 4.67,
+      "prev": 4.7
     },
     {
       "name": "연준 기준금리",
@@ -130,6 +130,28 @@
           "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800087",
           "dt": "20261029"
+        }
+      ]
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800228",
+          "dt": "20261030"
+        }
+      ]
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "items": [
+        {
+          "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800202",
+          "dt": "20261030"
         }
       ]
     }
