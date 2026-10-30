@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30 11:21 KST",
+  "updated": "2026-10-30 18:32 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -66,6 +66,21 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000719",
+          "dt": "20261030"
+        },
+        {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000716",
+          "dt": "20261030"
+        },
+        {
+          "report": "특수관계인으로부터주식의취득",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000586",
+          "dt": "20261030"
+        },
         {
           "report": "기타경영사항(자율공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800752",
@@ -134,6 +149,28 @@
       ]
     },
     {
+      "code": "009150",
+      "name": "삼성전기",
+      "items": [
+        {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800604",
+          "dt": "20261030"
+        }
+      ]
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "items": [
+        {
+          "report": "주식등의대량보유상황보고서(일반)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000688",
+          "dt": "20261030"
+        }
+      ]
+    },
+    {
       "code": "042660",
       "name": "한화오션",
       "items": [
@@ -145,9 +182,61 @@
       ]
     },
     {
+      "code": "068270",
+      "name": "셀트리온",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000742",
+          "dt": "20261030"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000741",
+          "dt": "20261030"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000740",
+          "dt": "20261030"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000739",
+          "dt": "20261030"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000738",
+          "dt": "20261030"
+        }
+      ]
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "items": [
+        {
+          "report": "자기주식처분결과보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000638",
+          "dt": "20261030"
+        }
+      ]
+    },
+    {
       "code": "278470",
       "name": "에이피알",
       "items": [
+        {
+          "report": "기업설명회(IR)개최(안내공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800892",
+          "dt": "20261030"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000362",
+          "dt": "20261030"
+        },
         {
           "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800202",
