@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-04 03:20 KST",
+  "updated": "2026-11-04 11:51 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.31,
-      "prev": 5.32
+      "cur": 5.28,
+      "prev": 5.31
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.94,
-      "prev": 4.98
+      "cur": 4.91,
+      "prev": 4.94
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.56,
-      "prev": 4.61
+      "cur": 4.59,
+      "prev": 4.56
     },
     {
       "name": "연준 기준금리",
@@ -85,6 +85,17 @@
           "report": "특수관계인과의수익증권거래",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000265",
           "dt": "20261103"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000037",
+          "dt": "20261104"
         }
       ]
     }
