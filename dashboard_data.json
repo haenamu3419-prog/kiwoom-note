@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04 11:51 KST",
+  "updated": "2026-11-05 00:18 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 21.15,
-      "prev": 19.42
+      "cur": 20.83,
+      "prev": 21.15
     }
   ],
   "dart": [
@@ -56,35 +56,14 @@
       "name": "삼성전자",
       "items": [
         {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000167",
-          "dt": "20261103"
-        }
-      ]
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "items": [
-        {
-          "report": "특수관계인에대한출자",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000289",
-          "dt": "20261103"
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104800612",
+          "dt": "20261104"
         },
         {
-          "report": "특수관계인에대한주식의처분",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000281",
-          "dt": "20261103"
-        },
-        {
-          "report": "특수관계인에대한증여",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000269",
-          "dt": "20261103"
-        },
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000265",
-          "dt": "20261103"
+          "report": "자기주식처분결과보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000325",
+          "dt": "20261104"
         }
       ]
     },
