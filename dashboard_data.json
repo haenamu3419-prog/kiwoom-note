@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06 12:03 KST",
+  "updated": "2026-11-06 19:19 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -57,6 +57,31 @@
       "items": [
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000440",
+          "dt": "20261106"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000410",
+          "dt": "20261106"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000193",
+          "dt": "20261106"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000100",
+          "dt": "20261106"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000098",
+          "dt": "20261106"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000093",
           "dt": "20261106"
         },
@@ -80,6 +105,17 @@
           "report": "[기재정정]타법인주식및출자증권취득결정              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800383",
           "dt": "20261105"
+        }
+      ]
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800647",
+          "dt": "20261106"
         }
       ]
     },
@@ -133,6 +169,16 @@
       "code": "329180",
       "name": "HD현대중공업",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000186",
+          "dt": "20261106"
+        },
+        {
+          "report": "주주총회소집공고",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000113",
+          "dt": "20261106"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000075",
