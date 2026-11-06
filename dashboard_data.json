@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06 23:55 KST",
+  "updated": "2026-11-07 02:52 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -89,22 +89,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000022",
           "dt": "20261106"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000566",
-          "dt": "20261105"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "[기재정정]타법인주식및출자증권취득결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800383",
-          "dt": "20261105"
         }
       ]
     },
@@ -116,52 +100,6 @@
           "report": "풍문또는보도에대한해명(미확정)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800647",
           "dt": "20261106"
-        }
-      ]
-    },
-    {
-      "code": "080220",
-      "name": "제주반도체",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000177",
-          "dt": "20261105"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000174",
-          "dt": "20261105"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000165",
-          "dt": "20261105"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000157",
-          "dt": "20261105"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000154",
-          "dt": "20261105"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000151",
-          "dt": "20261105"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000145",
-          "dt": "20261105"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000142",
-          "dt": "20261105"
         }
       ]
     },
