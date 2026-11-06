@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-06 03:38 KST",
+  "updated": "2026-11-06 12:03 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.32,
-      "prev": 5.28
+      "cur": 5.28,
+      "prev": 5.32
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.95,
-      "prev": 4.91
+      "cur": 4.9,
+      "prev": 4.95
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.61,
-      "prev": 4.59
+      "cur": 4.58,
+      "prev": 4.61
     },
     {
       "name": "연준 기준금리",
@@ -55,6 +55,16 @@
       "code": "005930",
       "name": "삼성전자",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000093",
+          "dt": "20261106"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000022",
+          "dt": "20261106"
+        },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000566",
@@ -116,6 +126,27 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000142",
           "dt": "20261105"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000075",
+          "dt": "20261106"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000055",
+          "dt": "20261106"
+        },
+        {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800310",
+          "dt": "20261106"
         }
       ]
     }
