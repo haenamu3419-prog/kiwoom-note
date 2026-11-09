@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09 11:19 KST",
+  "updated": "2026-11-09 19:50 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -77,6 +77,11 @@
       "code": "329180",
       "name": "HD현대중공업",
       "items": [
+        {
+          "report": "의결권대리행사권유참고서류",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000191",
+          "dt": "20261109"
+        },
         {
           "report": "단일판매ㆍ공급계약체결              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800193",
