@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-07 02:52 KST",
+  "updated": "2026-11-09 11:19 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.28,
-      "prev": 5.32
+      "cur": 5.25,
+      "prev": 5.28
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.9,
-      "prev": 4.95
+      "cur": 4.84,
+      "prev": 4.9
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.58,
-      "prev": 4.61
+      "cur": 4.46,
+      "prev": 4.58
     },
     {
       "name": "연준 기준금리",
@@ -57,49 +57,19 @@
       "items": [
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000440",
-          "dt": "20261106"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000410",
-          "dt": "20261106"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000193",
-          "dt": "20261106"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000100",
-          "dt": "20261106"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000098",
-          "dt": "20261106"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000093",
-          "dt": "20261106"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000022",
-          "dt": "20261106"
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000007",
+          "dt": "20261109"
         }
       ]
     },
     {
-      "code": "042660",
-      "name": "한화오션",
+      "code": "006340",
+      "name": "대원전선",
       "items": [
         {
-          "report": "풍문또는보도에대한해명(미확정)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800647",
-          "dt": "20261106"
+          "report": "분기보고서 (2026.09)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000022",
+          "dt": "20261109"
         }
       ]
     },
@@ -108,29 +78,9 @@
       "name": "HD현대중공업",
       "items": [
         {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000186",
-          "dt": "20261106"
-        },
-        {
-          "report": "주주총회소집공고",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000113",
-          "dt": "20261106"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000075",
-          "dt": "20261106"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000055",
-          "dt": "20261106"
-        },
-        {
           "report": "단일판매ㆍ공급계약체결              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800310",
-          "dt": "20261106"
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800193",
+          "dt": "20261109"
         }
       ]
     }
