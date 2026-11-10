@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10 06:22 KST",
+  "updated": "2026-11-10 13:28 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -57,6 +57,11 @@
       "items": [
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000038",
+          "dt": "20261110"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000007",
           "dt": "20261109"
         }
@@ -66,6 +71,16 @@
       "code": "006340",
       "name": "대원전선",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000034",
+          "dt": "20261110"
+        },
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800118",
+          "dt": "20261110"
+        },
         {
           "report": "분기보고서 (2026.09)",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000022",
