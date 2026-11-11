@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11 19:13 KST",
+  "updated": "2026-11-12 00:01 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 19.92,
-      "prev": 25.64
+      "cur": 19.46,
+      "prev": 19.92
     }
   ],
   "dart": [
@@ -59,32 +59,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000113",
           "dt": "20261111"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000320",
-          "dt": "20261110"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000038",
-          "dt": "20261110"
-        }
-      ]
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000034",
-          "dt": "20261110"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800118",
-          "dt": "20261110"
         }
       ]
     },
