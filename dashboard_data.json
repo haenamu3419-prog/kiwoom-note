@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11 11:28 KST",
+  "updated": "2026-11-11 19:13 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -85,6 +85,28 @@
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800118",
           "dt": "20261110"
+        }
+      ]
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "분기보고서 (2026.09)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000263",
+          "dt": "20261111"
+        }
+      ]
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "items": [
+        {
+          "report": "불성실공시법인지정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800505",
+          "dt": "20261111"
         }
       ]
     }
