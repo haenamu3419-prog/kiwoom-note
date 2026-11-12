@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12 19:35 KST",
+  "updated": "2026-11-13 00:54 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 19.46,
-      "prev": 19.92
+      "cur": 17.49,
+      "prev": 19.46
     }
   ],
   "dart": [
@@ -59,11 +59,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000017",
           "dt": "20261112"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000113",
-          "dt": "20261111"
         }
       ]
     },
@@ -75,28 +70,6 @@
           "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800352",
           "dt": "20261112"
-        }
-      ]
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "items": [
-        {
-          "report": "분기보고서 (2026.09)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000263",
-          "dt": "20261111"
-        }
-      ]
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "items": [
-        {
-          "report": "불성실공시법인지정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800505",
-          "dt": "20261111"
         }
       ]
     },
