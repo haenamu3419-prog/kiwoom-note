@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12 12:33 KST",
+  "updated": "2026-11-12 19:35 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -97,6 +97,17 @@
           "report": "불성실공시법인지정              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800505",
           "dt": "20261111"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "[기재정정]단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800662",
+          "dt": "20261112"
         }
       ]
     }
