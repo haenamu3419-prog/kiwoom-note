@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-13 03:46 KST",
+  "updated": "2026-11-13 12:05 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.26,
+      "cur": 5.35,
       "prev": 5.26
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.88,
-      "prev": 4.86
+      "cur": 4.98,
+      "prev": 4.88
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.56,
-      "prev": 4.51
+      "cur": 4.73,
+      "prev": 4.56
     },
     {
       "name": "연준 기준금리",
@@ -28,14 +28,14 @@
     {
       "name": "WTI 유가",
       "unit": "usd",
-      "cur": 99.64,
-      "prev": 100.06
+      "cur": 89.62,
+      "prev": 89.62
     },
     {
       "name": "브렌트유",
       "unit": "usd",
-      "cur": 107.03,
-      "prev": 107.39
+      "cur": 92.14,
+      "prev": 90.16
     },
     {
       "name": "원/달러",
@@ -70,6 +70,28 @@
           "report": "연결재무제표기준영업(잠정)실적(공정공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800352",
           "dt": "20261112"
+        }
+      ]
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "items": [
+        {
+          "report": "자기주식취득결과보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000215",
+          "dt": "20261113"
+        }
+      ]
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "items": [
+        {
+          "report": "분기보고서 (2026.09)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000183",
+          "dt": "20261113"
         }
       ]
     },
