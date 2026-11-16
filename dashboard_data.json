@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-14 03:27 KST",
+  "updated": "2026-11-16 11:31 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.35,
-      "prev": 5.26
+      "cur": 5.43,
+      "prev": 5.35
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.98,
-      "prev": 4.88
+      "cur": 5.1,
+      "prev": 4.98
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.73,
-      "prev": 4.56
+      "cur": 4.86,
+      "prev": 4.73
     },
     {
       "name": "연준 기준금리",
@@ -52,76 +52,13 @@
   ],
   "dart": [
     {
-      "code": "005930",
-      "name": "삼성전자",
+      "code": "329180",
+      "name": "HD현대중공업",
       "items": [
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801935",
-          "dt": "20261113"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001527",
-          "dt": "20261113"
-        },
         {
           "report": "동일인등출자계열회사와의상품ㆍ용역거래변경",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001338",
-          "dt": "20261113"
-        },
-        {
-          "report": "동일인등출자계열회사와의상품ㆍ용역거래변경",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001302",
-          "dt": "20261113"
-        },
-        {
-          "report": "동일인등출자계열회사와의상품ㆍ용역거래변경",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001281",
-          "dt": "20261113"
-        },
-        {
-          "report": "기업설명회(IR)개최(안내공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801115",
-          "dt": "20261113"
-        }
-      ]
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "items": [
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000979",
-          "dt": "20261113"
-        },
-        {
-          "report": "자기주식취득결과보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000215",
-          "dt": "20261113"
-        }
-      ]
-    },
-    {
-      "code": "080220",
-      "name": "제주반도체",
-      "items": [
-        {
-          "report": "분기보고서 (2026.09)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000183",
-          "dt": "20261113"
-        }
-      ]
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "items": [
-        {
-          "report": "분기보고서 (2026.09)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001366",
-          "dt": "20261113"
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000107",
+          "dt": "20261116"
         }
       ]
     }
