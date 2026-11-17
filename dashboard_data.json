@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17 20:26 KST",
+  "updated": "2026-11-18 01:49 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,88 +46,11 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 19.3,
-      "prev": 18.7
+      "cur": 22.91,
+      "prev": 19.3
     }
   ],
-  "dart": [
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "분기보고서 (2026.09)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001715",
-          "dt": "20261116"
-        }
-      ]
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "items": [
-        {
-          "report": "분기보고서 (2026.09)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001482",
-          "dt": "20261116"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "분기보고서 (2026.09)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001915",
-          "dt": "20261116"
-        }
-      ]
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "items": [
-        {
-          "report": "분기보고서 (2026.09)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001950",
-          "dt": "20261116"
-        }
-      ]
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "items": [
-        {
-          "report": "분기보고서 (2026.09)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001228",
-          "dt": "20261116"
-        }
-      ]
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "items": [
-        {
-          "report": "분기보고서 (2026.09)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001044",
-          "dt": "20261116"
-        },
-        {
-          "report": "단일판매ㆍ공급계약체결(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116800519",
-          "dt": "20261116"
-        },
-        {
-          "report": "동일인등출자계열회사와의상품ㆍ용역거래변경",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000107",
-          "dt": "20261116"
-        }
-      ]
-    }
-  ],
+  "dart": [],
   "kr_holdings": [
     {
       "code": "000660",
