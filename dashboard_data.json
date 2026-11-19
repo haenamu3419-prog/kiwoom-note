@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-19 04:20 KST",
+  "updated": "2026-11-19 12:56 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
       "cur": 5.46,
-      "prev": 5.47
+      "prev": 5.46
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 5.12,
-      "prev": 5.15
+      "cur": 5.1,
+      "prev": 5.12
     },
     {
       "name": "미국채 2년물",
       "unit": "pct",
-      "cur": 4.83,
-      "prev": 4.88
+      "cur": 4.8,
+      "prev": 4.83
     },
     {
       "name": "연준 기준금리",
@@ -59,6 +59,17 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000151",
           "dt": "20261118"
+        }
+      ]
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "items": [
+        {
+          "report": "단일판매ㆍ공급계약체결              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800082",
+          "dt": "20261119"
         }
       ]
     },
