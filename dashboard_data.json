@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20 12:50 KST",
+  "updated": "2026-11-20 19:51 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,6 +52,17 @@
   ],
   "dart": [
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "items": [
+        {
+          "report": "[기재정정]타법인주식및출자증권취득결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800721",
+          "dt": "20261120"
+        }
+      ]
+    },
+    {
       "code": "042660",
       "name": "한화오션",
       "items": [
@@ -59,6 +70,38 @@
           "report": "단일판매ㆍ공급계약체결              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800082",
           "dt": "20261119"
+        }
+      ]
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "items": [
+        {
+          "report": "타법인주식및출자증권취득결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900770",
+          "dt": "20261120"
+        }
+      ]
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "items": [
+        {
+          "report": "최대주주등소유주식변동신고서              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800761",
+          "dt": "20261120"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000505",
+          "dt": "20261120"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000500",
+          "dt": "20261120"
         }
       ]
     }
