@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26 20:50 KST",
+  "updated": "2026-11-27 02:39 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -52,17 +52,6 @@
   ],
   "dart": [
     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "items": [
-        {
-          "report": "기업가치제고계획(자율공시)              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800766",
-          "dt": "20261125"
-        }
-      ]
-    },
-    {
       "code": "005930",
       "name": "삼성전자",
       "items": [
@@ -70,64 +59,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000250",
           "dt": "20261126"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "items": [
-        {
-          "report": "특수관계인과의보험거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000781",
-          "dt": "20261125"
-        },
-        {
-          "report": "특수관계인과의보험거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000780",
-          "dt": "20261125"
-        },
-        {
-          "report": "[기재정정]특수관계인과의보험거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000778",
-          "dt": "20261125"
-        },
-        {
-          "report": "주식소각결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800735",
-          "dt": "20261125"
-        }
-      ]
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "items": [
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000585",
-          "dt": "20261125"
-        },
-        {
-          "report": "특수관계인과의수익증권거래",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000537",
-          "dt": "20261125"
-        }
-      ]
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "items": [
-        {
-          "report": "투자판단관련주요경영사항              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800748",
-          "dt": "20261125"
-        },
-        {
-          "report": "풍문또는보도에대한해명              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800147",
-          "dt": "20261125"
         }
       ]
     },
@@ -160,21 +91,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000001",
           "dt": "20261126"
-        },
-        {
-          "report": "최대주주등소유주식변동신고서              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800279",
-          "dt": "20261125"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000281",
-          "dt": "20261125"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000231",
-          "dt": "20261125"
         }
       ]
     }
