@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-26 05:25 KST",
+  "updated": "2026-11-26 13:39 KST",
   "macro": [
     {
       "name": "미국채 30년물",
       "unit": "pct",
-      "cur": 5.29,
-      "prev": 5.31
+      "cur": 5.3,
+      "prev": 5.29
     },
     {
       "name": "미국채 10년물",
       "unit": "pct",
-      "cur": 4.92,
+      "cur": 4.91,
       "prev": 4.92
     },
     {
@@ -59,6 +59,17 @@
           "report": "기업가치제고계획(자율공시)              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800766",
           "dt": "20261125"
+        }
+      ]
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000250",
+          "dt": "20261126"
         }
       ]
     },
@@ -124,6 +135,16 @@
       "code": "329180",
       "name": "HD현대중공업",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000148",
+          "dt": "20261126"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000001",
+          "dt": "20261126"
+        },
         {
           "report": "최대주주등소유주식변동신고서              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800279",
