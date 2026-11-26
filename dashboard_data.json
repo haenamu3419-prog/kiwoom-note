@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26 13:39 KST",
+  "updated": "2026-11-26 20:50 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -128,6 +128,22 @@
           "report": "풍문또는보도에대한해명              ",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800147",
           "dt": "20261125"
+        }
+      ]
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "items": [
+        {
+          "report": "주요사항보고서(타법인주식및출자증권양수결정)",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000734",
+          "dt": "20261126"
+        },
+        {
+          "report": "타법인주식및출자증권취득결정              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800541",
+          "dt": "20261126"
         }
       ]
     },
