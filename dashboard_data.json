@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27 13:44 KST",
+  "updated": "2026-11-27 20:42 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -56,6 +56,11 @@
       "name": "SK하이닉스",
       "items": [
         {
+          "report": "풍문또는보도에대한해명(미확정)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127801094",
+          "dt": "20261127"
+        },
+        {
           "report": "특수관계인에대한증여",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000377",
           "dt": "20261127"
@@ -73,12 +78,82 @@
       "items": [
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000388",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127002010",
           "dt": "20261127"
         },
         {
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000031",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001958",
+          "dt": "20261127"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001928",
+          "dt": "20261127"
+        },
+        {
+          "report": "기타경영사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127800973",
+          "dt": "20261127"
+        },
+        {
+          "report": "기타경영사항(자율공시)              ",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127800969",
+          "dt": "20261127"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001860",
+          "dt": "20261127"
+        },
+        {
+          "report": "특수관계인과의보험거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001858",
+          "dt": "20261127"
+        },
+        {
+          "report": "특수관계인과의보험거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001851",
+          "dt": "20261127"
+        },
+        {
+          "report": "[기재정정]특수관계인과의보험거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001842",
+          "dt": "20261127"
+        },
+        {
+          "report": "[기재정정]특수관계인과의보험거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001820",
+          "dt": "20261127"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001789",
+          "dt": "20261127"
+        },
+        {
+          "report": "동일인등출자계열회사와의상품ㆍ용역거래",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001771",
+          "dt": "20261127"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001284",
+          "dt": "20261127"
+        },
+        {
+          "report": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001233",
+          "dt": "20261127"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000959",
+          "dt": "20261127"
+        },
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000388",
           "dt": "20261127"
         },
         {
@@ -139,6 +214,11 @@
       "code": "329180",
       "name": "HD현대중공업",
       "items": [
+        {
+          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000956",
+          "dt": "20261127"
+        },
         {
           "report": "대규모기업집단현황공시[분기별공시(개별회사용)]",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000039",
