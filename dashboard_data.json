@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27 20:42 KST",
+  "updated": "2026-11-28 02:22 KST",
   "macro": [
     {
       "name": "미국채 30년물",
@@ -46,8 +46,8 @@
     {
       "name": "VIX",
       "unit": "pt",
-      "cur": 26.36,
-      "prev": 26.62
+      "cur": 26.8,
+      "prev": 28.29
     }
   ],
   "dart": [
@@ -175,11 +175,6 @@
           "report": "임원ㆍ주요주주특정증권등소유상황보고서",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000004",
           "dt": "20261127"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000250",
-          "dt": "20261126"
         }
       ]
     },
@@ -191,22 +186,6 @@
           "report": "대규모기업집단현황공시[분기별공시(개별회사용)]",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000191",
           "dt": "20261127"
-        }
-      ]
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "items": [
-        {
-          "report": "주요사항보고서(타법인주식및출자증권양수결정)",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000734",
-          "dt": "20261126"
-        },
-        {
-          "report": "타법인주식및출자증권취득결정              ",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800541",
-          "dt": "20261126"
         }
       ]
     },
@@ -223,16 +202,6 @@
           "report": "대규모기업집단현황공시[분기별공시(개별회사용)]",
           "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000039",
           "dt": "20261127"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000148",
-          "dt": "20261126"
-        },
-        {
-          "report": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000001",
-          "dt": "20261126"
         }
       ]
     }
